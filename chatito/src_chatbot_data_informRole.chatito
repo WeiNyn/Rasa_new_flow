@@ -1,0 +1,28 @@
+%[inform]('training': '200')
+    I'm @[role]
+    This is for @[role]
+    I'm a @[role]
+    I am @[role]
+    I am a @[role]
+    for @[role]
+    I @[role]
+
+@[role]
+    ~[parent]
+    ~[studen]
+
+~[parent]('synonym': 'true')
+    Parent
+    Have a son
+    Have a daughter
+    Have son
+    Have daughter
+    Have one children
+    My son
+    My daughter
+    My children
+
+~[student]('synonym': 'true')
+    Me
+    Myself
+    Student

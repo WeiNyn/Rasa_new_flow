@@ -1,0 +1,99 @@
+actions:
+  - action_find_universities
+  - action_handle_form
+  - utter_greet
+  - utter_show_results
+  - utter_show_summary
+  - utter_ask_location
+  - utter_not_supported_location
+  - utter_quit
+  - utter_ask_education_level
+  - utter_ask_language
+  - utter_ask_fee
+  - utter_goodbye
+  - action_contact_provider
+  - utter_ask_field
+  - utter_ask_GPA
+entities:
+  - education_level
+  - language_qualification
+  - location
+  - fee
+  - GPA
+  - number
+  - field
+  - name
+forms:
+  - study_form
+intents:
+  - inform
+  - inform_education
+  - inform_fee
+  - inform_field
+  - inform_GPA
+  - inform_language
+  - inform_location
+  - inform_name
+  - greet
+  - thank
+  - bye
+  - ask_university
+  - contact_provider
+  - affirm
+  - deny
+  - out_of_scope
+  - cant_help
+  - ask_whoisit
+  - ask_what_possible
+  - next_step
+  - explain
+  - handoff
+  - dont_have
+slots:
+  education_level:
+    type: text
+  fee:
+    type: unfeaturized
+  field:
+    type: text
+  language:
+    type: unfeaturized
+  location:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  GPA:
+    max_value: 100.0
+    min_value: 0.0
+    type: float
+responses:
+  utter_greet:
+    - text: Hi, I can help you to find the best study abroad services, please anwser some question
+  utter_ask_education_level:
+    - text: Which education level you want to study?
+  utter_ask_fee:
+    - text: What is the estimated fee for study abroad?
+  utter_ask_field:
+    - text: The field you want to study is?
+  utter_ask_GPA:
+    - text: How about your current GPA
+  utter_ask_language:
+    - text: Do you have any language qualification? 
+  utter_ask_location:
+    - text: Which nation whould you like to study?
+  utter_ask_location_repick:
+    - text: location_repick
+  utter_goodbye:
+    - text: Goodbye, hope that can help you
+  utter_quit:
+    - text: Conversation canceled
+  utter_show_results:
+    - text: result
+  utter_show_summary:
+    - text: summary 
+  utter_not_supported_location:
+    - text: location not supported, would you like to try the supported location?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  

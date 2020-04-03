@@ -1,0 +1,89 @@
+actions:
+  - action_find_universities
+  - action_handle_form
+  - utter_greet
+  - utter_show_results
+  - utter_show_summary
+  - utter_ask_location
+  - utter_ask_location_repick
+  - utter_quit
+  - utter_ask_education_level
+  - utter_ask_language_qualification
+  - utter_ask_fee
+  - utter_goodbye
+  - action_contact_provider
+  - utter_ask_field
+  - utter_ask_GPA
+entities:
+  - education_level
+  - language_qualification
+  - location
+  - fee
+  - GPA
+  - number
+  - field
+  - name
+forms:
+  - study_form
+intents:
+  - inform
+  - greet
+  - thank
+  - bye
+  - ask_university
+  - contact_provider
+  - affirm
+  - deny
+  - out_of_scope
+  - cant_help
+  - ask_whoisit
+  - ask_what_possible
+  - next_step
+  - explain
+  - handoff
+slots:
+  fee:
+    type: text
+  field:
+    type: text
+  language_qualification:
+    type: text
+  location:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  GPA:
+    max_value: 100.0
+    min_value: 0.0
+    type: float
+  field:
+    type: text
+templates:
+  utter_greet:
+    - text: Hi
+  utter_ask_education_level:
+    - text: education_level
+  utter_ask_fee:
+    - text: fee
+  utter_ask_field:
+    - text: field
+  utter_ask_GPA:
+    - text: GPA
+  utter_ask_language_qualification:
+    - text: language_qualification 
+  utter_ask_location:
+    - text: location
+  utter_ask_location_repick:
+    - text: location_repick
+  utter_goodbye:
+    - text: goodbye
+  utter_quit:
+    - text: quit
+  utter_show_results:
+    - text: result 
+  utter_show_summary:
+    - text: summary 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  

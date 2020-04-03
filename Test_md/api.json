@@ -1,0 +1,79 @@
+{
+    "language": {
+        "send": {
+            "text": "Do you have language qualification?",
+            "plugin": {
+                "id": 1
+            }
+        },
+        "recieve": {
+            "text": "I have IELTS at band 6.0"
+        }
+    },
+    "fee": {
+        "send": {
+            "text": "What is your estimated fee?",
+            "plugin": {
+                "id": 2
+            }
+        },
+        "recieve": "At least 10000000 USD"
+    },
+    "field": {
+        "send": {
+            "text": "The field that you want to study",
+            "plugin": {
+                "id": 3,
+                "field": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            }
+        },
+        "recieve": "1"
+    },
+    "GPA": {
+        "send": {
+            "text": "What is your GPA?",
+            "plugin": {
+                "id": 4
+            }
+        },
+        "recieve": "My GPA is 9.0"
+    },
+    "education": {
+        "send": {
+            "text": "which education level you want to study?",
+            "plugin": {
+                "id": 5,
+                "education_level": [
+                    "elementary",
+                    "junior high school",
+                    "high school",
+                    "university",
+                    "master",
+                    "proffessor"
+                ]
+            }
+        },
+        "recieve": "elementary"
+    },
+    "location": {
+        "send": {
+            "text": "Which location you want to study?",
+            "plugin": {
+                "id": 6,
+                "location": [
+                    "USA",
+                    "Australia",
+                    "England",
+                    "Canada",
+                    "Not in here",
+                    "Not know"
+                ]
+            }
+        },
+        "recieve": "I want to study in USA"
+    }
+}

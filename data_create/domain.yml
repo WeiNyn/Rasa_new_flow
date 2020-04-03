@@ -1,0 +1,100 @@
+actions:
+- action_contact_provider
+- action_find_universities
+- action_handle_form
+- utter_ask_GPA
+- utter_ask_education_level
+- utter_ask_fee
+- utter_ask_field
+- utter_ask_language
+- utter_ask_location
+- utter_ask_location_repick
+- utter_goodbye
+- utter_greet
+- utter_not_supported_location
+- utter_quit
+- utter_show_results
+- utter_show_summary
+entities:
+- GPA
+- education_level
+- fee
+- field
+- language_qualification
+- location
+- name
+- number
+forms:
+- study_form
+intents:
+- greet
+- inform_location
+- bye
+- deny
+- out_of_scope
+- inform
+- inform_education
+- inform_fee
+- inform_field
+- inform_GPA
+- inform_language
+- inform_name
+- thank
+- ask_university
+- contact_provider
+- affirm
+- cant_help
+- ask_whoisit
+- ask_what_possible
+- next_step
+- explain
+- handoff
+- dont_have
+responses:
+  utter_ask_GPA:
+  - text: How about your current GPA
+  utter_ask_education_level:
+  - text: Which education level you want to study?
+  utter_ask_fee:
+  - text: What is the estimated fee for study abroad?
+  utter_ask_field:
+  - text: The field you want to study is?
+  utter_ask_language:
+  - text: Do you have any language qualification?
+  utter_ask_location:
+  - text: Which nation whould you like to study?
+  utter_ask_location_repick:
+  - text: location_repick
+  utter_goodbye:
+  - text: Goodbye, hope that can help you
+  utter_greet:
+  - text: Hi, I can help you to find the best study abroad services, please anwser
+      some question
+  utter_not_supported_location:
+  - text: location not supported, would you like to try the supported location?
+  utter_quit:
+  - text: Conversation canceled
+  utter_show_results:
+  - text: result
+  utter_show_summary:
+  - text: summary
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  GPA:
+    max_value: 100.0
+    min_value: 0.0
+    type: float
+  education_level:
+    type: text
+  fee:
+    type: unfeaturized
+  field:
+    type: text
+  language:
+    type: unfeaturized
+  location:
+    type: text
+  requested_slot:
+    type: unfeaturized

@@ -1,0 +1,55 @@
+%[inform_fee]('training': '200')
+    ~[lessthan] ~[currencysign]~[fee]
+    ~[greaterthan] ~[currencysign]~[fee]
+    ~[about] ~[currencysign]~[fee]
+    from ~[currencysign]~[fee] to ~[currencysign]~[fee]
+    between ~[currencysign]~[fee] and ~[currencysign]~[fee]
+    ~[lessthan] ~[fee] ~[currency]
+    ~[greaterthan] ~[fee] ~[currency]
+    ~[about] ~[fee] ~[currency]
+    from ~[fee] ~[to] ~[fee] ~[currency]
+    from ~[fee] ~[currency] to ~[fee] ~[currency]
+    between ~[fee] and ~[fee] ~[currency]
+    between ~[fee] ~[currency] and ~[fee] ~[currency]
+
+~[fee]
+    10000
+    10.000
+    90.000
+    9000
+    9,000
+    9,000
+    12000
+    123041
+
+~[currencysign]
+    $
+    €
+
+~[USD]
+    USD
+    Dollar
+
+~[VND]
+    VND
+    VietNam Dong
+
+~[currency]
+    ~[USD]
+    EURO
+    ~[VND]
+
+~[lessthan]
+    less than
+    lower than
+    no more than
+    I can only pay
+
+~[greaterthan]
+    greater than
+    more than
+
+~[about]
+    about
+    It's about
+

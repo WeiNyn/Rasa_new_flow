@@ -1,0 +1,14 @@
+%[inform_education]('training': '200')
+    at @[education_level]
+    in @[education_level]
+    I'm study in @[education_level]
+    @[education_level]
+
+@[education_level]
+    elementary
+    junior high school
+    high school
+    university
+    master
+    doctor
+    proffessor

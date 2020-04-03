@@ -1,0 +1,79 @@
+2020-04-01 13:42:36,531 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-01 13:42:38,199 [INFO ]  Using /tmp/tfhub_modules to cache modules.
+2020-04-01 13:42:38,202 [INFO ]  Downloading TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-04-01 13:43:50,635 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/wei/.local/lib/python3.6/site-packages/sanic/app.py", line 1167, in run
+    serve(**server_settings)
+  File "/home/wei/.local/lib/python3.6/site-packages/sanic/server.py", line 892, in serve
+    trigger_events(before_start, loop)
+  File "/home/wei/.local/lib/python3.6/site-packages/sanic/server.py", line 668, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1450, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1443, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1351, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 519, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 436, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 90, in uvloop.loop.Handle._run
+  File "uvloop/cbhandles.pyx", line 68, in uvloop.loop.Handle._run
+  File "/usr/local/lib/python3.6/dist-packages/rasa/core/run.py", line 234, in load_agent_on_start
+    _interpreter = NaturalLanguageInterpreter.create(endpoints.nlu or nlu_model)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/core/interpreter.py", line 54, in create
+    return RasaNLUInterpreter(model_directory=obj)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/core/interpreter.py", line 274, in __init__
+    self._load_interpreter()
+  File "/usr/local/lib/python3.6/dist-packages/rasa/core/interpreter.py", line 297, in _load_interpreter
+    self.interpreter = Interpreter.load(self.model_directory)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/model.py", line 301, in load
+    return Interpreter.create(model_metadata, component_builder, skip_validation)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/model.py", line 328, in create
+    component_meta, model_metadata.model_dir, model_metadata, **context
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/components.py", line 643, in load_component
+    component_meta, model_dir, model_metadata, cached_component, **context
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/registry.py", line 231, in load_component_by_meta
+    component_meta, model_dir, metadata, cached_component, **kwargs
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/components.py", line 370, in load
+    return cls(meta)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/nlu/tokenizers/convert_tokenizer.py", line 34, in __init__
+    self.module = train_utils.load_tf_hub_model(model_url)
+  File "/usr/local/lib/python3.6/dist-packages/rasa/utils/train_utils.py", line 162, in load_tf_hub_model
+    return tfhub.load(model_url)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/module_v2.py", line 90, in load
+    module_path = resolve(handle)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/module_v2.py", line 52, in resolve
+    return registry.resolver(handle)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/registry.py", line 42, in __call__
+    return impl(*args, **kwargs)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/compressed_module_resolver.py", line 88, in __call__
+    self._lock_file_timeout_sec())
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/resolver.py", line 402, in atomic_download
+    download_fn(handle, tmp_dir)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/compressed_module_resolver.py", line 85, in download
+    response, tmp_dir)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/resolver.py", line 175, in download_and_uncompress
+    self._extract_file(tgz, tarinfo, abs_target_path)
+  File "/home/wei/.local/lib/python3.6/site-packages/tensorflow_hub/resolver.py", line 151, in _extract_file
+    buf = src.read(buffer_size)
+  File "/usr/lib/python3.6/tarfile.py", line 708, in readinto
+    buf = self.read(len(b))
+  File "/usr/lib/python3.6/tarfile.py", line 697, in read
+    b = self.fileobj.read(length)
+  File "/usr/lib/python3.6/tarfile.py", line 539, in read
+    buf = self._read(size)
+  File "/usr/lib/python3.6/tarfile.py", line 552, in _read
+    buf = self.__read(self.bufsize)
+  File "/usr/lib/python3.6/tarfile.py", line 572, in __read
+    buf = self.fileobj.read(self.bufsize)
+  File "/usr/lib/python3.6/http/client.py", line 459, in read
+    n = self.readinto(b)
+  File "/usr/lib/python3.6/http/client.py", line 503, in readinto
+    n = self.fp.readinto(b)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/home/wei/.local/lib/python3.6/site-packages/socketio/client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2020-04-01 14:11:10,711 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-04-01 14:11:12,105 [INFO ]  Using /tmp/tfhub_modules to cache modules.
+2020-04-01 14:11:12,118 [INFO ]  Downloading TF-Hub Module 'http://models.poly-ai.com/convert/v1/model.tar.gz'.
+2020-04-01 14:11:34,017 [INFO ]  Downloading http://models.poly-ai.com/convert/v1/model.tar.gz: 2.35MB
