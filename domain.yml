@@ -70,72 +70,78 @@ responses:
   utter_greet:
     - text: Hi, I can help you to find the best study abroad services, please anwser some question
   utter_ask_education_level:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: Which education level you want to study?
-      component:
-        id: 5
-        data:
-          - elementary
-          - junior high school
-          - high school
-          - university
-          - master
-          - professor
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: Which education level you want to study?
+        component:
+          id: 5
+          data:
+            - elementary
+            - junior high school
+            - high school
+            - university
+            - master
+            - professor
   utter_ask_fee:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: What is your estimated fee?
-      component:
-        id: 2
-        meta:
-          min: 0
-          max: 1000000000
-          unit: USD
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: What is your estimated fee?
+        component:
+          id: 2
+          meta:
+            min: 0
+            max: 1000000000
+            unit: USD
   utter_ask_field:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: The field you want to study is?
-      component:
-        id: 3
-        field:
-        - computer science
-        - computer engineer
-        - automotive engineering
-        - business administration
-        - chemical engineering
-        - civil engineering
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: The field you want to study is?
+        component:
+          id: 3
+          field:
+          - computer science
+          - computer engineer
+          - automotive engineering
+          - business administration
+          - chemical engineering
+          - civil engineering
   utter_ask_GPA:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: What is your current GPA?
-      component:
-        id: 4
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: What is your current GPA?
+        component:
+          id: 4
   utter_ask_language:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: Do you have language qualification?
-      component:
-        id: 1
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: Do you have language qualification?
+        component:
+          id: 1
   utter_ask_location:
-    senderId: 1
-    threadId: 1
-    msg:
-      body: Which location you want to study in?
-      component:
-        id: 6
-        data:
-          - USA 
-          - Australia 
-          - England 
-          - Canada 
-          - Not in here 
-          - Not know
+    - custom:
+      senderId: 1
+      threadId: 1
+      msg:
+        body: Which location you want to study in?
+        component:
+          id: 6
+          data:
+            - USA 
+            - Australia 
+            - England 
+            - Canada 
+            - Not in here 
+            - Not know
   utter_ask_location_repick:
     - text: location_repick
   utter_goodbye:
