@@ -12,3 +12,6 @@ services:
     image: rasa/duckling:latest
     ports:
       - 8000:8000
+  app:
+    image: nguyenhuy17798/rasa_actions:init
+    expose: [5055]
