@@ -70,7 +70,7 @@ responses:
   utter_greet:
     - text: Hi, I can help you to find the best study abroad services, please anwser some question
   utter_ask_education_level:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:
@@ -85,7 +85,7 @@ responses:
             - master
             - professor
   utter_ask_fee:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:
@@ -97,7 +97,7 @@ responses:
             max: 1000000000
             unit: USD
   utter_ask_field:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:
@@ -112,7 +112,7 @@ responses:
           - chemical engineering
           - civil engineering
   utter_ask_GPA:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:
@@ -120,7 +120,7 @@ responses:
         component:
           id: 4
   utter_ask_language:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:
@@ -128,7 +128,7 @@ responses:
         component:
           id: 1
   utter_ask_location:
-    - custom:
+  - custom:
       senderId: 1
       threadId: 1
       msg:

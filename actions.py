@@ -129,8 +129,117 @@ class ActionHandleForm(FormAction):
         for slot in self.required_slots(tracker):
             if self._should_request_slot(tracker, slot):
                 logger.debug(f"Request next slot '{slot}'")
-                dispatcher.utter_message(template=f"utter_ask_{slot}", **tracker.slots)
+                dispatcher.utter_message(json_message=self.custom_ask_slot(slot), **tracker.slots)
                 return [SlotSet(REQUESTED_SLOT, slot)]
 
         # no more required slots to fill
         return None        
+
+    @staticmethod
+    def custom_utter() -> Dict[Text, Any]:
+        return {
+            "language": {
+                "custom": {
+                    "senderID": 1,
+                    "threadID": 1,
+                    "msg": {
+                        "body": "Do you have any language qualification?",
+                        "component": {
+                            "id": 1
+                        }
+                    }
+                }
+            },
+            "fee": {
+                "custom": {
+                    "senderId": 1,
+                    "threadId": 1,
+                    "msg": {
+                        "body": "What is your estimated fee?",
+                        "component": {
+                            "id": 2,
+                            "meta": {
+                                "min": 0,
+                                "max": 10000000,
+                                "unit": "USD"
+                            }
+                        }
+                    }
+                }
+            },
+            "field": {
+                "custom": {
+                    "senderId": 1,
+                    "threadId": 1,
+                    "msg": {
+                        "body": "The field that you want to study",
+                        "component": {
+                            "id": 3,
+                            "field": [
+                                "computer science",
+                                "computer engineer",
+                                "automotive engineering",
+                                "business administration",
+                                "chemical engineering",
+                                "civil engineering"
+                            ]
+                        }
+                    }
+                }
+            },
+            "GPA": {
+                "custom": {
+                    "senderId": 1,
+                    "threadId": 1,
+                    "msg": {
+                        "body": "What is your GPA?",
+                        "component": {
+                            "id": 4
+                        }
+                    }
+                }
+            },
+            "education_level": {
+                "custom": {
+                    "senderId": 1,
+                    "threadId": 1,
+                    "msg": {
+                        "body": "which education level you want to study?",
+                        "component": {
+                            "id": 5,
+                            "data": [
+                                "elementary",
+                                "junior high school",
+                                "high school",
+                                "university",
+                                "master",
+                                "professor"
+                            ]
+                        }
+                    }
+                }
+            },
+            "location": {
+                "custom": {
+                    "senderId": 1,
+                    "threadId": 1,
+                    "msg": {
+                        "body": "Which location you want to study?",
+                        "component": {
+                            "id": 6,
+                            "data": [
+                                "USA",
+                                "Australia",
+                                "England",
+                                "Canada",
+                                "Not in here",
+                                "Not know"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+
+    def custom_ask_slot(self, name: Text) -> Dict[Text, Any]:
+        return self.custom_utter().get(name, {"text": "No slot template!"})
