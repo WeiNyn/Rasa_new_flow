@@ -12,6 +12,7 @@ from rasa_sdk.events import EventType
 
 logger = logging.getLogger(__name__)
 
+
 class ActionHelloWorld(Action):
 
     def name(self) -> Text:
@@ -25,29 +26,30 @@ class ActionHelloWorld(Action):
 
         return []
 
+
 class ActionHandleForm(FormAction):
     location_false = False
 
     def name(self):
         return "study_form"
-    
+
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
 
         return ["location", "education_level", "GPA", "field", "fee", "language"]
-    
+
     def slot_mappings(self):
-        
+
         return {
             "language": [self.from_entity(entity="language_qualification number", intent="inform_language"),
-                        self.from_intent(value="no", intent="dont_have")],
+                         self.from_intent(value="no", intent="dont_have")],
             "fee": self.from_entity(entity="amount-of-money", intent=["inform_fee"]),
             "field": self.from_entity(entity="field", intent="inform_field"),
             "GPA": self.from_entity(entity="number", intent="inform_GPA"),
             "education_level": self.from_entity(entity="education_level", intent="inform_education"),
             "location": self.from_entity(entity="location", intent="inform_location")
         }
-    
+
     @staticmethod
     def get_entity_value(name: Text, tracker: "Tracker") -> Any:
         """Extract entities for given name"""
@@ -69,7 +71,8 @@ class ActionHandleForm(FormAction):
             for entity in entities_list:
                 print(entity)
                 value[entity] = list(tracker.get_latest_entity_values(entity))
-                if len(value[entity]) == 1: value[entity] = value[entity][0]
+                if len(value[entity]) == 1:
+                    value[entity] = value[entity][0]
                 print(value)
             if len(value) < len(entities_list):
                 value = None
@@ -80,17 +83,27 @@ class ActionHandleForm(FormAction):
                dispatcher: CollectingDispatcher,
                tracker: Tracker,
                domain: Dict[Text, Any]) -> List[Dict]:
-        
-        current_slot = tracker.current_slot_values()
 
+        current_slot = tracker.current_slot_values()
+        summary = {
+            "senderId": 1,
+            "threadId": 1,
+            "msg": {
+                "body": "summary",
+                "component": {
+                    "id": 0,
+                    "data": [current_slot]
+                }
+            }
+        }
         # dispatcher.utter_message(template="utter_show_results")
-        dispatcher.utter_message(str(current_slot))
+        dispatcher.utter_message(json_message = summary)
         return []
 
     @staticmethod
     def locations() -> List[Text]:
         return [
-            "nnited states",
+            "united states",
             "england",
             "australia",
             "canada",
@@ -129,51 +142,47 @@ class ActionHandleForm(FormAction):
         for slot in self.required_slots(tracker):
             if self._should_request_slot(tracker, slot):
                 logger.debug(f"Request next slot '{slot}'")
-                dispatcher.utter_message(json_message=self.custom_ask_slot(slot), **tracker.slots)
+                dispatcher.utter_message(
+                    json_message=self.custom_ask_slot(slot), **tracker.slots)
                 return [SlotSet(REQUESTED_SLOT, slot)]
 
         # no more required slots to fill
-        return None        
+        return None
 
     @staticmethod
     def custom_utter() -> Dict[Text, Any]:
         return {
             "language": {
-                "custom": {
-                    "senderID": 1,
-                    "threadID": 1,
-                    "msg": {
-                        "body": "Do you have any language qualification?",
-                        "component": {
-                            "id": 1
-                        }
+                "senderID": 1,
+                "threadID": 1,
+                "msg": {
+                    "body": "Do you have any language qualification?",
+                    "component": {
+                        "id": 1
                     }
                 }
             },
             "fee": {
-                "custom": {
-                    "senderId": 1,
-                    "threadId": 1,
-                    "msg": {
-                        "body": "What is your estimated fee?",
-                        "component": {
-                            "id": 2,
-                            "meta": {
-                                "min": 0,
-                                "max": 10000000,
-                                "unit": "USD"
-                            }
+                "senderId": 1,
+                "threadId": 1,
+                "msg": {
+                    "body": "What is your estimated fee?",
+                    "component": {
+                        "id": 2,
+                        "meta": {
+                            "min": 0,
+                            "max": 10000000,
+                            "unit": "USD"
                         }
                     }
                 }
             },
             "field": {
-                "custom": {
-                    "senderId": 1,
-                    "threadId": 1,
-                    "msg": {
-                        "body": "The field that you want to study",
-                        "component": {
+                "senderId": 1,
+                "threadId": 1,
+                "msg": {
+                    "body": "The field that you want to study",
+                    "component": {
                             "id": 3,
                             "field": [
                                 "computer science",
@@ -183,29 +192,25 @@ class ActionHandleForm(FormAction):
                                 "chemical engineering",
                                 "civil engineering"
                             ]
-                        }
                     }
                 }
             },
             "GPA": {
-                "custom": {
-                    "senderId": 1,
-                    "threadId": 1,
-                    "msg": {
-                        "body": "What is your GPA?",
-                        "component": {
+                "senderId": 1,
+                "threadId": 1,
+                "msg": {
+                    "body": "What is your GPA?",
+                    "component": {
                             "id": 4
-                        }
                     }
                 }
             },
             "education_level": {
-                "custom": {
-                    "senderId": 1,
-                    "threadId": 1,
-                    "msg": {
-                        "body": "which education level you want to study?",
-                        "component": {
+                "senderId": 1,
+                "threadId": 1,
+                "msg": {
+                    "body": "which education level you want to study?",
+                    "component": {
                             "id": 5,
                             "data": [
                                 "elementary",
@@ -215,17 +220,15 @@ class ActionHandleForm(FormAction):
                                 "master",
                                 "professor"
                             ]
-                        }
                     }
                 }
             },
             "location": {
-                "custom": {
-                    "senderId": 1,
-                    "threadId": 1,
-                    "msg": {
-                        "body": "Which location you want to study?",
-                        "component": {
+                "senderId": 1,
+                "threadId": 1,
+                "msg": {
+                    "body": "Which location you want to study?",
+                    "component": {
                             "id": 6,
                             "data": [
                                 "USA",
@@ -235,7 +238,6 @@ class ActionHandleForm(FormAction):
                                 "Not in here",
                                 "Not know"
                             ]
-                        }
                     }
                 }
             }

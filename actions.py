@@ -85,15 +85,25 @@ class ActionHandleForm(FormAction):
                domain: Dict[Text, Any]) -> List[Dict]:
 
         current_slot = tracker.current_slot_values()
-
+        summary = {
+            "senderId": 1,
+            "threadId": 1,
+            "msg": {
+                "body": "summary",
+                "component": {
+                    "id": 0,
+                    "data": [current_slot]
+                }
+            }
+        }
         # dispatcher.utter_message(template="utter_show_results")
-        dispatcher.utter_message(str(current_slot))
+        dispatcher.utter_message(json_message = summary)
         return []
 
     @staticmethod
     def locations() -> List[Text]:
         return [
-            "nnited states",
+            "united states",
             "england",
             "australia",
             "canada",
