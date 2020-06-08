@@ -154,6 +154,8 @@ responses:
     - text: summary 
   utter_not_supported_location:
     - text: location not supported, would you like to try the supported location?
+  utter_default:
+    - text: Sorry, I didn't get that, can you repeat?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

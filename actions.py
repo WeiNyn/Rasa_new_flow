@@ -137,6 +137,7 @@ class ActionHandleForm(FormAction):
         intent = tracker.latest_message.get("intent", {}).get("name")
 
         if intent == "deny" and self.location_false == True:
+            self.location_false = False
             return self.deactivate()
 
         for slot in self.required_slots(tracker):
