@@ -12,6 +12,11 @@ from rasa_sdk.events import EventType
 
 logger = logging.getLogger(__name__)
 
+DEBUG = "DEBUG"
+RUN = "RUN"
+MODE = DEBUG
+
+import json
 
 class ActionHelloWorld(Action):
 
@@ -152,97 +157,12 @@ class ActionHandleForm(FormAction):
 
     @staticmethod
     def custom_utter() -> Dict[Text, Any]:
-        return {
-            "language": {
-                "senderID": 1,
-                "threadID": 1,
-                "msg": {
-                    "body": "Do you have any language qualification?",
-                    "component": {
-                        "id": 1
-                    }
-                }
-            },
-            "fee": {
-                "senderId": 1,
-                "threadId": 1,
-                "msg": {
-                    "body": "What is your estimated fee?",
-                    "component": {
-                        "id": 2,
-                        "meta": {
-                            "min": 0,
-                            "max": 10000000,
-                            "unit": "USD"
-                        }
-                    }
-                }
-            },
-            "field": {
-                "senderId": 1,
-                "threadId": 1,
-                "msg": {
-                    "body": "The field that you want to study",
-                    "component": {
-                            "id": 3,
-                            "field": [
-                                "computer science",
-                                "computer engineer",
-                                "automotive engineering",
-                                "business administration",
-                                "chemical engineering",
-                                "civil engineering"
-                            ]
-                    }
-                }
-            },
-            "GPA": {
-                "senderId": 1,
-                "threadId": 1,
-                "msg": {
-                    "body": "What is your GPA?",
-                    "component": {
-                            "id": 4
-                    }
-                }
-            },
-            "education_level": {
-                "senderId": 1,
-                "threadId": 1,
-                "msg": {
-                    "body": "which education level you want to study?",
-                    "component": {
-                            "id": 5,
-                            "data": [
-                                "elementary",
-                                "junior high school",
-                                "high school",
-                                "university",
-                                "master",
-                                "professor"
-                            ]
-                    }
-                }
-            },
-            "location": {
-                "senderId": 1,
-                "threadId": 1,
-                "msg": {
-                    "body": "Which location you want to study?",
-                    "component": {
-                            "id": 6,
-                            "data": [
-                                "USA",
-                                "Australia",
-                                "England",
-                                "Canada",
-                                "Not in here",
-                                "Not know"
-                            ]
-                    }
-                }
-            }
-        }
+        if MODE == DEBUG:
+            f = open("text_utter.json")
+        else:
+            f = open("custom_utter.json")
+        data = json.load(f)
+        return f
 
     def custom_ask_slot(self, name: Text) -> Dict[Text, Any]:
         return self.custom_utter().get(name, {"text": "No slot template!"})

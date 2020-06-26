@@ -1,0 +1,20 @@
+{
+    "language": {
+        "text": "Do you have any language qualification?"
+    },
+    "fee": {
+        "text": "What is your estimated fee?"
+    },
+    "field": {
+        "text": "The field that you want to study"
+    },
+    "GPA": {
+        "text": "What is your GPA?"
+    },
+    "education_level": {
+        "text": "which education level you want to study?"
+    },
+    "location": {
+        "text": "Which location you want to study?"
+    }
+}
