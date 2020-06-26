@@ -15,7 +15,7 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
   - name: DucklingHTTPExtractor
-    url: http://locahost:8000
+    url: http://localhost:8000
   - name: EntitySynonymMapper
   - name: ResponseSelector
 
