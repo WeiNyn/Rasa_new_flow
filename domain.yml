@@ -50,7 +50,7 @@ intents:
   - handoff
   - dont_have
   - what_ielts: {triggers: utter_ielts_explain}
-  - what_ielts: {triggers: utter_toefl_explain}
+  - what_toefl: {triggers: utter_toefl_explain}
   - which_language_certificate: {triggers: utter_certificate_explain}
   - why
   - any_nation_else: {triggers: utter_nation_explain}
