@@ -64,3 +64,19 @@
     - utter_goodbye
 * bye
     - utter_quit
+
+## interactive_story_3
+* greet
+    - utter_greet
+    - study_form
+    - form{"name": "study_form"}
+    - slot{"requested_slot": "location"}
+* form: inform_location{"location": "Japan"}
+    - slot{"location": "Japan"}
+    - form: study_form
+    - slot{"location": null}
+    - slot{"requested_slot": "location"}
+* deny
+    - utter_goodbye
+* bye
+    - utter_quit
