@@ -49,6 +49,11 @@ intents:
   - explain
   - handoff
   - dont_have
+  - what_ielts: {triggers: utter_ielts_explain}
+  - what_ielts: {triggers: utter_toefl_explain}
+  - which_language_certificate: {triggers: utter_certificate_explain}
+  - why
+  - any_nation_else: {triggers: utter_nation_explain}
 slots:
   education_level:
     type: text
@@ -156,6 +161,14 @@ responses:
     - text: location not supported, would you like to try the supported location?
   utter_default:
     - text: Sorry, I didn't get that, can you repeat?
+  utter_ielts_explain:
+    - text: The International English Language Testing System, or IELTS, is an international standardised test of English language proficiency for non-native English language speakers. It is jointly managed by the British Council, IDP.
+  utter_toefl_explain:
+    - text: Test of English as a Foreign Language is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities. The test is accepted by many English-speaking academic and professional institutions.
+  utter_certificate_explain:
+    - text: Some nations and schools will require different language certificate and level, you can use IELTS of TOEFL.
+  utter_nation_explain:
+    - text: Now we only support 4 nations, other nation will be added with new  providers.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -162,7 +162,7 @@ class ActionHandleForm(FormAction):
         else:
             f = open("custom_utter.json")
         data = json.load(f)
-        return f
+        return dict(data)
 
     def custom_ask_slot(self, name: Text) -> Dict[Text, Any]:
         return self.custom_utter().get(name, {"text": "No slot template!"})
