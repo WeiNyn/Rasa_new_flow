@@ -1,7 +1,5 @@
 actions:
 - action_contact_provider
-- action_find_minumum_fee_nation
-- action_find_school_nation
 - action_find_universities
 - action_handle_form
 - utter_ask_GPA
@@ -35,19 +33,19 @@ forms:
 - study_form
 intents:
 - 'what_ielts:'
-- greet
-- inform_GPA
 - inform_location
-- 'which_language_certificate:'
-- inform_field
-- 'what_toefl:'
-- inform_language
-- inform_fee
+- bye
+- inform_GPA
 - inform_education
+- inform_field
+- 'which_language_certificate:'
+- dont_have
+- inform_fee
+- greet
 - inform
+- inform_language
 - inform_name
 - thank
-- bye
 - ask_university
 - contact_provider
 - affirm
@@ -59,12 +57,11 @@ intents:
 - next_step
 - explain
 - handoff
-- dont_have
 - what_ielts
 - what_toefl
 - which_language_certificate
+- why
 - any_nation_else
-- minimum_fee_in_nation
 responses:
   utter_ask_GPA:
   - custom:
