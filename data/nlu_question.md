@@ -21,12 +21,14 @@
 - Is IELTS can be used
 - Can I use TOEFL
 
-## intent: why
-- Why do you need that
-- Why?
-- Why do I need to tell you
-
 ## intent: any_nation_else:
 - Any nation else?
 - I want to study in other nation
 - I want other nation
+
+## intent: minimum_fee_in_nation:
+- What is the minimum fee to study in [USA](location:United States)
+- How much it cost for study in [Canada](location)
+- minimum cost in one year for study in [England](location)
+- How much it cost for one year of study in [Australia](location)
+- How much I need to pay for study in [Canada](location)

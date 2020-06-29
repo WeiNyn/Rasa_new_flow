@@ -162,3 +162,49 @@
 * bye
     - utter_quit
 * form: out_of_scope
+
+## interactive_story_1
+* greet
+    - utter_greet
+    - study_form
+    - form{"name": "study_form"}
+    - slot{"requested_slot": "location"}
+* form: inform_location{"location": "canada"}
+    - slot{"location": "canada"}
+    - form: study_form
+    - slot{"location": "canada"}
+    - slot{"requested_slot": "education_level"}
+* form: inform_education{"education_level": "elementary"}
+    - slot{"education_level": "elementary"}
+    - form: study_form
+    - slot{"education_level": "elementary"}
+    - slot{"requested_slot": "GPA"}
+* form: inform_GPA{"number": 4}
+    - form: study_form
+    - slot{"GPA": 4}
+    - slot{"requested_slot": "field"}
+* form: inform_field{"field": "computer science"}
+    - slot{"field": "computer science"}
+    - form: study_form
+    - slot{"field": "computer science"}
+    - slot{"requested_slot": "fee"}
+* form: inform_fee{"amount-of-money": {"to": null, "from": 1000000}}
+    - form: study_form
+    - slot{"fee": {"to": null, "from": 1000000}}
+    - slot{"requested_slot": "language"}
+* which_language_certificate:
+    - utter_certificate_explain
+    - study_form
+    - slot{"requested_slot": "language"}
+* what_ielts:
+    - utter_ielts_explain
+    - study_form
+    - slot{"requested_slot": "language"}
+* form: dont_have
+    - form: study_form
+    - slot{"language": "no"}
+    - form{"name": null}
+    - slot{"requested_slot": null}
+    - action_find_universities
+* bye
+    - utter_quit

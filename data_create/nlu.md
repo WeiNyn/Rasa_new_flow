@@ -4,6 +4,7 @@
 ## intent:inform_education
 - at [elementary](education_level)
 - [elementary](education_level)
+- [elementary](education_level)
 
 ## intent:inform_fee
 - at least $100000
@@ -11,6 +12,7 @@
 - at least $1000000
 
 ## intent:inform_field
+- [computer science](field)
 - [computer science](field)
 
 ## intent:inform_language
@@ -20,10 +22,11 @@
 - I want to study in [Canada](location:canada)
 - I want to study in [England](location)
 - I want to study in [Vietnam](location)
-- I want to study in [Vietnam](location)
+- I want to study in [Canada](location:canada)
 
 ## intent:inform_GPA
 - my GPA is 9.0
+- my GPA is 4
 
 ## intent:thank
 - thank
@@ -36,6 +39,15 @@
 
 ## intent:out_of_scope
 - cancel
+
+## intent:which_language_certificate:
+- which can be use
+
+## intent:what_ielts:
+- what is ietls
+
+## intent:dont_have
+- I dont have any of them
 
 ## synonym:canada
 - Canada

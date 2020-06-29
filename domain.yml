@@ -14,6 +14,8 @@ actions:
   - action_contact_provider
   - utter_ask_field
   - utter_ask_GPA
+  - action_find_minumum_fee_nation
+  - action_find_school_nation
 entities:
   - education_level
   - language_qualification
@@ -49,11 +51,11 @@ intents:
   - explain
   - handoff
   - dont_have
-  - what_ielts: {triggers: utter_ielts_explain}
-  - what_toefl: {triggers: utter_toefl_explain}
-  - which_language_certificate: {triggers: utter_certificate_explain}
-  - why
-  - any_nation_else: {triggers: utter_nation_explain}
+  - what_ielts
+  - what_toefl
+  - which_language_certificate
+  - any_nation_else
+  - minimum_fee_in_nation
 slots:
   education_level:
     type: text
