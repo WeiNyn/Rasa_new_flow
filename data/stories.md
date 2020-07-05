@@ -44,10 +44,7 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_find_universities
-* thank
-    - utter_goodbye
-* bye
-    - utter_quit
+    - action_session_start
 
 ## interactive_story_2
 * greet
@@ -62,8 +59,7 @@
     - slot{"requested_slot": "location"}
 * deny
     - utter_goodbye
-* bye
-    - utter_quit
+    - action_session_start
 
 ## interactive_story_3
 * greet
@@ -78,8 +74,7 @@
     - slot{"requested_slot": "location"}
 * deny
     - utter_goodbye
-* bye
-    - utter_quit
+    - action_session_start
 
 ## interactive_story_4
 * greet
@@ -124,8 +119,7 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_find_universities
-* bye
-    - utter_quit
+    - action_session_start
 
 ## interactive_story_5
 * greet
@@ -174,6 +168,7 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_find_universities
+    - action_session_start
 
 ## interactive_story_1
 * greet
@@ -183,7 +178,7 @@
     - slot{"requested_slot": "location"}
 * minimum_fee_in_nation:{"location": "canada"}
     - slot{"location": "canada"}
-    - action_find_minumum_fee_nation
+    - action_find_minimum_fee_nation
     - action_listen
     - slot{"location": null}
     - study_form
@@ -217,6 +212,4 @@
     - form{"name": null}
     - slot{"requested_slot": null}
     - action_find_universities
-* thank
-    - utter_goodbye
-    - utter_quit
+    - action_session_start

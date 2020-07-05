@@ -14,7 +14,7 @@ actions:
   - action_contact_provider
   - utter_ask_field
   - utter_ask_GPA
-  - action_find_minumum_fee_nation
+  - action_find_minimum_fee_nation
   - action_find_school_nation
 entities:
   - education_level

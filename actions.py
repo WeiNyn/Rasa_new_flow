@@ -25,16 +25,15 @@ from grakn.client import GraknClient
 
 
 def query_school_result(
-    nation: Optional[Text] = None,
-    language: Text = "IELTS",
-    band: float = 100.0,
-    major: Optional[Text] = None,
-    level: Optional[Text] = None,
-    GPA: float = 100.0,
-    min_fee: Optional[float] = None,
-    max_fee: Optional[float] = None,
+        nation: Optional[Text] = None,
+        language: Text = None,
+        band: float = None,
+        major: Optional[Text] = None,
+        level: Optional[Text] = None,
+        GPA: float = 100.0,
+        min_fee: Optional[float] = None,
+        max_fee: Optional[float] = None,
 ):
-
     init_query = f"""match $school isa school, 
     has name $school_name, 
     has eid $school_id, 
@@ -48,10 +47,12 @@ def query_school_result(
     $loc ($school, $nation, $area) isa school_location;"""
 
     if nation:
-        if nation == "United States":
+        if nation == "united states":
             nation = "USA"
+        nation = nation[0].upper() + nation[1:]
         if nation in ["USA", "Canada", "Australia"]:
             init_query += f"""$nation_name "{nation}";"""
+
     if language:
         init_query += f"""$requirement isa requirement, has GPA <= {GPA};
                         $language_certificate isa language_certificate, has name "{language}", has band <= {band};
@@ -67,7 +68,7 @@ def query_school_result(
         init_query += ";"
         init_query += f"""$school_fee ($school, $tutor_fee) isa school_tutor_fee"""
         if major:
-            init_query += f""", has major "{major}""""
+            init_query += f""", has major "{major}" """
         if level:
             init_query += f""", has level "{level}";"""
         else:
@@ -98,16 +99,18 @@ class ActionFindUniversities(Action):
         return "action_find_universities"
 
     def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
         current_slots: Dict[Text, Any] = tracker.current_slot_values()
 
         nation: Text = current_slots.get("location", None)
         if nation:
+            if nation == "united states":
+                nation = "USA"
             nation: Text = nation[0].upper() + nation[1:]
 
         level: Text = current_slots.get("education_level", None)
@@ -116,30 +119,88 @@ class ActionFindUniversities(Action):
 
         language_certificate: Union[Dict[Text, Any], Text] = current_slots.get("language", None)
         if language_certificate:
-            if language
-        
+            if language_certificate == "no":
+                language = None
+                band = None
+            else:
+                language: Text = language_certificate.get("language_qualification", None)
+                number: float = language_certificate.get("number", None)
 
-        dispatcher.utter_message(
-            json_message={"school_list": query_school_result()}, **tracker.slots
-        )
+        gpa: float = current_slots.get("GPA", None)
 
-        dispatcher.utter_message("list of university")
+        fee: Dict[Text, float] = current_slots.get("fee", None)
+
+        if fee:
+            min_fee: float = fee.get("from", None)
+            max_fee: float = fee.get("to", None)
+        else:
+            min_fee = None
+            max_fee = None
+
+        result = query_school_result(nation=nation, language=language, band=band, major=major, level=level, GPA=gpa,
+                                     min_fee=min_fee, max_fee=max_fee)
+        if len(result) > 0:
+            dispatcher.utter_message(
+                json_message={
+                    "status": "successful",
+                    "school_list": result}, **tracker.slots
+            )
+        else:
+            result = query_school_result()
+            dispatcher.utter_message(
+                json_message={
+                    "status": "no result",
+                    "school_list": result
+                }, **tracker.slots
+            )
+
+        # dispatcher.utter_message("list of university")
 
         return []
 
 
-class ActionFindMinumumFeeNation(Action):
+class ActionFindMinimumFeeNation(Action):
     def name(self) -> Text:
-        return "action_find_minumum_fee_nation"
+        return "action_find_minimum_fee_nation"
 
     def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message("nation with minium fee")
+        current_slots: Dict[Text, Any] = tracker.current_slot_values()
+
+        nation = current_slots.get("location", None)
+        if nation == "united states":
+            nation = "USA"
+
+        if not nation:
+            dispatcher.utter_message("I can not find nation")
+        else:
+            init_query = "match $nation isa nation, has name $nation_name {};" \
+                         "$requirement isa requirement;" \
+                         "$living_fee isa living_fee, has minimum_fee $min;" \
+                         "get $min;"
+
+            with GraknClient(uri=db_link) as client:
+                with client.session(keyspace=keyspace) as session:
+                    with session.transaction().read() as read_tx:
+                        answers = read_tx.query(init_query)
+                        res = []
+                        for answer in answers:
+                            res.append({
+                                "nation": nation,
+                                "min_fee": res.get("min").value()
+                            })
+                        if len(res):
+                            dispatcher.utter_message(
+                                f"""You will need at least {res[-1].get("min_fee", 1000)} USA for one year in {nation}""")
+                        else:
+                            dispatcher.utter_message(
+                                f"""I cannot find the information about min fee of {nation}"""
+                            )
 
         return [SlotSet("location", None)]
 
@@ -149,12 +210,11 @@ class ActionFindSchoolNation(Action):
         return "action_find_school_nation"
 
     def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
-
         dispatcher.utter_message("nation of school")
 
         return []
@@ -219,10 +279,10 @@ class ActionHandleForm(FormAction):
             return value
 
     def submit(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> List[Dict]:
 
         current_slot = tracker.current_slot_values()
@@ -240,11 +300,11 @@ class ActionHandleForm(FormAction):
         return ["united states", "england", "australia", "canada", "unknown"]
 
     def validate_location(
-        self,
-        value: Text,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
+            self,
+            value: Text,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any],
     ) -> Dict[Text, Any]:
         if value.lower() in self.locations():
             self.location_false = False
@@ -255,10 +315,10 @@ class ActionHandleForm(FormAction):
             return {"location": None}
 
     def request_next_slot(
-        self,
-        dispatcher: "CollectingDispatcher",
-        tracker: "Tracker",
-        domain: Dict[Text, Any],
+            self,
+            dispatcher: "CollectingDispatcher",
+            tracker: "Tracker",
+            domain: Dict[Text, Any],
     ) -> Optional[List[EventType]]:
         """Request the next slot and utter template if needed,
             else return None"""
