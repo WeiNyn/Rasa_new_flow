@@ -290,6 +290,14 @@
 - Sorry, I do not have any of them
 - I do not have any of them
 
+## intent:dont_know
+- I don't know what to choose
+- I don't have the plan yet
+- I don't know
+- I have never think about that
+- Any of them is ok
+- what ever
+
 ## intent:deny
 - no
 - definitely not

@@ -98,7 +98,7 @@ class ActionFindUniversities(Action):
     def name(self) -> Text:
         return "action_find_universities"
 
-    def run(
+    async def run(
             self,
             dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -118,13 +118,15 @@ class ActionFindUniversities(Action):
         major: Text = current_slots.get("field", None)
 
         language_certificate: Union[Dict[Text, Any], Text] = current_slots.get("language", None)
+        language: Optional[Text] = None
+        band: Optional[float] = None
         if language_certificate:
             if language_certificate == "no":
                 language = None
                 band = None
             else:
                 language: Text = language_certificate.get("language_qualification", None)
-                number: float = language_certificate.get("number", None)
+                band: float = language_certificate.get("number", None)
 
         gpa: float = current_slots.get("GPA", None)
 
@@ -241,12 +243,18 @@ class ActionHandleForm(FormAction):
                 self.from_intent(value="no", intent="dont_have"),
             ],
             "fee": self.from_entity(entity="amount-of-money", intent=["inform_fee"]),
-            "field": self.from_entity(entity="field", intent="inform_field"),
+            "field": [
+                self.from_entity(entity="field", intent="inform_field"),
+                self.from_intent(value="no", intent="dont_know")],
             "GPA": self.from_entity(entity="number", intent="inform_GPA"),
-            "education_level": self.from_entity(
-                entity="education_level", intent="inform_education"
-            ),
-            "location": self.from_entity(entity="location", intent="inform_location"),
+            "education_level": [
+                self.from_entity(entity="education_level", intent="inform_education"),
+                self.from_intent(value="no", intent="dont_know")
+            ],
+            "location": [
+                self.from_entity(entity="location", intent="inform_location"),
+                self.from_intent(value="no", intent="dont_know")
+            ]
         }
 
     @staticmethod
