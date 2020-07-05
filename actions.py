@@ -8,7 +8,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction, REQUESTED_SLOT
 from rasa_sdk import Action
 from rasa_sdk.events import EventType
-
+import requests
 
 logger = logging.getLogger(__name__)
 
@@ -18,16 +18,144 @@ MODE = DEBUG
 
 import json
 
-class ActionHelloWorld(Action):
+db_link = "127.0.0.1:48555"
+keyspace = "gogo"
 
+from grakn.client import GraknClient
+
+
+def query_school_result(
+    nation: Optional[Text] = None,
+    language: Text = "IELTS",
+    band: float = 100.0,
+    major: Optional[Text] = None,
+    level: Optional[Text] = None,
+    GPA: float = 100.0,
+    min_fee: Optional[float] = None,
+    max_fee: Optional[float] = None,
+):
+
+    init_query = f"""match $school isa school, 
+    has name $school_name, 
+    has eid $school_id, 
+    has description $desc, 
+    has image_link $image, 
+    has rating $rating;
+    $nation isa nation,
+    has name $nation_name;
+    $area isa area,
+    has name $area_name;
+    $loc ($school, $nation, $area) isa school_location;"""
+
+    if nation:
+        if nation == "United States":
+            nation = "USA"
+        if nation in ["USA", "Canada", "Australia"]:
+            init_query += f"""$nation_name "{nation}";"""
+    if language:
+        init_query += f"""$requirement isa requirement, has GPA <= {GPA};
+                        $language_certificate isa language_certificate, has name "{language}", has band <= {band};
+                        $living_fee isa living_fee;
+                        $school_req ($school, $requirement, $living_fee) isa school_requirement;
+                        $lang_req ($requirement, $language_certificate) isa language_requirement;"""
+    if min_fee or max_fee:
+        init_query += f"""$tutor_fee isa tutor_fee"""
+        if min_fee:
+            init_query += f""", has minimum_fee >= {min_fee}"""
+        if max_fee:
+            init_query += f""", has maximum_fee <= {max_fee}"""
+        init_query += ";"
+        init_query += f"""$school_fee ($school, $tutor_fee) isa school_tutor_fee"""
+        if major:
+            init_query += f""", has major "{major}""""
+        if level:
+            init_query += f""", has level "{level}";"""
+        else:
+            init_query += ";"
+    init_query += "get $school_id, $school_name, $nation_name, $area_name, $desc, $image; limit 10;"
+
+    with GraknClient(uri=db_link) as client:
+        with client.session(keyspace=keyspace) as session:
+            with session.transaction().read() as read_tx:
+                answers = read_tx.query(init_query)
+                res = []
+                for s in answers:
+                    res.append(
+                        {
+                            "school_id": s.get("school_id").value(),
+                            "school_name": s.get("school_name").value(),
+                            "nation": s.get("nation_name").value(),
+                            "area": s.get("area_name").value(),
+                            "description": s.get("desc").value(),
+                            "image_link": s.get("image").value(),
+                        }
+                    )
+                return res
+
+
+class ActionFindUniversities(Action):
     def name(self) -> Text:
         return "action_find_universities"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message("Hello World!")
+        current_slots: Dict[Text, Any] = tracker.current_slot_values()
+
+        nation: Text = current_slots.get("location", None)
+        if nation:
+            nation: Text = nation[0].upper() + nation[1:]
+
+        level: Text = current_slots.get("education_level", None)
+
+        major: Text = current_slots.get("field", None)
+
+        language_certificate: Union[Dict[Text, Any], Text] = current_slots.get("language", None)
+        if language_certificate:
+            if language
+        
+
+        dispatcher.utter_message(
+            json_message={"school_list": query_school_result()}, **tracker.slots
+        )
+
+        dispatcher.utter_message("list of university")
+
+        return []
+
+
+class ActionFindMinumumFeeNation(Action):
+    def name(self) -> Text:
+        return "action_find_minumum_fee_nation"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message("nation with minium fee")
+
+        return [SlotSet("location", None)]
+
+
+class ActionFindSchoolNation(Action):
+    def name(self) -> Text:
+        return "action_find_school_nation"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message("nation of school")
 
         return []
 
@@ -46,20 +174,26 @@ class ActionHandleForm(FormAction):
     def slot_mappings(self):
 
         return {
-            "language": [self.from_entity(entity="language_qualification number", intent="inform_language"),
-                         self.from_intent(value="no", intent="dont_have")],
+            "language": [
+                self.from_entity(
+                    entity="language_qualification number", intent="inform_language"
+                ),
+                self.from_intent(value="no", intent="dont_have"),
+            ],
             "fee": self.from_entity(entity="amount-of-money", intent=["inform_fee"]),
             "field": self.from_entity(entity="field", intent="inform_field"),
             "GPA": self.from_entity(entity="number", intent="inform_GPA"),
-            "education_level": self.from_entity(entity="education_level", intent="inform_education"),
-            "location": self.from_entity(entity="location", intent="inform_location")
+            "education_level": self.from_entity(
+                entity="education_level", intent="inform_education"
+            ),
+            "location": self.from_entity(entity="location", intent="inform_location"),
         }
 
     @staticmethod
     def get_entity_value(name: Text, tracker: "Tracker") -> Any:
         """Extract entities for given name"""
         print(name)
-        entities_list = name.split(' ')
+        entities_list = name.split(" ")
         print(entities_list)
         if len(entities_list) == 1:
             # list is used to cover the case of list slot type
@@ -84,36 +218,26 @@ class ActionHandleForm(FormAction):
             print(name + ": " + str(value))
             return value
 
-    def submit(self,
-               dispatcher: CollectingDispatcher,
-               tracker: Tracker,
-               domain: Dict[Text, Any]) -> List[Dict]:
+    def submit(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict]:
 
         current_slot = tracker.current_slot_values()
         summary = {
             "senderId": 1,
             "threadId": 1,
-            "msg": {
-                "body": "summary",
-                "component": {
-                    "id": 0,
-                    "data": [current_slot]
-                }
-            }
+            "msg": {"body": "summary", "component": {"id": 0, "data": [current_slot]}},
         }
         # dispatcher.utter_message(template="utter_show_results")
-        dispatcher.utter_message(json_message = summary)
+        dispatcher.utter_message(json_message=summary)
         return []
 
     @staticmethod
     def locations() -> List[Text]:
-        return [
-            "united states",
-            "england",
-            "australia",
-            "canada",
-            "unknown"
-        ]
+        return ["united states", "england", "australia", "canada", "unknown"]
 
     def validate_location(
         self,
@@ -149,7 +273,8 @@ class ActionHandleForm(FormAction):
             if self._should_request_slot(tracker, slot):
                 logger.debug(f"Request next slot '{slot}'")
                 dispatcher.utter_message(
-                    json_message=self.custom_ask_slot(slot), **tracker.slots)
+                    json_message=self.custom_ask_slot(slot), **tracker.slots
+                )
                 return [SlotSet(REQUESTED_SLOT, slot)]
 
         # no more required slots to fill

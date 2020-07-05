@@ -1,0 +1,17 @@
+[
+    {
+        "GPA": 9,
+        "education_level": "university",
+        "fee": {
+            "to": 2000,
+            "from": 1900
+        },
+        "field": "computer science",
+        "language": {
+            "language_qualification": "itelts",
+            "number": 6
+        },
+        "location": "canada",
+        "requested_slot": "language"
+    }
+]
