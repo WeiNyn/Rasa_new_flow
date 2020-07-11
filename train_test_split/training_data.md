@@ -1,0 +1,4237 @@
+## intent:affirm
+- cool!
+- yep if i have to
+- sure!
+- Oh, ok
+- ok i accept
+- ja
+- ok, I behave now
+- yes i accept
+- yep
+- amazing!
+- yes please!
+- sure thing
+- ok cool
+- definitely yes without a doubt
+- I changed my mind. I want to accept it
+- confirm
+- oh awesome!
+- yes please
+- Sure
+- absolutely
+- yeah
+- i accept
+- fine
+- i will!
+- oki doki
+- yes
+- yop
+- yes accept please
+- amayzing
+- ok
+- great
+- accept
+- I'm sure I will!
+- I accept
+- alright
+- Yes
+- nice
+- coolio
+- of course
+- yep, will do thank you
+- yup
+
+## intent:ask_what_possible
+- anything els
+- show me the menu
+- Can you explain me in one sentence what you are doing?
+- what else can i do
+- so what can you help me with?
+- what can I do with this bot
+- show me what's possible
+- what can i do now
+- I need some help
+- so what next?
+- how can you help me?
+- what can I do here
+- help
+- now what?
+- what else can I do here?
+- what are you good at?
+- talk to me!
+- so what can you do
+- options
+- Great, is there anything else you can do, bot?
+- how can you help me
+- hm that doesnt quite help me is there anything else you can do?
+- what can i do here
+- help please
+- i don't know what i want
+- can you do anything else?
+- i asked you if you can do anything else
+- are there any other options?
+- um what now
+
+## intent:ask_whoisit
+- who speaks?
+- who are y
+- what's your name bot
+- are you a bot?
+- who r u
+- what's your name
+- yes but who are you in your heart
+- who talks?
+- who is this
+- what are you called?
+- who are you
+- who is it?
+- who am i speaking with
+- who is talking?
+- who are u?
+- who are you?
+- whats ur name
+
+## intent:bye
+- catch you later
+- tschüssikowski
+- tlak to you later
+- ciao
+- good bye
+- k byyye #slay
+- bye!
+- then bye
+- bye bye bot
+- bye udo
+- Bye bye
+- bye bot
+- bye was nice talking to you
+- bye
+- gotta go
+- bye for now
+- toodle-oo
+- farewell
+
+## intent:cant_help
+- you can't help me with what i need
+- nothing else?
+- ok, but that doesnt help me
+- ok i guess you can't help me
+- you cannot help me with what I want
+- I think you cant help me
+- stop
+- i guess you can't help me then
+- do you get anything?
+- and that's it?
+- you can't help me
+- this is leading to nothing
+- ok then you cant help me
+- stop go back
+- this conversation is not really helpful
+
+## intent:contact_provider
+- I would like to contact your sales team please
+- id like a call please
+- can you connect me to sales
+- talk to sales team
+- can i talk to your disagreeable sales man?
+- let me talk to sales
+- I want a sales call
+- are there different packages customers can book?
+- I want to get in touch with your sales guys
+- Can I have a call?
+- Sales
+- sales pl
+- I would like to have a call with sales team
+- i want to connect your sales
+- ok i want to talk to your sales guys
+- I want to talk to your sales team
+- let me call the sales team
+- contact to sales
+- Can I have a call tomorrow at 3pm?
+- sales
+- can i talk to a sales representative
+- can someone help me with infos about the rasa platform
+- a call
+- please connect me to sales
+- i want to connect to sales
+- request call with sales team
+- i want to learn more about Rasa Platform
+- i want to be connected to your sales team
+- obviously talk to your awesome sales team
+- book a sales call
+- let me have the call
+- request sales team
+- id like to talk to someone who can explain me what i can do with rasa
+- I wanna talk to your sales guy
+- I wanna have a subscription for your product
+- i want a sales call
+- i want to contact your sales team
+- call with sales team
+- I want to buy the rasa platform
+- call sales
+- i need a call from sales
+- Please schedule a sales call
+- i want to talk to sales
+- sales team connection
+- Ok I want to talk to your sales team immediately
+- contact sales
+- I would like to talk to someone from your sales team
+- i want to have a call with sales
+- sales department
+- Please connect me to someone from sales
+- i want to call
+- connect me to your sales department
+- connect to the sales team
+- I want to learn more about your pricing
+- I want to talk to someone about your pricing system
+- I want to contact the sales team
+- connect to sales
+- ok sales
+- lets talk to sales
+- I want to contact sales
+- let me contact sales
+- have a call with the sales team
+- i want to be in touch with sales
+- i need to speak to your sales team
+- I wanna talk to your sales people.
+- I want to talk to sales
+- i need to know how i can book support
+- I want to book a call with your sales team
+- can i get a ssales call
+- i want to contact sales now
+- give me someone who can explain your business model
+- request call
+- next the sales contact
+- sales team
+- hmmm sales
+- let' contact sales now
+- I also want to book a sales call
+- let me talk to your sales people
+- i want to contact sales
+- contact call with sales
+- contact sales for me
+- i choose the call with sales
+- let me talk to your sales people!
+- i need the call request
+- I would like to have a demo scheduled
+- I want information about the platform
+- But I wanted a sales call
+- book a call
+- sales call
+- i want to connect to your sales team
+- request a call
+- get me the sales team
+- please provide information on your enterprise package
+- i need to talk to sales
+
+## intent:dont_have
+- I do not have
+- I don't have any language qualification
+- I don't have
+- Sorry, I don't have
+- Sorry, I do not have any of them
+
+## intent:dont_know
+- I don't know
+- Any of them is ok
+- what ever
+- I don't know what to choose
+
+## intent:deny
+- no and no again
+- I'm not going to give it to you
+- no you did it wrong
+- no
+- NEIN
+- i don't think so
+- absolutely not
+- i'm afraid not
+- no i can't
+- No, not really.
+- i guess it means - no
+- no!!!!
+- nevermind
+- nein
+- never
+- i don't want either of those
+- not really
+- no sir
+- no i don't accept
+- no ma'am
+- i don't want to
+- I don't want to give it to you
+- definitely not
+- i'm not sure
+- deny
+- no sorry
+- no thanks
+- i decline
+- nah not for me
+- no I haven't decided yet if I want to sign up
+
+## intent:explain
+- tell me more
+- give me more information please
+- can you tell me the difference
+- could you please give me some more information
+- could you tell me more
+- i want more information
+- why do you need it
+- could you please explain that
+
+## intent:greet
+- Hey
+- hi Mister
+- hello robot
+- ayyyy whaddup
+- hi friend
+- hii
+- hi again
+- hello there
+- Hello
+- Hellllooooooo
+- hi
+- hey dude
+- hello it is me again
+- yo
+- hello friend
+- Whats up my bot
+- greetings
+- howdy
+- hello everybody
+- jop
+- I said, helllllloooooO!!!!
+- hi?
+- hi there
+- heeey
+- hiii
+- hey bot
+- hey let's talk
+- hola
+- yoo
+- Good morning
+- Hi
+- heya
+- hey there
+- hey
+- Hallo
+- jojojo
+- hi there it's me
+- hello
+- hi folks
+- helloooo
+- good evening
+- hallo
+- hiihihi
+- whats up
+- hello sweatheart
+- what up
+- good morning
+- hi hi
+- heyho
+- Hei
+- hi pal!
+
+## intent:human_handoff
+- I don't wanna talk to a bot
+- i want to talk to someone who is smarter than you
+- human handoff
+- i want to talk to a human
+- wrong i want to speak to a human
+- talking to a bot is stupid
+- someone from customer care
+- that's annoying I'd like to speak to someone real
+- let me talk to a real person
+- let me talk to a human
+- can you forward me to your team
+- i would like to speak to a person
+- i want to speak to a real person
+- i'd rather speak with a real rasa employee
+- Could I talk to Akela?
+- i want to talk to someone else
+- i want to talk to someone at rasa
+- id like to talk to a real rasa employee
+- let me speak with a real person please
+- please give me a human
+- customer service
+- give me a human
+- can you please connect me to a real rasa employee?
+- i want to speak to a manager
+- speak to a real person
+- I dont like to talk to a machine
+- can i please speak to a human?
+- I want to talk to a human
+- service agent
+- I want to talk to the founders
+
+## intent:inform_name
+- I'm [Thắm Quách](name)
+- She's Jayde Mcfarland
+- It's [Chấn Đới](name)
+- My name is [Tuệ Huỳnh](name)
+- He is [Uyển Trà](name)
+- Her name is [Hoài Hình](name)
+- He's Jenny Mccray
+- I am Priscilla Harding
+- He's [Miên Đái](name)
+- His name is [Khuê Giao](name)
+- It's [Tuyền Sử](name)
+- My name is [Huy](name)
+- His name is Lincoln Mcneil
+- He is [Lai Cù](name)
+- She's [Phương Hứa](name)
+- My name is Elspeth Pemberton
+- I'm [Mi Đoàn](name)
+- His name is [Nhạn Đôn](name)
+- He is Jude Golden
+- I am Phillipa Underwood
+- I'm Renae Rich
+- She is [Tụ Ấu](name)
+- I am Moshe Glenn
+- I'm Kye Mathis
+- She's [Tuyền Sử](name)
+- I am Zacharias Clifford
+- He's Willis Cruz
+- It's Marsha Reeves
+- It is Renae Rich
+- He's Zakariya French
+- He is Beau Strickland
+- She is Lincoln Mcneil
+- I'm [Quý Hàn](name)
+- I'm Thomas Kaye
+- She's [Mi Đoàn](name)
+- She is Minahil Gunn
+- She's [Trúc Bạch](name)
+- My name is Lesley Blevins
+- Her name is [Trân Liễu](name)
+- It is [Ly Tống](name)
+- I'm Elle-May Mcghee
+- It is [Ý Thân](name)
+- She is [Canh Dương](name)
+- His name is Jayde Mcfarland
+- He is Mahek Healy
+- He is [Duy Giang](name)
+- She's [Hòa Ngụy](name)
+- I'm Marsha Reeves
+- I'm Samiha Lam
+- He's Kaylan Marriott
+- He is Ellenor Spence
+- He is Raja Waters
+- She is [Minh Ty](name)
+- She is Reece Reed
+- Her name is [Hưng Ca](name)
+- It is Shah Brock
+- She's Moshe Glenn
+- My name is Bethan Pace
+- He's [Ẩn Mộc](name)
+- His name is [Ngà Hạ](name)
+- He's [Kim Mang](name)
+- She's [Sĩ Phùng](name)
+- He is Faris Morgan
+- I am [Hà Thiều](name)
+- It's Conner Anderson
+- She's [Khuyên Chử](name)
+- His name is [Minh Ty](name)
+- It is Tarun Nixon
+- He is [Nghĩa Hình](name)
+- He's [Trác Mẫn](name)
+- He is [Trà Vừ](name)
+- He is [Tuệ Huỳnh](name)
+- I'm [Hà Thiều](name)
+- I am [Ca Đồng](name)
+- Her name is [Thắm Quách](name)
+- She is [Việt Lò](name)
+- He's Michael Rowland
+- My name is [Bạch Tô](name)
+- My name is [Ca Âu](name)
+- My name is [Trân Sơn](name)
+- It's [Ly Tống](name)
+- She's Laaibah Payne
+- She is [Quân Trình](name)
+- Her name is Shae Swan
+- My name is Carlton O'Doherty
+- He is [Lai Tông](name)
+- It is [Bích Hứa](name)
+- He is Renae Rich
+- Her name is Ida Ramsay
+- His name is Jana Arnold
+- Her name is Kenya Robles
+- My name is Sumaiyah Wall
+- She's [Kim Mang](name)
+- Her name is Yisroel Nicholson
+- Her name is [Di Ánh](name)
+- My name is Vanessa Nieves
+- My name is Issa Floyd
+- It's [Quý Hàn](name)
+- It's [Khai Xa](name)
+- It is Elspeth Pemberton
+- Her name is [Minh Ty](name)
+- It's [Kim Mang](name)
+- His name is Anushka Sherman
+- He is Inaya Head
+- I am [Lạc Quách](name)
+- I'm Ellenor Spence
+- She's Neo Mcgee
+- He's [Thêu Tô](name)
+- She's Renae Rich
+- Her name is Muhammed Crawford
+- I am [Tụ Khuất](name)
+- My name is Yisroel Nicholson
+- He's Chelsey Freeman
+- His name is [Bích Hứa](name)
+- I'm [Hương Ấu](name)
+- She's Inaya Head
+- I am Aydin Mustafa
+- Her name is Roseanna Hanson
+- He's [Uyên Ngụy](name)
+- He is Anja Hodgson
+- His name is [Huy Quách](name)
+- She is [Uyển Trà](name)
+
+## intent:inform_location
+- I wanna [Jordan](location)
+- I would like to study abroad in [Canada](location)
+- I prefer study abroad in [Vanuatu](location)
+- I fancy [Egypt](location)
+- I love to study in [Dominica](location)
+- I want to study in [Tajikistan](location)
+- I want to [Macedonia](location)
+- I want to study abroad in [Eritrea](location)
+- I wanna study abroad in [Montenegro](location)
+- I wanna study abroad in [Cameroon](location)
+- I love to [Montenegro](location)
+- I want to study abroad in [Ghana](location)
+- I fancy [Switzerland](location)
+- I would like to study abroad in [Australia](location)
+- [China](location) please
+- [Tuvalu](location) please
+- [India](location)
+- I love to [Haiti](location)
+- I love to study in [Bosnia Herzegovina](location)
+- I love to study in [Gambia](location)
+- I wanna study abroad in [Myanmar, {Burma}](location)
+- I wanna [Uzbekistan](location)
+- I fancy study abroad in [Uganda](location)
+- I would like to study abroad in [Montenegro](location)
+- I would like to [Sierra Leone](location)
+- I want to [Brazil](location)
+- I prefer [Afghanistan](location)
+- I fancy study abroad in [Bhutan](location)
+- [Tonga](location) please
+- I want to study in [Mexico](location)
+- I wanna [Jamaica](location)
+- I fancy [Serbia](location)
+- I fancy [Sudan](location)
+- I love to [Congo](location)
+- I love to study abroad in [Iran](location)
+- [Egypt](location)
+- In [Malaysia](location) if possible
+- I love to [Saudi Arabia](location)
+- I prefer study in [New Zealand](location)
+- I would like to study in [Nigeria](location)
+- I love to [Liberia](location)
+- I prefer [Guinea-Bissau](location)
+- I prefer [Tonga](location)
+- I fancy [Madagascar](location)
+- I love to [Papua New Guinea](location)
+- In [United Kingdom](location:England) if possible
+- I prefer [Laos](location)
+- I want to study abroad in [New Zealand](location)
+- I love to study in [Maldives](location)
+- I fancy [Afghanistan](location)
+- In [Dominica](location) if possible
+- I love to study in [Canada](location)
+- I prefer [San Marino](location)
+- I wanna study in [Central African Rep](location)
+- I prefer [Sao Tome & Principe](location)
+- I fancy study abroad in [The States](location:United States)
+- I want to study abroad in [Cape Verde](location)
+- I prefer study in [St Kitts & Nevis](location)
+- I would like to study in [Guinea-Bissau](location)
+- I wanna study in [Brunei](location)
+- I love to study in [El Salvador](location)
+- I prefer [Honduras](location)
+- In [New Zealand](location) if possible
+- I would like to study in [Moldova](location)
+- I would like to [Moldova](location)
+- I love to study in [Kosovo](location)
+- I wanna study in [Russian Federation](location)
+- I prefer [Equatorial Guinea](location)
+- I would like to study abroad in [Slovakia](location)
+- I want to study in [Austria](location)
+- I want to [United States of America](location:United States)
+- I would like to study abroad in [Qatar](location)
+- I fancy study in [Venezuela](location)
+- [Jordan](location)
+- I prefer study abroad in [Mozambique](location)
+- I wanna study in [Morocco](location)
+- I prefer [El Salvador](location)
+- I prefer study abroad in [Syria](location)
+- I would like to study in [Spain](location)
+- I fancy study abroad in [East Timor](location)
+- I want to [Russian Federation](location)
+- I fancy study abroad in [Yemen](location)
+- I want to [Tuvalu](location)
+- I prefer [Ethiopia](location)
+- I love to study in [Guatemala](location)
+- I love to study abroad in [Mauritius](location)
+- I prefer study in [Argentina](location)
+- [Czech Republic](location)
+- I prefer study abroad in [Namibia](location)
+- [Sudan](location)
+- [Dominica](location)
+- I prefer [Palau](location)
+- I want to [Cyprus](location)
+- I wanna study abroad in [Bahamas](location)
+- [Bolivia](location) please
+- I love to study in [Saint Vincent & the Grenadines](location)
+- I would like to study abroad in [Maldives](location)
+- I wanna [England](location)
+- I love to study in [New Zealand](location)
+- I love to [San Marino](location)
+- In [Kazakhstan](location) if possible
+- I would like to [Cambodia](location)
+- In [Argentina](location) if possible
+- I love to study in [Guyana](location)
+- I fancy study in [Burundi](location)
+- I love to [Chad](location)
+- I prefer study in [Maldives](location)
+- In [France](location) if possible
+- In [Mauritania](location) if possible
+- I would like to study abroad in [Malaysia](location)
+- I want to study in [Ecuador](location)
+- I want to [Zambia](location)
+- I want to study in [Chile](location)
+- I prefer [Saudi Arabia](location)
+- I love to study in [Grenada](location)
+- I fancy study in [Colombia](location)
+- I love to [Senegal](location)
+- I prefer study in [Russian Federation](location)
+- I fancy study in [Ghana](location)
+- I would like to study abroad in [Ukraine](location)
+- I fancy study abroad in [Kyrgyzstan](location)
+- I would like to [United States](location)
+- I would like to study in [South Africa](location)
+- I want to study abroad in [Indonesia](location)
+- I wanna study abroad in [England](location)
+- I love to study in [Argentina](location)
+- I prefer [Sri Lanka](location)
+- I fancy study in [Turkey](location)
+- In [Micronesia](location) if possible
+- I wanna [Iran](location)
+- In [Nauru](location) if possible
+- I would like to study abroad in [Bahamas](location)
+- In [Paraguay](location) if possible
+- I want to study abroad in [Peru](location)
+- I want to study in [Kosovo](location)
+- I want to [Lebanon](location)
+- I prefer study in [East Timor](location)
+- I prefer study abroad in [Taiwan](location)
+- [Haiti](location) please
+- I fancy [Swaziland](location)
+- I prefer study abroad in [Senegal](location)
+- I wanna study in [Latvia](location)
+- I wanna [Papua New Guinea](location)
+- I fancy study abroad in [Dominica](location)
+- [Guinea](location)
+- I prefer study abroad in [Congo {Democratic Rep}](location)
+- I wanna [USA](location:United States)
+- I want to study in [Monaco](location)
+- I love to study in [Burundi](location)
+- I prefer study abroad in [Venezuela](location)
+- I prefer study in [Tuvalu](location)
+- I fancy study abroad in [Mauritania](location)
+- I wanna study in [Malta](location)
+- I wanna study abroad in [Greece](location)
+- I would like to [Senegal](location)
+- [Bhutan](location) please
+- [Djibouti](location)
+- I wanna study abroad in [Mozambique](location)
+- I prefer study abroad in [Tonga](location)
+- I prefer study in [Benin](location)
+- I wanna study abroad in [Oman](location)
+- I prefer study in [Canada](location)
+- I fancy [Togo](location)
+- I would like to [Chad](location)
+- I fancy study in [Sao Tome & Principe](location)
+- I love to study abroad in [Botswana](location)
+- I wanna study abroad in [Qatar](location)
+- [Portugal](location) please
+- I fancy study in [Britain](location:England)
+- I fancy study abroad in [Brunei](location)
+- I want to [Senegal](location)
+- I wanna study abroad in [Marshall Islands](location)
+- I wanna [Kiribati](location)
+- I want to study in [Rwanda](location)
+- In [Chile](location) if possible
+- I want to study in [Cuba](location)
+- I prefer study in [Guatemala](location)
+- I wanna [Russian Federation](location)
+- I want to [Albania](location)
+- I fancy study in [Romania](location)
+- I would like to study abroad in [Haiti](location)
+- [Gabon](location)
+- I would like to study abroad in [America](location:United States)
+- [Djibouti](location) please
+- I prefer [Greece](location)
+- I wanna study abroad in [Finland](location)
+- I would like to [Taiwan](location)
+- I wanna study in [Vanuatu](location)
+- I fancy study abroad in [Grenada](location)
+- I prefer study abroad in [Malawi](location)
+- I would like to study abroad in [Moldova](location)
+- I fancy study abroad in [Iraq](location)
+- [Britain](location:England) please
+- I fancy [Cape Verde](location)
+- I prefer study abroad in [Micronesia](location)
+- I would like to study abroad in [Benin](location)
+- I fancy study abroad in [St Kitts & Nevis](location)
+- [Jamaica](location) please
+- In [Iceland](location) if possible
+- [Lithuania](location) please
+- I love to study abroad in [Barbados](location)
+- I fancy study abroad in [Venezuela](location)
+- [Iceland](location)
+- I love to study in [Uruguay](location)
+- I would like to study in [Belgium](location)
+- I fancy study abroad in [Jamaica](location)
+- I want to study abroad in [Guinea](location)
+- I wanna study abroad in [Benin](location)
+- I wanna study abroad in [Belize](location)
+- I prefer study in [Pakistan](location)
+- [Armenia](location)
+- I fancy study abroad in [Azerbaijan](location)
+- I fancy study in [Afghanistan](location)
+- I love to [South Sudan](location)
+- I want to study abroad in [United States of America](location:United States)
+- [Albania](location) please
+- I love to [Nepal](location)
+- I want to study in [Egypt](location)
+- I want to [Pakistan](location)
+- I wanna study in [China](location)
+- [Chad](location)
+- I would like to study in [Liberia](location)
+- I would like to study abroad in [Norway](location)
+- I fancy study abroad in [Switzerland](location)
+- I would like to study abroad in [Latvia](location)
+- I prefer study abroad in [Ethiopia](location)
+- I prefer study in [Zimbabwe](location)
+- I prefer study in [Malawi](location)
+- I want to study abroad in [Saint Vincent & the Grenadines](location)
+- [South Africa](location) please
+- In [Philippines](location) if possible
+- I wanna [Cambodia](location)
+- I want to [Ghana](location)
+- I fancy [Bangladesh](location)
+- I fancy [Turkey](location)
+- I love to study in [Japan](location)
+- In [Montenegro](location) if possible
+- I would like to study in [Indonesia](location)
+- I fancy study abroad in [Laos](location)
+- I want to study in [Poland](location)
+- I would like to study abroad in [Mongolia](location)
+- I want to study in [Italy](location)
+- [Mauritania](location) please
+- I would like to study in [San Marino](location)
+- I wanna study in [Mozambique](location)
+- I wanna study abroad in [Libya](location)
+- I love to study abroad in [Colombia](location)
+- I prefer [Dominican Republic](location)
+- I would like to [Afghanistan](location)
+- I prefer [Bahamas](location)
+- I want to study abroad in [Japan](location)
+- I fancy study abroad in [Germany](location)
+- I want to study in [Peru](location)
+- I prefer study in [Tonga](location)
+- I would like to study abroad in [Somalia](location)
+- I wanna study in [Bolivia](location)
+- I wanna study in [Burundi](location)
+- I wanna [Chile](location)
+- [United Kingdom](location:England)
+- I wanna [Costa Rica](location)
+- I want to [Malta](location)
+- I prefer study abroad in [Montenegro](location)
+- In [Cape Verde](location) if possible
+- I want to study in [Nepal](location)
+- In [Togo](location) if possible
+- I want to study in [Suriname](location)
+- [Jordan](location) please
+- I want to study abroad in [Paraguay](location)
+- I want to [New Zealand](location)
+- I love to [Tajikistan](location)
+- I wanna study in [Jordan](location)
+- I prefer study abroad in [United States](location)
+- I wanna study in [Lithuania](location)
+- I fancy [Guatemala](location)
+- I love to study abroad in [South Sudan](location)
+- I want to study abroad in [Jordan](location)
+- I love to study in [Armenia](location)
+- I wanna study abroad in [Colombia](location)
+- [Afghanistan](location)
+- I want to study in [Benin](location)
+- I want to [Netherlands](location)
+- In [Central African Rep](location) if possible
+- I fancy study in [Seychelles](location)
+- In [Burkina](location) if possible
+- I love to study abroad in [Sri Lanka](location)
+- I fancy study abroad in [Liberia](location)
+- I wanna study in [Thailand](location)
+- I prefer [Poland](location)
+- I want to [Argentina](location)
+- In [Grenada](location) if possible
+- I would like to [Laos](location)
+- I wanna [Croatia](location)
+- I prefer study in [Sri Lanka](location)
+- I wanna study in [Belarus](location)
+- I want to [Austria](location)
+- I want to [Belize](location)
+- [England](location) please
+- In [Bolivia](location) if possible
+- I would like to study abroad in [Mali](location)
+- I would like to [Czech Republic](location)
+- I fancy [United Kingdom](location)
+- I fancy study in [Bahamas](location)
+- I love to study in [Hungary](location)
+- I love to [Belgium](location)
+- I would like to study abroad in [Uganda](location)
+- I prefer [Solomon Islands](location)
+- I prefer study in [Spain](location)
+- I would like to study abroad in [Armenia](location)
+- In [Malawi](location) if possible
+- I love to [Tonga](location)
+- I fancy study abroad in [Honduras](location)
+- I love to study in [United States of America](location:United States)
+- I prefer study in [Korea South](location)
+- I prefer study in [Lebanon](location)
+- I want to [America](location:United States)
+- In [Guinea-Bissau](location) if possible
+- I want to [Bosnia Herzegovina](location)
+- I prefer [Nicaragua](location)
+- I want to study abroad in [USA](location:United States)
+- I love to study abroad in [Belize](location)
+- I want to [Kuwait](location)
+- I fancy [Tuvalu](location)
+- I fancy study abroad in [Tonga](location)
+- I would like to study in [Serbia](location)
+- I want to study abroad in [Chile](location)
+- I wanna study in [USA](location:United States)
+- I prefer study in [Yemen](location)
+- I want to study abroad in [Tuvalu](location)
+- I fancy study abroad in [Zimbabwe](location)
+- I fancy [Thailand](location)
+- I love to study in [Sao Tome & Principe](location)
+- I prefer [Mexico](location)
+- I prefer study abroad in [Grenada](location)
+- I would like to study abroad in [Ecuador](location)
+- I fancy study abroad in [Sierra Leone](location)
+- I prefer study in [Bulgaria](location)
+- I prefer study in [Angola](location)
+- I want to study in [Cyprus](location)
+- In [Switzerland](location) if possible
+- I prefer study in [Mauritius](location)
+- [Guinea-Bissau](location)
+- [Fiji](location)
+- I love to study in [Iceland](location)
+- I prefer study in [Korea North](location)
+- I want to study in [Afghanistan](location)
+- [United States of America](location:United States) please
+- I want to study in [Seychelles](location)
+- I would like to study in [Guatemala](location)
+- I would like to [Canada](location)
+- I would like to study in [Britain](location:England)
+- I fancy study abroad in [New Zealand](location)
+- I love to [Poland](location)
+- I love to study in [Belgium](location)
+- I love to study abroad in [Czech Republic](location)
+- I want to study abroad in [Comoros](location)
+- I fancy study abroad in [Chile](location)
+- I prefer study in [Guyana](location)
+- I want to study abroad in [Moldova](location)
+- I prefer study abroad in [Sweden](location)
+- I prefer [Slovenia](location)
+- In [Sao Tome & Principe](location) if possible
+- I fancy [Belarus](location)
+- I prefer study abroad in [Czech Republic](location)
+- I fancy [Lithuania](location)
+- I want to study in [England](location)
+- In [Congo {Democratic Rep}](location) if possible
+- I prefer study in [Kuwait](location)
+- I want to study abroad in [Luxembourg](location)
+- I want to study in [Turkey](location)
+- I want to [Guinea](location)
+- I prefer [Kazakhstan](location)
+- I prefer study in [Azerbaijan](location)
+- I fancy study in [Guatemala](location)
+- I wanna study in [Equatorial Guinea](location)
+- I want to [United Kingdom](location:England)
+- I wanna study abroad in [Portugal](location)
+- I would like to study in [Afghanistan](location)
+- I love to study in [Ecuador](location)
+- [Switzerland](location)
+- I would like to study in [Jamaica](location)
+- I love to study abroad in [Niger](location)
+- I would like to study in [Argentina](location)
+- I love to study abroad in [Monaco](location)
+- [Afghanistan](location) please
+- I prefer study in [Honduras](location)
+- I wanna [Turkmenistan](location)
+- I would like to [East Timor](location)
+- I fancy study in [Uzbekistan](location)
+- I prefer study abroad in [Mongolia](location)
+- I would like to study in [Panama](location)
+- I would like to [Azerbaijan](location)
+- I wanna study in [Slovakia](location)
+- I wanna study abroad in [Turkmenistan](location)
+- I fancy study abroad in [Korea North](location)
+- I would like to study abroad in [Azerbaijan](location)
+- I would like to study in [Togo](location)
+- I love to [Romania](location)
+- I wanna study abroad in [America](location:United States)
+- I wanna [Singapore](location)
+- I wanna [Ireland {Republic}](location)
+- I want to [Cameroon](location)
+- I love to study in [Monaco](location)
+- I prefer study abroad in [Swaziland](location)
+- I love to study in [Tonga](location)
+- I love to study abroad in [Estonia](location)
+- I wanna study abroad in [Taiwan](location)
+- I want to [Solomon Islands](location)
+- I prefer study abroad in [Paraguay](location)
+- I want to [Congo](location)
+- I prefer study abroad in [Cyprus](location)
+- I love to study abroad in [Fiji](location)
+- I want to study in [Sweden](location)
+- In [Uruguay](location) if possible
+- I love to study in [Bahamas](location)
+- I prefer study abroad in [Belize](location)
+- I prefer study abroad in [Guinea-Bissau](location)
+- I want to [Saint Vincent & the Grenadines](location)
+- I wanna [Belize](location)
+- I fancy study in [Malawi](location)
+- I love to [Bosnia Herzegovina](location)
+- I fancy study abroad in [Tajikistan](location)
+- I wanna [Sao Tome & Principe](location)
+- I love to study in [San Marino](location)
+- I prefer [Spain](location)
+- I wanna study in [Panama](location)
+- I want to study abroad in [Belize](location)
+- I wanna [Bangladesh](location)
+- I wanna study abroad in [Uganda](location)
+- [Suriname](location)
+- I prefer study abroad in [East Timor](location)
+- I fancy study abroad in [Togo](location)
+- I want to [Belgium](location)
+- I would like to study abroad in [Oman](location)
+- I love to study abroad in [Syria](location)
+- I wanna study abroad in [Argentina](location)
+- I fancy study abroad in [Antigua & Deps](location)
+- I fancy [Montenegro](location)
+- I fancy [United States of America](location:United States)
+- In [Libya](location) if possible
+- I fancy study in [Mauritius](location)
+- I love to study in [Cyprus](location)
+- I prefer [Bosnia Herzegovina](location)
+- I fancy study in [Vietnam](location)
+- I wanna [Benin](location)
+- I wanna [Haiti](location)
+- I fancy study abroad in [Kenya](location)
+- I love to [Lithuania](location)
+- I wanna study abroad in [Maldives](location)
+- [Monaco](location)
+- I love to study in [Sweden](location)
+- I prefer study in [Togo](location)
+- I would like to [Germany](location)
+- I fancy [Bahamas](location)
+- I wanna [Saint Vincent & the Grenadines](location)
+- I want to study abroad in [Guinea-Bissau](location)
+- I prefer study in [Rwanda](location)
+- I wanna study in [Serbia](location)
+- I wanna study in [Syria](location)
+- I wanna [Central African Rep](location)
+- I wanna study in [Montenegro](location)
+- I love to [Belarus](location)
+- I fancy study abroad in [Thailand](location)
+- I would like to study in [Tajikistan](location)
+- [Belgium](location)
+- I wanna study in [Cambodia](location)
+- I wanna [The States](location:United States)
+- I would like to study abroad in [Vanuatu](location)
+- I would like to [America](location:United States)
+- I would like to study abroad in [Bolivia](location)
+- I would like to study in [Belarus](location)
+- I love to [Marshall Islands](location)
+- I would like to study in [Suriname](location)
+- I would like to study in [Gabon](location)
+- I want to [France](location)
+- I fancy [Lesotho](location)
+- I wanna study in [Tonga](location)
+- I love to [Jordan](location)
+- [Sao Tome & Principe](location)
+- I wanna study abroad in [Ivory Coast](location)
+- I fancy [Nigeria](location)
+- I prefer study in [Montenegro](location)
+- I would like to [Slovakia](location)
+- I fancy study in [Austria](location)
+- I fancy study abroad in [Gambia](location)
+- I prefer [Congo](location)
+- I wanna study in [America](location:United States)
+- [Senegal](location) please
+- I would like to [Morocco](location)
+- I want to study abroad in [Tajikistan](location)
+- I wanna [Mauritius](location)
+- I fancy [Grenada](location)
+- I wanna study in [Qatar](location)
+- [Iran](location)
+- I want to study abroad in [Mozambique](location)
+- In [China](location) if possible
+- I would like to study abroad in [Bahrain](location)
+- I fancy study in [India](location)
+- I would like to study in [United States of America](location:United States)
+- [Uzbekistan](location) please
+- I love to study abroad in [Korea North](location)
+- I fancy [Cuba](location)
+- I wanna study in [Guinea](location)
+- I prefer study in [Chile](location)
+- I love to study abroad in [Mauritania](location)
+- [Bahamas](location) please
+- I would like to study in [Iceland](location)
+- I love to [Chile](location)
+- I prefer study abroad in [Ukraine](location)
+- I prefer study abroad in [Saudi Arabia](location)
+- I love to [El Salvador](location)
+- I fancy study abroad in [Philippines](location)
+- I would like to study abroad in [Central African Rep](location)
+- I love to [Ivory Coast](location)
+- In [Comoros](location) if possible
+- I would like to [Kazakhstan](location)
+- I wanna [Seychelles](location)
+- I love to study in [Taiwan](location)
+- I wanna study abroad in [Afghanistan](location)
+- I want to study in [Congo {Democratic Rep}](location)
+- [Mexico](location)
+- [The States](location:United States)
+- [Cyprus](location) please
+- [Lesotho](location) please
+- I would like to [United States of America](location:United States)
+- I would like to study abroad in [Namibia](location)
+- I want to study abroad in [Vietnam](location)
+- I fancy [Iraq](location)
+- I prefer study abroad in [Greece](location)
+- [Vanuatu](location)
+- I want to study in [Tuvalu](location)
+- I love to study abroad in [Tuvalu](location)
+- I fancy study in [Libya](location)
+- I prefer study abroad in [Moldova](location)
+- I prefer study in [Iran](location)
+- I prefer study abroad in [Malaysia](location)
+- I prefer [Kenya](location)
+- I fancy [Mongolia](location)
+- I wanna study in [Chad](location)
+- In [Bhutan](location) if possible
+- I fancy study abroad in [Malaysia](location)
+- I fancy study in [Greece](location)
+- I love to study abroad in [Chad](location)
+- I prefer study in [Poland](location)
+- I prefer [Cyprus](location)
+- I fancy [Hungary](location)
+- [Morocco](location) please
+- [Tunisia](location)
+- In [Finland]
+- I want to [Spain](location)
+- [Lebanon](location) please
+- I want to [Niger](location)
+- I want to study in [Portugal](location)
+- I would like to study in [Tuvalu](location)
+- I would like to [Ethiopia](location)
+- I want to study in [Serbia](location)
+- I want to study in [Kuwait](location)
+- I prefer [Tunisia](location)
+- I love to study abroad in [Kosovo](location)
+- I want to [Finland](location)
+- I want to [El Salvador](location)
+- I want to study abroad in [Nigeria](location)
+- [Saudi Arabia](location)
+- I love to [South Africa](location)
+- I fancy [Congo](location)
+- I wanna study abroad in [Ecuador](location)
+- I love to study abroad in [Vanuatu](location)
+- I would like to study in [Benin](location)
+- I would like to [Belgium](location)
+- I want to study in [Ireland {Republic}](location)
+- I would like to [Georgia](location)
+- I fancy [Kenya](location)
+- I love to study abroad in [Malawi](location)
+- I prefer study in [Grenada](location)
+- I prefer study in [Cape Verde](location)
+- I prefer study in [Denmark](location)
+- [Brunei](location)
+- I love to [Cuba](location)
+- I prefer study abroad in [Costa Rica](location)
+- In [Bosnia Herzegovina](location) if possible
+- I prefer study in [Sao Tome & Principe](location)
+- [Somalia](location) please
+- I wanna study abroad in [Kiribati](location)
+- I would like to [Croatia](location)
+- I prefer study in [Kiribati](location)
+- I want to study abroad in [Belarus](location)
+- I wanna study abroad in [Ukraine](location)
+- I prefer [Comoros](location)
+- I prefer [Britain](location:England)
+- I wanna study in [Germany](location)
+- I love to [Peru](location)
+- I wanna study in [Afghanistan](location)
+- I love to study abroad in [Azerbaijan](location)
+- I wanna [Gambia](location)
+- I want to [Panama](location)
+- I wanna [Zimbabwe](location)
+- I fancy study in [Vatican City](location)
+- I would like to study abroad in [Sudan](location)
+- I want to study in [Central African Rep](location)
+- I love to [Nicaragua](location)
+- I would like to study in [Cameroon](location)
+- I want to study in [Comoros](location)
+- In [Antigua & Deps](location) if possible
+- I wanna study in [Korea North](location)
+- I wanna study in [Sierra Leone](location)
+- I prefer study in [Bhutan](location)
+- I fancy study in [Denmark](location)
+- I love to study in [Benin](location)
+- [Bolivia](location)
+- I prefer study in [Iraq](location)
+- I fancy study in [Japan](location)
+- I wanna [Hungary](location)
+- I would like to study abroad in [Iran](location)
+- I prefer [Taiwan](location)
+- I would like to study in [Burundi](location)
+- I want to study abroad in [Turkmenistan](location)
+- I would like to study in [Ireland {Republic}](location)
+- I prefer study in [Ivory Coast](location)
+- [St Lucia](location)
+- I wanna [Vietnam](location)
+- In [Czech Republic](location) if possible
+- I fancy [Benin](location)
+- [Morocco](location)
+- In [Mali](location) if possible
+- I want to study abroad in [Dominican Republic](location)
+- I want to [Zimbabwe](location)
+- I love to [New Zealand](location)
+- I would like to study abroad in [Cambodia](location)
+- I wanna study in [UK](location:England)
+- I want to study abroad in [Venezuela](location)
+- I wanna [Venezuela](location)
+- I want to [Croatia](location)
+- I love to study abroad in [East Timor](location)
+- I love to study abroad in [Tanzania](location)
+- I fancy study in [Barbados](location)
+- I fancy study abroad in [Andorra](location)
+- In [Kuwait](location) if possible
+- I wanna study in [Algeria](location)
+- I want to [Libya](location)
+- I would like to study abroad in [Britain](location:England)
+- I love to study in [Cuba](location)
+- I want to [Laos](location)
+- I would like to study in [Namibia](location)
+- I love to study in [South Africa](location)
+- I would like to study abroad in [Zambia](location)
+- I love to study abroad in [Pakistan](location)
+- I fancy study abroad in [Libya](location)
+- [Andorra](location) please
+- I prefer study abroad in [Jordan](location)
+- In [Norway](location) if possible
+- [Japan](location)
+- [Nauru](location) please
+- I wanna study abroad in [Bangladesh](location)
+- I prefer [Uganda](location)
+- I wanna study abroad in [Lebanon](location)
+- I prefer study in [Philippines](location)
+- I prefer study abroad in [Marshall Islands](location)
+- I prefer [Sierra Leone](location)
+- I fancy [Oman](location)
+- I love to study in [Belize](location)
+- I fancy study abroad in [Ethiopia](location)
+- [Peru](location)
+- I wanna study in [Senegal](location)
+- I want to study in [El Salvador](location)
+- I fancy [Kyrgyzstan](location)
+- I would like to study in [Sweden](location)
+- In [Zambia](location) if possible
+- I want to [Chile](location)
+- I wanna study abroad in [Azerbaijan](location)
+- I prefer study in [Seychelles](location)
+- I want to study abroad in [Kosovo](location)
+- I fancy study in [Germany](location)
+- I prefer [Saint Vincent & the Grenadines](location)
+- I would like to [United Arab Emirates](location)
+- I want to study abroad in [Azerbaijan](location)
+- I wanna [Brazil](location)
+- I love to study in [Norway](location)
+- I prefer [Sudan](location)
+- I wanna study abroad in [Laos](location)
+- I prefer study in [Syria](location)
+- I [do not know](location:unknown)
+- [Korea South](location) please
+- [Bulgaria](location) please
+- I would like to [Andorra](location)
+- I want to study abroad in [Serbia](location)
+- I love to study abroad in [Britain](location:England)
+- I wanna study in [Botswana](location)
+- I fancy study in [Cyprus](location)
+- I want to study abroad in [Pakistan](location)
+- I want to study in [Congo](location)
+- I love to [Palau](location)
+- [Turkmenistan](location) please
+- I love to study abroad in [Uzbekistan](location)
+- I prefer study abroad in [Peru](location)
+- I love to study in [Czech Republic](location)
+- I fancy study in [Iran](location)
+- [Marshall Islands](location)
+- I would like to [Tajikistan](location)
+- [Kosovo](location) please
+- I wanna study abroad in [Tanzania](location)
+- I love to [United States of America](location:United States)
+- I prefer study in [Germany](location)
+- I would like to study in [Oman](location)
+- I wanna study in [Bahrain](location)
+- I prefer study in [Burundi](location)
+- I fancy study abroad in [Fiji](location)
+- I love to [United Arab Emirates](location)
+- I prefer study in [Gabon](location)
+- I want to study abroad in [Rwanda](location)
+- I want to [Serbia](location)
+- I want to study abroad in [Spain](location)
+- I prefer [Burkina](location)
+- I would like to study in [Singapore](location)
+- I wanna [Macedonia](location)
+- I want to study in [Slovenia](location)
+- I prefer [Canada](location)
+- In [Jordan](location) if possible
+- I would like to study in [Mongolia](location)
+- I fancy [Gambia](location)
+- I fancy [Antigua & Deps](location)
+- I would like to study in [Nicaragua](location)
+- I love to study in [Comoros](location)
+- I love to [Madagascar](location)
+- I prefer study in [Antigua & Deps](location)
+- [Somalia](location)
+- [Gambia](location) please
+- I wanna study in [Seychelles](location)
+- I wanna study abroad in [Sudan](location)
+- I would like to study in [Senegal](location)
+- In [Bahamas](location) if possible
+- I fancy study in [Latvia](location)
+- I prefer study abroad in [Haiti](location)
+- I would like to study in [Uganda](location)
+- I would like to [Austria](location)
+- I love to study in [Nepal](location)
+- I fancy study in [Trinidad & Tobago](location)
+- In [Serbia](location) if possible
+- I want to study in [Luxembourg](location)
+- I fancy study in [El Salvador](location)
+- I want to study abroad in [Barbados](location)
+- I wanna study abroad in [Kosovo](location)
+- I would like to [Marshall Islands](location)
+- I want to study in [Taiwan](location)
+- I want to study abroad in [Austria](location)
+- I love to study in [Liberia](location)
+- I would like to study abroad in [Kenya](location)
+- I prefer [Guinea](location)
+- I love to study abroad in [Canada](location)
+- [Liberia](location)
+- I wanna study in [Niger](location)
+- In [Belize](location) if possible
+- I would like to study in [Somalia](location)
+- I would like to study in [Vatican City](location)
+- I would like to study in [Sri Lanka](location)
+- I wanna study in [Tunisia](location)
+- I want to study abroad in [UK](location:England)
+- I wanna study in [Laos](location)
+- I would like to study abroad in [Belarus](location)
+- I want to study abroad in [Equatorial Guinea](location)
+- I would like to [Vatican City](location)
+- I wanna study abroad in [Madagascar](location)
+- [Philippines](location)
+- I wanna [Brunei](location)
+- I want to study in [Libya](location)
+- I wanna [Trinidad & Tobago](location)
+- I love to study in [Lebanon](location)
+- I would like to study abroad in [Indonesia](location)
+- I prefer study abroad in [Canada](location)
+- I would like to [Nicaragua](location)
+- I would like to study abroad in [USA](location:United States)
+- I fancy [India](location)
+- I wanna [Mongolia](location)
+- I want to study in [Burkina](location)
+- I would like to [South Africa](location)
+- I would like to [Poland](location)
+- I want to study abroad in [Greece](location)
+- I wanna study abroad in [Zimbabwe](location)
+- I prefer study in [Congo {Democratic Rep}](location)
+- I prefer study abroad in [Spain](location)
+- I want to study abroad in [Latvia](location)
+- I prefer study abroad in [St Lucia](location)
+- I want to study in [Senegal](location)
+- I wanna study in [Gabon](location)
+- [Kazakhstan](location) please
+- [Samoa](location) please
+- I want to study abroad in [Marshall Islands](location)
+- I wanna study abroad in [Estonia](location)
+- I love to study abroad in [Mongolia](location)
+- [Malta](location) please
+- I prefer study in [Slovakia](location)
+- I would like to study abroad in [India](location)
+- I fancy study in [St Kitts & Nevis](location)
+- I would like to [Ecuador](location)
+- I fancy study in [Mozambique](location)
+- In [Romania](location) if possible
+- I want to [Yemen](location)
+- I want to study abroad in [Tunisia](location)
+- I prefer study in [Namibia](location)
+- I would like to study abroad in [Saint Vincent & the Grenadines](location)
+- I fancy [United States](location)
+- I prefer study in [Czech Republic](location)
+- I wanna study abroad in [Monaco](location)
+- I wanna study abroad in [United States of America](location:United States)
+- I fancy study in [Belgium](location)
+- I fancy [Norway](location)
+- I want to [Micronesia](location)
+- I love to study abroad in [Costa Rica](location)
+- I would like to [Iceland](location)
+- I wanna study in [Liechtenstein](location)
+- I would like to [Greece](location)
+- I would like to study in [Austria](location)
+- I prefer study abroad in [United States of America](location:United States)
+- I would like to [Kuwait](location)
+- I would like to study in [Azerbaijan](location)
+- I wanna [St Kitts & Nevis](location)
+- In [Tanzania](location) if possible
+- I prefer study in [Australia](location)
+- I wanna study in [Netherlands](location)
+- In [Korea North](location) if possible
+- I prefer study abroad in [Yemen](location)
+- I wanna study in [Albania](location)
+- I fancy study abroad in [Japan](location)
+- I want to [Kosovo](location)
+- [Croatia](location)
+- I prefer study in [India](location)
+- I prefer study in [Equatorial Guinea](location)
+- I love to study abroad in [Croatia](location)
+- I want to [Afghanistan](location)
+- I fancy [Luxembourg](location)
+- I fancy [Saudi Arabia](location)
+- [Russian Federation](location)
+- I prefer study abroad in [Uganda](location)
+- I love to [Vanuatu](location)
+- [Yemen](location)
+- I prefer study in [Ireland {Republic}](location)
+- I love to study abroad in [Zambia](location)
+- I love to study abroad in [Libya](location)
+- I want to study abroad in [South Africa](location)
+- I love to [Korea North](location)
+- I want to [Liberia](location)
+- I want to study abroad in [Germany](location)
+- I wanna study abroad in [Somalia](location)
+- I want to [Sao Tome & Principe](location)
+- [Australia](location)
+- I prefer study abroad in [Portugal](location)
+- I would like to [Antigua & Deps](location)
+- I wanna [Serbia](location)
+- In [Equatorial Guinea](location) if possible
+- [Bosnia Herzegovina](location) please
+- [Uzbekistan](location)
+- I fancy [Somalia](location)
+- I love to study abroad in [Qatar](location)
+- I love to [Portugal](location)
+- I fancy [UK](location:England)
+- I would like to study in [Equatorial Guinea](location)
+- I fancy [Croatia](location)
+- I wanna study in [Estonia](location)
+- I love to [Argentina](location)
+- I would like to [Eritrea](location)
+- I want to study abroad in [Argentina](location)
+- I wanna study abroad in [Sweden](location)
+- I want to study abroad in [Vatican City](location)
+- I love to study in [Vatican City](location)
+- I love to study in [Austria](location)
+- I love to study in [Panama](location)
+- I prefer study abroad in [Cameroon](location)
+- I want to [Brunei](location)
+- [Trinidad & Tobago](location) please
+- I would like to study abroad in [Israel](location)
+- In [Slovakia](location) if possible
+- I wanna study abroad in [Mauritania](location)
+- In [Morocco](location) if possible
+- I want to [Bulgaria](location)
+- I fancy study abroad in [Guatemala](location)
+- I wanna study abroad in [Philippines](location)
+- I prefer [Nigeria](location)
+- I would like to study in [Qatar](location)
+- I love to study in [Netherlands](location)
+- [Venezuela](location)
+- I wanna study in [Finland](location)
+- I prefer study abroad in [Bhutan](location)
+- I love to [Myanmar, {Burma}](location)
+- I would like to study abroad in [Sierra Leone](location)
+- I prefer study abroad in [Dominica](location)
+- I would like to [Armenia](location)
+- [UK](location:England)
+- I wanna study abroad in [Tuvalu](location)
+- I want to study in [Guatemala](location)
+- I would like to [Sweden](location)
+- I prefer study abroad in [Ivory Coast](location)
+- [Burundi](location) please
+- I want to [Hungary](location)
+- [New Zealand](location) please
+- I wanna study in [Mauritius](location)
+- I wanna study abroad in [Solomon Islands](location)
+- I prefer study in [Uganda](location)
+- I love to study abroad in [Ivory Coast](location)
+- I want to study abroad in [Iran](location)
+- [Austria](location) please
+- I fancy study abroad in [Kazakhstan](location)
+- I would like to [Japan](location)
+- I love to [Seychelles](location)
+- I want to study in [Bosnia Herzegovina](location)
+- I prefer study abroad in [Ghana](location)
+- [Panama](location) please
+- I prefer study in [Mexico](location)
+- I wanna [Burundi](location)
+- I want to [Botswana](location)
+- I love to study abroad in [Cuba](location)
+- I wanna study abroad in [Cuba](location)
+- I fancy [East Timor](location)
+- I prefer study in [Somalia](location)
+- I want to study in [Maldives](location)
+- I fancy study abroad in [Britain](location:England)
+- I prefer study in [Luxembourg](location)
+- I want to study abroad in [Djibouti](location)
+- I prefer [Lebanon](location)
+- I would like to study abroad in [Jamaica](location)
+- I wanna [Honduras](location)
+- I love to [Angola](location)
+- I would like to study abroad in [Belgium](location)
+- I fancy study in [Yemen](location)
+- I fancy study in [Spain](location)
+- I would like to [Peru](location)
+- I wanna study abroad in [Czech Republic](location)
+- I love to study in [Chile](location)
+- I want to study abroad in [The States](location:United States)
+- I want to study in [Zimbabwe](location)
+- [Lesotho](location)
+- I want to study abroad in [Suriname](location)
+- I love to study abroad in [Cape Verde](location)
+- I fancy [Samoa](location)
+- In [Algeria](location) if possible
+- I love to study in [Turkmenistan](location)
+- I fancy study abroad in [Senegal](location)
+- I want to study in [Lesotho](location)
+- I would like to study abroad in [South Africa](location)
+- [Malaysia](location)
+- I fancy [Myanmar, {Burma}](location)
+- I want to study abroad in [Seychelles](location)
+- I love to study in [Central African Rep](location)
+- I love to study abroad in [Cameroon](location)
+- I prefer study abroad in [Mauritania](location)
+- I would like to study in [Madagascar](location)
+- I wanna study in [Australia](location)
+- I fancy study in [Belarus](location)
+- I wanna study in [South Africa](location)
+- I would like to study in [Chile](location)
+- I wanna study abroad in [Switzerland](location)
+- I wanna study abroad in [Malta](location)
+- In [Lesotho](location) if possible
+- I prefer [Madagascar](location)
+- I want to study in [Paraguay](location)
+- I wanna study in [Uganda](location)
+- [Antigua & Deps](location) please
+- I want to study abroad in [Palau](location)
+- I fancy study in [England](location)
+- I love to study in [Ghana](location)
+- I want to [The States](location:United States)
+- I wanna study abroad in [South Sudan](location)
+- I wanna [Dominica](location)
+- I prefer [Swaziland](location)
+- I fancy study in [Rwanda](location)
+- I fancy [Niger](location)
+- I want to study abroad in [Kazakhstan](location)
+- I wanna [Luxembourg](location)
+- I love to study in [Kiribati](location)
+- I prefer [Norway](location)
+- I want to [Mauritania](location)
+- I wanna study abroad in [Costa Rica](location)
+- In [Turkmenistan](location) if possible
+- I want to study abroad in [Namibia](location)
+- I love to study abroad in [Singapore](location)
+- [Pakistan](location)
+- I fancy [Dominican Republic](location)
+- I love to study abroad in [Chile](location)
+- I would like to study in [Iran](location)
+- I would like to study abroad in [Libya](location)
+- In [Namibia](location) if possible
+- [Honduras](location)
+- [USA](location:United States)
+- I want to study abroad in [Cameroon](location)
+- I fancy study abroad in [Argentina](location)
+- I want to study in [Syria](location)
+- I fancy study abroad in [Qatar](location)
+- I wanna study abroad in [Latvia](location)
+- I wanna [United Arab Emirates](location)
+- [Korea North](location) please
+- I fancy study in [Vanuatu](location)
+- [Thailand](location)
+- I prefer study in [United Kingdom](location:England)
+- I wanna [Fiji](location)
+- I want to study in [Tanzania](location)
+- I want to study abroad in [Chad](location)
+- I prefer [Macedonia](location)
+- I love to study abroad in [Guatemala](location)
+- I want to [Mozambique](location)
+- I want to study abroad in [Zimbabwe](location)
+- I prefer study in [Turkey](location)
+- [Turkey](location)
+- I want to study abroad in [Panama](location)
+- I love to study abroad in [Indonesia](location)
+- I want to [Costa Rica](location)
+- I fancy [Fiji](location)
+- I want to study in [Sudan](location)
+- I want to study abroad in [Tanzania](location)
+- I would like to study in [Jordan](location)
+- I want to [Korea North](location)
+- I want to study abroad in [East Timor](location)
+- In [Uzbekistan](location) if possible
+- [Colombia](location)
+- I want to study in [Iraq](location)
+- I love to [Nigeria](location)
+- I fancy [Namibia](location)
+- I prefer study abroad in [Germany](location)
+- I wanna [Tanzania](location)
+- [Tunisia](location) please
+- I wanna study abroad in [Georgia](location)
+- I wanna study abroad in [Nicaragua](location)
+- I would like to [India](location)
+- I wanna study abroad in [Russian Federation](location)
+- I fancy [Lebanon](location)
+- I fancy study in [Canada](location)
+- I love to [Brunei](location)
+- I wanna study in [Suriname](location)
+- I would like to [Serbia](location)
+- I prefer study abroad in [Slovakia](location)
+- I would like to study in [Laos](location)
+- I want to study abroad in [Kyrgyzstan](location)
+- I love to study in [Qatar](location)
+- [Mali](location)
+- I fancy study in [Peru](location)
+- I prefer study abroad in [Jamaica](location)
+- I fancy study in [United States of America](location:United States)
+- I fancy study abroad in [Ireland {Republic}](location)
+- I wanna study in [Iceland](location)
+- I fancy [Laos](location)
+- I love to study abroad in [Portugal](location)
+- I prefer study abroad in [Saint Vincent & the Grenadines](location)
+- I want to study abroad in [Britain](location:England)
+- I love to study abroad in [Kyrgyzstan](location)
+- I want to study abroad in [Sri Lanka](location)
+- I wanna [South Africa](location)
+- I want to study abroad in [Colombia](location)
+- I wanna [Uruguay](location)
+- I wanna study in [Mexico](location)
+- I would like to study in [Cape Verde](location)
+- I would like to study in [Belize](location)
+- I want to [United Arab Emirates](location)
+- [Qatar](location)
+- I wanna study in [Luxembourg](location)
+- I love to study abroad in [United States](location)
+- I would like to [Burkina](location)
+- I want to study abroad in [Afghanistan](location)
+- I love to study abroad in [Belarus](location)
+- [Ghana](location) please
+- I wanna study abroad in [Nauru](location)
+- I want to study abroad in [Mali](location)
+- I love to study in [Sri Lanka](location)
+- I want to study in [Sri Lanka](location)
+- I want to [Syria](location)
+- I want to study abroad in [Ireland {Republic}](location)
+- I fancy study abroad in [United Kingdom](location)
+- I love to study abroad in [Russian Federation](location)
+- I would like to study in [Bulgaria](location)
+- I wanna [Egypt](location)
+- I fancy [Senegal](location)
+- I prefer study in [Trinidad & Tobago](location)
+- I want to study in [Guinea](location)
+- I love to study abroad in [St Lucia](location)
+- I would like to [Uganda](location)
+- I want to study in [St Kitts & Nevis](location)
+- I prefer study in [Dominica](location)
+- I would like to [France](location)
+- I would like to [Malta](location)
+- I wanna [United States](location)
+- [Burundi](location)
+- I [don't know](location:unknown)
+- I want to [Sudan](location)
+- I fancy study abroad in [Russian Federation](location)
+- I fancy study abroad in [Sao Tome & Principe](location)
+- I wanna study abroad in [Botswana](location)
+- I wanna study in [Sudan](location)
+- I wanna study in [Maldives](location)
+- I want to study abroad in [Slovakia](location)
+- [Lithuania](location)
+- I wanna study abroad in [Vanuatu](location)
+- I prefer [Italy](location)
+- I wanna study in [Lesotho](location)
+- I prefer study abroad in [Bosnia Herzegovina](location)
+- I want to study in [Angola](location)
+- I prefer study in [USA](location:United States)
+- I would like to [Argentina](location)
+- I love to [Pakistan](location)
+- I prefer [Dominica](location)
+- I prefer study abroad in [Somalia](location)
+- I want to [UK](location:England)
+- I would like to [Saudi Arabia](location)
+- I want to study abroad in [France](location)
+- I prefer study abroad in [Cuba](location)
+- I prefer study abroad in [The States](location:United States)
+- I would like to study abroad in [China](location)
+- I would like to [Costa Rica](location)
+- [Ethiopia](location)
+- I fancy study in [Armenia](location)
+- I wanna study abroad in [Bahrain](location)
+- I love to [Venezuela](location)
+- I wanna [America](location:United States)
+- I prefer study abroad in [Austria](location)
+- I prefer study abroad in [Benin](location)
+- I fancy study in [Swaziland](location)
+- In [Sudan](location) if possible
+- I want to [Marshall Islands](location)
+- [Belarus](location)
+- I love to study abroad in [Austria](location)
+- [Cambodia](location)
+- I fancy [Ghana](location)
+- I wanna study abroad in [Norway](location)
+- I want to study abroad in [Netherlands](location)
+- I love to study in [Niger](location)
+- I want to [Korea South](location)
+- I would like to study abroad in [Switzerland](location)
+- I prefer [Singapore](location)
+- I fancy [Macedonia](location)
+- I prefer study abroad in [Finland](location)
+- I fancy [New Zealand](location)
+- I prefer study in [Uzbekistan](location)
+- In [Latvia](location) if possible
+- I fancy study abroad in [Israel](location)
+- I want to [Indonesia](location)
+- [Moldova](location)
+- I want to [Samoa](location)
+- I would like to [Iran](location)
+- [Togo](location)
+- I love to [China](location)
+- I would like to study abroad in [Vietnam](location)
+- I would like to study in [Korea South](location)
+- I wanna study abroad in [Austria](location)
+- I wanna study in [Madagascar](location)
+- I would like to study in [Switzerland](location)
+- I wanna study in [Venezuela](location)
+- I want to [Kazakhstan](location)
+- I love to study in [Bangladesh](location)
+- I love to study in [Lesotho](location)
+- I fancy study in [Brunei](location)
+- In [Cyprus](location) if possible
+- In [Lebanon](location) if possible
+- I love to study in [Italy](location)
+- I fancy study abroad in [Namibia](location)
+- I fancy study abroad in [Portugal](location)
+- I prefer study abroad in [Niger](location)
+- I want to study in [Macedonia](location)
+- I love to study abroad in [Yemen](location)
+- I would like to study abroad in [Finland](location)
+- I wanna study abroad in [Honduras](location)
+- I would like to study in [Uruguay](location)
+- In [Sweden](location) if possible
+- In [Djibouti](location) if possible
+- I prefer study in [Morocco](location)
+- I wanna study abroad in [Vatican City](location)
+- [Hungary](location)
+- I love to study abroad in [Bahamas](location)
+- I want to study in [Philippines](location)
+- In [Kiribati](location) if possible
+- [Peru](location) please
+- I wanna study in [Monaco](location)
+- I want to study abroad in [Georgia](location)
+- [Azerbaijan](location)
+- I fancy study abroad in [Maldives](location)
+- I would like to study in [Latvia](location)
+- I love to study abroad in [Mali](location)
+- I wanna study in [San Marino](location)
+- I want to study in [Korea South](location)
+- I prefer study abroad in [Mali](location)
+- I want to study abroad in [Botswana](location)
+- I want to study abroad in [Bangladesh](location)
+- I would like to study abroad in [Slovenia](location)
+- I fancy [Italy](location)
+- I love to study in [Moldova](location)
+- I wanna study in [Bangladesh](location)
+- I would like to [Togo](location)
+- I love to study abroad in [Hungary](location)
+- In [Kenya](location) if possible
+- I want to study in [Pakistan](location)
+- [Mauritius](location)
+- I wanna [Gabon](location)
+- I love to [Bhutan](location)
+- I want to [St Lucia](location)
+- I wanna study in [Haiti](location)
+- I would like to study in [Mali](location)
+- I love to study in [Laos](location)
+- I prefer study in [Nicaragua](location)
+- I prefer study abroad in [San Marino](location)
+- I love to [Jamaica](location)
+- I would like to study in [Congo {Democratic Rep}](location)
+- I wanna [Zambia](location)
+- I want to [Kiribati](location)
+- I love to study abroad in [Nepal](location)
+- I wanna [Morocco](location)
+- I wanna study in [Burkina](location)
+- I prefer [Czech Republic](location)
+- [Suriname](location) please
+- In [Lithuania](location) if possible
+- [Portugal](location)
+- [Germany](location) please
+- I want to study abroad in [Andorra](location)
+- I would like to [Hungary](location)
+- I want to study in [Equatorial Guinea](location)
+- [Kiribati](location)
+- I would like to [Sudan](location)
+- I want to study abroad in [America](location:United States)
+- I love to study in [Suriname](location)
+- I fancy study in [Switzerland](location)
+- I fancy study in [Guinea-Bissau](location)
+- I wanna [Cyprus](location)
+- I want to study in [Iran](location)
+- I prefer [Bulgaria](location)
+- I would like to [Micronesia](location)
+- I fancy [Sweden](location)
+- I would like to study in [Cuba](location)
+- I prefer [Russian Federation](location)
+- I wanna study abroad in [Albania](location)
+- I love to [Yemen](location)
+- I fancy study abroad in [Denmark](location)
+- I fancy study in [Equatorial Guinea](location)
+- I want to [Seychelles](location)
+- I wanna study in [Antigua & Deps](location)
+- I fancy study in [Azerbaijan](location)
+- I wanna study in [Uruguay](location)
+- I love to study in [Egypt](location)
+- I fancy [Equatorial Guinea](location)
+- I love to study abroad in [Central African Rep](location)
+- I want to [Italy](location)
+- I prefer study abroad in [Estonia](location)
+- I love to [Grenada](location)
+- I fancy study in [Serbia](location)
+- I prefer study in [Israel](location)
+- I wanna study in [Honduras](location)
+- I wanna study in [Myanmar, {Burma}](location)
+- I prefer [Suriname](location)
+- I love to [Luxembourg](location)
+- I prefer [Hungary](location)
+- I would like to [Cape Verde](location)
+- I prefer study in [Congo](location)
+- [Tonga](location)
+- I prefer study in [Swaziland](location)
+- I would like to study abroad in [Thailand](location)
+- [Madagascar](location)
+- I prefer study in [Guinea](location)
+- In [Tajikistan](location) if possible
+- [Ethiopia](location) please
+- I fancy [Malawi](location)
+- I want to study in [Antigua & Deps](location)
+- I want to [Mauritius](location)
+- I prefer study in [Latvia](location)
+- I want to study abroad in [Croatia](location)
+- [Ecuador](location)
+- I would like to study in [Mauritius](location)
+- I love to [Morocco](location)
+- I fancy study abroad in [Marshall Islands](location)
+- I love to study abroad in [America](location:United States)
+- In [Marshall Islands](location) if possible
+- I love to [Rwanda](location)
+- I prefer study abroad in [Ireland {Republic}](location)
+- I would like to study abroad in [Germany](location)
+- I fancy study in [Korea South](location)
+- I wanna [Myanmar, {Burma}](location)
+- I prefer [Liechtenstein](location)
+- [Austria](location)
+- I would like to [Pakistan](location)
+- I love to [Saint Vincent & the Grenadines](location)
+- I would like to study in [France](location)
+- I love to study abroad in [Rwanda](location)
+- I fancy study in [Guinea](location)
+- I want to study abroad in [Trinidad & Tobago](location)
+- I want to [Canada](location)
+- I would like to study abroad in [Palau](location)
+- I wanna study abroad in [Paraguay](location)
+- I prefer study in [Peru](location)
+- I would like to [Maldives](location)
+- I wanna study in [Switzerland](location)
+- I want to study in [Norway](location)
+- [Singapore](location) please
+- I prefer study in [Ecuador](location)
+- I wanna study in [Taiwan](location)
+- I would like to [Turkey](location)
+- I would like to [Philippines](location)
+- I prefer study abroad in [Panama](location)
+- I love to [USA](location:United States)
+- I fancy [Zambia](location)
+- I prefer [Syria](location)
+- I prefer study in [Albania](location)
+- I wanna [Panama](location)
+- I prefer study in [Chad](location)
+- [Algeria](location)
+- I fancy study abroad in [Peru](location)
+- I want to study in [Gambia](location)
+- I prefer [Trinidad & Tobago](location)
+- I love to [Malawi](location)
+- I prefer [Maldives](location)
+- I prefer [St Kitts & Nevis](location)
+- I love to study abroad in [Germany](location)
+- I want to study abroad in [Haiti](location)
+- I fancy [Ukraine](location)
+- I prefer study abroad in [Brazil](location)
+- I prefer [Iraq](location)
+- I would like to study abroad in [Belize](location)
+- I wanna [Chad](location)
+- [Saint Vincent & the Grenadines](location)
+- I fancy study in [Bosnia Herzegovina](location)
+- I prefer [Yemen](location)
+- I want to study in [Greece](location)
+- [Russian Federation](location) please
+- I would like to study abroad in [Spain](location)
+- I fancy study in [San Marino](location)
+- In [Monaco](location) if possible
+- I love to study abroad in [Ecuador](location)
+- I love to study in [Afghanistan](location)
+- I fancy [Morocco](location)
+- I fancy study abroad in [Korea South](location)
+- I want to study in [Oman](location)
+- I prefer [United States of America](location:United States)
+- I prefer [Myanmar, {Burma}](location)
+- I wanna study in [Tanzania](location)
+- I would like to study in [Liechtenstein](location)
+- I want to [Poland](location)
+- I fancy study abroad in [China](location)
+- I prefer [Belgium](location)
+- I fancy [USA](location:United States)
+- I want to study in [Grenada](location)
+- I prefer [Mauritania](location)
+- I want to [Philippines](location)
+- I prefer study in [Tunisia](location)
+- I want to study in [Papua New Guinea](location)
+- I want to study abroad in [Central African Rep](location)
+- I would like to [Nauru](location)
+- I want to study abroad in [Guatemala](location)
+- I wanna study abroad in [Malawi](location)
+- I want to study in [Lebanon](location)
+- I would like to study abroad in [Marshall Islands](location)
+- In [El Salvador](location) if possible
+- I love to study abroad in [Guinea](location)
+- I fancy study abroad in [Malawi](location)
+- I fancy [Barbados](location)
+- I prefer [Ukraine](location)
+- I wanna study in [Greece](location)
+- I want to [Bangladesh](location)
+- I would like to study abroad in [Malawi](location)
+- I prefer study in [Micronesia](location)
+- I wanna study in [Djibouti](location)
+- I would like to study in [Lebanon](location)
+- I prefer study abroad in [Oman](location)
+- I would like to study in [Paraguay](location)
+- I love to [Bolivia](location)
+- I want to study in [Marshall Islands](location)
+- I fancy study in [Bangladesh](location)
+- I love to [Uruguay](location)
+- I want to study abroad in [Liberia](location)
+- I prefer study abroad in [Burkina](location)
+- I prefer study in [Comoros](location)
+- I want to study abroad in [Korea North](location)
+- I would like to study in [Uzbekistan](location)
+- I prefer study in [Suriname](location)
+- I love to study in [Bulgaria](location)
+- I would like to study abroad in [Paraguay](location)
+- I fancy [Ireland {Republic}](location)
+- I would like to study abroad in [Bulgaria](location)
+- I prefer study abroad in [Guyana](location)
+- I would like to study in [Brazil](location)
+- [Azerbaijan](location) please
+- I love to [Samoa](location)
+- I prefer study in [Liechtenstein](location)
+- I would like to study in [Monaco](location)
+- I wanna study abroad in [Armenia](location)
+- I prefer study abroad in [Romania](location)
+- I would like to [England](location)
+- I prefer study in [Lesotho](location)
+- I love to study in [Malta](location)
+- I would like to [Chile](location)
+- I wanna study in [Turkey](location)
+- I would like to study abroad in [Vatican City](location)
+- I want to study in [Mauritius](location)
+- I wanna study abroad in [Mauritius](location)
+- [India](location) please
+- I love to study in [Iraq](location)
+- [Serbia](location) please
+- I love to study abroad in [Iraq](location)
+- I wanna [Bosnia Herzegovina](location)
+- I would like to study abroad in [Tuvalu](location)
+- I fancy study in [The States](location:United States)
+- I want to [Algeria](location)
+- In [Nepal](location) if possible
+- I wanna [Equatorial Guinea](location)
+- I fancy study abroad in [Nauru](location)
+- I would like to study in [Djibouti](location)
+- [Chile](location)
+- I love to study abroad in [Jamaica](location)
+- I love to study abroad in [Trinidad & Tobago](location)
+- I love to study abroad in [Dominica](location)
+- I fancy study abroad in [Sudan](location)
+- I fancy [Korea North](location)
+- I would like to study abroad in [Comoros](location)
+- I fancy study in [Macedonia](location)
+- I would like to study abroad in [Guyana](location)
+- I love to study abroad in [Bosnia Herzegovina](location)
+- I wanna study in [Uzbekistan](location)
+- I love to study abroad in [Comoros](location)
+- I fancy study abroad in [Taiwan](location)
+- I would like to study abroad in [Laos](location)
+- I love to study abroad in [Ireland {Republic}](location)
+- I wanna study abroad in [Guatemala](location)
+- I wanna study in [Japan](location)
+- I love to [Singapore](location)
+- [Georgia](location) please
+- [Guinea](location) please
+- I prefer [Mongolia](location)
+- I love to [Croatia](location)
+- I would like to study abroad in [United States](location)
+- I would like to study abroad in [Liberia](location)
+- I wanna study abroad in [Ghana](location)
+- I want to [Georgia](location)
+- I want to [Thailand](location)
+- I love to study in [Georgia](location)
+- I wanna study abroad in [Liechtenstein](location)
+- [Latvia](location)
+- I want to [Bahrain](location)
+- In [Iran](location) if possible
+- I wanna [Argentina](location)
+- I love to study in [Bahrain](location)
+- [Tajikistan](location)
+- I prefer [Croatia](location)
+- I would like to study in [Swaziland](location)
+- I want to study abroad in [China](location)
+- I fancy study in [Taiwan](location)
+- I would like to study abroad in [Pakistan](location)
+- I fancy [Austria](location)
+- [England](location)
+- I fancy [Dominica](location)
+- I would like to study abroad in [Suriname](location)
+- I fancy [Uruguay](location)
+- I love to study abroad in [USA](location:United States)
+- I fancy [Jordan](location)
+- I want to study abroad in [Estonia](location)
+- I wanna study in [Kiribati](location)
+- I love to study abroad in [Mozambique](location)
+- I want to study abroad in [Antigua & Deps](location)
+- I prefer study in [Eritrea](location)
+- I prefer study in [South Sudan](location)
+- I wanna study in [Belgium](location)
+- [Serbia](location)
+- [Nepal](location)
+- [Kiribati](location) please
+- I fancy [Philippines](location)
+- I prefer study in [Laos](location)
+- I want to study in [Colombia](location)
+- I fancy study abroad in [United Arab Emirates](location)
+- I want to study in [USA](location:United States)
+- I fancy study in [Togo](location)
+- I want to [Norway](location)
+- I would like to study in [India](location)
+- I prefer study in [Italy](location)
+- [Bangladesh](location) please
+- In [Guyana](location) if possible
+- I love to study abroad in [Burundi](location)
+- I wanna study in [Saudi Arabia](location)
+- I want to [Mexico](location)
+- I would like to study abroad in [Panama](location)
+- I fancy [Angola](location)
+- I would like to [Equatorial Guinea](location)
+- I love to [Sao Tome & Principe](location)
+- I fancy study in [Botswana](location)
+- I wanna study abroad in [Fiji](location)
+- I wanna study in [Congo {Democratic Rep}](location)
+- I wanna study abroad in [India](location)
+- I prefer study abroad in [Sri Lanka](location)
+- [East Timor](location)
+- I would like to study abroad in [France](location)
+- I would like to study in [Korea North](location)
+- I prefer [Kuwait](location)
+- I wanna [Guatemala](location)
+- I would like to study abroad in [Guatemala](location)
+- I would like to study in [Papua New Guinea](location)
+- [Botswana](location) please
+- I want to study abroad in [Belgium](location)
+- I would like to [Niger](location)
+- I prefer [Brazil](location)
+- I fancy [America](location:United States)
+- I prefer study abroad in [Korea North](location)
+- I wanna study abroad in [Tunisia](location)
+- I love to study abroad in [Philippines](location)
+- I want to study abroad in [Niger](location)
+- I would like to study abroad in [Dominica](location)
+- [Mongolia](location) please
+- I love to [Sierra Leone](location)
+- I fancy study abroad in [Bahrain](location)
+- I wanna study in [Saint Vincent & the Grenadines](location)
+- [Macedonia](location)
+- I love to study in [Singapore](location)
+- I fancy study in [Oman](location)
+- I wanna [Dominican Republic](location)
+- In [Colombia](location) if possible
+- I want to study in [Ivory Coast](location)
+- I fancy study in [Congo {Democratic Rep}](location)
+- I love to [Bulgaria](location)
+- I prefer study in [Nepal](location)
+- I would like to [Egypt](location)
+- [Qatar](location) please
+- I prefer study abroad in [Poland](location)
+- I love to [Kuwait](location)
+- I fancy [Kosovo](location)
+- In [Ivory Coast](location) if possible
+- I fancy study abroad in [San Marino](location)
+- I want to study in [Yemen](location)
+- I wanna study abroad in [Malaysia](location)
+- I prefer study abroad in [Liechtenstein](location)
+- I fancy study in [United States](location)
+- I want to study abroad in [Brazil](location)
+- I would like to study abroad in [Portugal](location)
+- I want to [Grenada](location)
+- [Pakistan](location) please
+- [Maldives](location) please
+- I would like to study abroad in [Yemen](location)
+- I prefer study in [Cuba](location)
+- I fancy [Liberia](location)
+- I would like to study in [Andorra](location)
+- I would like to study in [Cambodia](location)
+- I love to study in [UK](location:England)
+- I fancy study in [Lebanon](location)
+- I wanna study in [Kazakhstan](location)
+- I wanna [Bhutan](location)
+- I fancy study in [Montenegro](location)
+- I would like to study in [Mozambique](location)
+- I prefer study in [Tanzania](location)
+- I would like to [Montenegro](location)
+- I fancy study abroad in [Cape Verde](location)
+- I prefer [Congo {Democratic Rep}](location)
+- I want to study in [Belgium](location)
+- In [Turkey](location) if possible
+- I would like to study in [Zimbabwe](location)
+- I prefer study in [San Marino](location)
+- I love to study abroad in [Vatican City](location)
+- I love to study abroad in [Somalia](location)
+- I would like to study abroad in [Nepal](location)
+- I prefer [Senegal](location)
+- I fancy [Palau](location)
+- I fancy study in [Paraguay](location)
+- I wanna study in [Colombia](location)
+- I would like to study in [Mauritania](location)
+- [Denmark](location)
+- I want to study in [United Kingdom](location:England)
+- I love to study in [Swaziland](location)
+- I prefer study abroad in [United Kingdom](location)
+- I want to study in [Sao Tome & Principe](location)
+- I fancy [Czech Republic](location)
+- I want to [Portugal](location)
+- I wanna [Finland](location)
+- [Burkina](location) please
+- I want to study abroad in [Burundi](location)
+- I love to study abroad in [Suriname](location)
+- I would like to [Bahrain](location)
+- I wanna study abroad in [Egypt](location)
+- I fancy study in [Kazakhstan](location)
+- I wanna [Estonia](location)
+- I want to study in [Azerbaijan](location)
+- I wanna study in [Sao Tome & Principe](location)
+- I prefer study abroad in [Kuwait](location)
+- I prefer [Turkey](location)
+- I wanna study in [Malawi](location)
+- [Vatican City](location)
+- I would like to [Mongolia](location)
+- I fancy [Zimbabwe](location)
+- I love to study abroad in [Papua New Guinea](location)
+- I prefer study in [Tajikistan](location)
+- I love to [Oman](location)
+- I wanna [Guinea](location)
+- I want to study abroad in [Nauru](location)
+- I want to study abroad in [Australia](location)
+- I prefer [Armenia](location)
+- I love to study abroad in [Antigua & Deps](location)
+- I prefer study in [Monaco](location)
+- I want to study in [Somalia](location)
+- I wanna study in [Tuvalu](location)
+- I wanna [Tunisia](location)
+- In [Saint Vincent & the Grenadines](location) if possible
+- I love to [Uzbekistan](location)
+- I wanna [Switzerland](location)
+- I fancy [Yemen](location)
+- I prefer [Cameroon](location)
+- I prefer study in [Andorra](location)
+- I would like to [Turkmenistan](location)
+- I fancy [Belgium](location)
+- I would like to [Grenada](location)
+- [Monaco](location) please
+- I would like to study abroad in [Venezuela](location)
+- I fancy study abroad in [Zambia](location)
+- I want to [Guyana](location)
+- I would like to [USA](location:United States)
+- I love to study in [Mauritius](location)
+- In [Denmark](location) if possible
+- I fancy study abroad in [South Africa](location)
+- I would like to study in [Eritrea](location)
+- I wanna study in [Mauritania](location)
+- I fancy study abroad in [Saudi Arabia](location)
+- I wanna [Senegal](location)
+- I love to [Andorra](location)
+- I love to study in [Libya](location)
+- I fancy study abroad in [Albania](location)
+- I prefer study abroad in [New Zealand](location)
+- [Korea South](location)
+- I wanna study abroad in [Mongolia](location)
+- I fancy study in [Honduras](location)
+- I wanna study in [New Zealand](location)
+- I prefer study abroad in [Brunei](location)
+- I prefer [Zambia](location)
+- I prefer [Guatemala](location)
+- I fancy study abroad in [Italy](location)
+- I prefer study abroad in [Bulgaria](location)
+- [Benin](location)
+- I prefer study in [Austria](location)
+- In [Andorra](location) if possible
+- I wanna study abroad in [Andorra](location)
+- I would like to study abroad in [England](location)
+- I would like to [Madagascar](location)
+- I prefer study abroad in [Cambodia](location)
+- I love to study in [Barbados](location)
+- I prefer [East Timor](location)
+- I would like to [Finland](location)
+- I wanna study in [United Kingdom](location:England)
+- I wanna study in [Israel](location)
+- I prefer study in [El Salvador](location)
+- I fancy [Estonia](location)
+- I prefer study in [Ghana](location)
+- I wanna study abroad in [Niger](location)
+- I prefer study abroad in [Bangladesh](location)
+- I want to study abroad in [St Kitts & Nevis](location)
+- I would like to study in [Burkina](location)
+- I would like to study abroad in [Mozambique](location)
+- [Slovakia](location)
+- I wanna [Maldives](location)
+- I wanna study abroad in [Kazakhstan](location)
+- In [Dominican Republic](location) if possible
+- I fancy study in [Saint Vincent & the Grenadines](location)
+- I prefer study abroad in [Netherlands](location)
+- I would like to study in [Saint Vincent & the Grenadines](location)
+- I would like to study in [Zambia](location)
+- I fancy [Marshall Islands](location)
+- I want to [USA](location:United States)
+- I love to [Swaziland](location)
+- I fancy study abroad in [Malta](location)
+- I would like to study abroad in [Morocco](location)
+- I prefer study in [Britain](location:England)
+- I fancy study abroad in [Serbia](location)
+- I fancy [Malaysia](location)
+- I love to study abroad in [Turkey](location)
+- I prefer study in [Guinea-Bissau](location)
+- I fancy study abroad in [Barbados](location)
+- I love to study in [Iran](location)
+- I prefer [Paraguay](location)
+- I wanna [New Zealand](location)
+- I love to [Turkey](location)
+- I love to study abroad in [Poland](location)
+- [South Sudan](location)
+- I want to study in [Spain](location)
+- I prefer [Zimbabwe](location)
+- I fancy study in [Grenada](location)
+- I want to [Benin](location)
+- [Japan](location) please
+- I want to [Malaysia](location)
+- I fancy study in [Senegal](location)
+- I fancy study abroad in [Bangladesh](location)
+- I prefer [Montenegro](location)
+- I want to study abroad in [Burkina](location)
+- I wanna [Ethiopia](location)
+- I prefer [Samoa](location)
+- I would like to [China](location)
+- I wanna study in [Andorra](location)
+- I fancy [Kiribati](location)
+- In [Costa Rica](location) if possible
+- I prefer study in [Oman](location)
+- I love to study abroad in [Djibouti](location)
+- I want to [Latvia](location)
+- I wanna study abroad in [Zambia](location)
+- I wanna study in [Bhutan](location)
+- I love to study in [Antigua & Deps](location)
+- I fancy study abroad in [Benin](location)
+- I want to [Moldova](location)
+- I wanna [Netherlands](location)
+- I prefer [Jamaica](location)
+- I fancy [Vatican City](location)
+- I love to [Gabon](location)
+- In [Bahrain](location) if possible
+- I would like to study abroad in [Sweden](location)
+- I want to [Swaziland](location)
+- I want to study in [Togo](location)
+- [Equatorial Guinea](location) please
+- I prefer study in [Marshall Islands](location)
+- I would like to study abroad in [Lesotho](location)
+- I wanna study abroad in [Liberia](location)
+- I wanna study abroad in [Australia](location)
+- I would like to study abroad in [Jordan](location)
+- I would like to study in [Armenia](location)
+- I wanna [Libya](location)
+- I would like to study abroad in [Netherlands](location)
+- I prefer study abroad in [Morocco](location)
+- I wanna [St Lucia](location)
+- In [Singapore](location) if possible
+- I want to study in [Burundi](location)
+- I wanna [Korea North](location)
+- I love to [Dominican Republic](location)
+- I would like to [Lithuania](location)
+- I fancy study abroad in [Myanmar, {Burma}](location)
+- I would like to study abroad in [Ireland {Republic}](location)
+- [Myanmar, {Burma}](location)
+- I want to [Uruguay](location)
+- I would like to [Tonga](location)
+- I want to study abroad in [United Arab Emirates](location)
+- I love to study in [Russian Federation](location)
+- I love to study in [Luxembourg](location)
+- I fancy study abroad in [Turkey](location)
+- I want to study in [Czech Republic](location)
+- I love to [Guyana](location)
+- [Congo](location) please
+- I wanna [Palau](location)
+- I fancy study abroad in [Vatican City](location)
+- I would like to study in [Bhutan](location)
+- I wanna study in [Congo](location)
+- I prefer study abroad in [Tuvalu](location)
+- I fancy study abroad in [Norway](location)
+- I wanna study in [Bahamas](location)
+- I would like to study in [Antigua & Deps](location)
+- I prefer study in [Panama](location)
+- I fancy study in [Lesotho](location)
+- I love to [Albania](location)
+- I fancy study abroad in [Singapore](location)
+- I love to study abroad in [China](location)
+- I would like to [Congo {Democratic Rep}](location)
+- I love to study in [Micronesia](location)
+- I fancy study abroad in [Vietnam](location)
+- [Luxembourg](location) please
+- I prefer study abroad in [Iraq](location)
+- I would like to study in [Kosovo](location)
+- [Congo](location)
+- I want to study abroad in [Honduras](location)
+- I wanna [Bahamas](location)
+- I prefer study abroad in [Trinidad & Tobago](location)
+- I love to study in [Algeria](location)
+- I love to study in [Belarus](location)
+- I fancy study in [Liberia](location)
+- I want to study abroad in [United States](location)
+- I love to study abroad in [Bhutan](location)
+- I want to [Turkey](location)
+- I fancy study abroad in [Kiribati](location)
+- I prefer [Uzbekistan](location)
+- I fancy [Suriname](location)
+- I prefer [Lithuania](location)
+- I wanna study abroad in [United Arab Emirates](location)
+- [Estonia](location)
+- In [England](location) if possible
+- I want to study in [Cameroon](location)
+- I want to [Tajikistan](location)
+- I love to [Denmark](location)
+- I fancy [Sao Tome & Principe](location)
+- I fancy [Cyprus](location)
+- I prefer study in [Bosnia Herzegovina](location)
+- I wanna [Iraq](location)
+- I fancy study in [Sierra Leone](location)
+- I wanna [Malta](location)
+- I fancy study abroad in [Bolivia](location)
+- I prefer [Monaco](location)
+- In [Benin](location) if possible
+- I would like to study abroad in [Rwanda](location)
+- I wanna study in [Kyrgyzstan](location)
+- I want to [Sweden](location)
+- [Sierra Leone](location) please
+- I prefer study abroad in [Zambia](location)
+- [Micronesia](location) please
+- I love to study abroad in [Angola](location)
+- I want to study abroad in [Mongolia](location)
+- In [Hungary](location) if possible
+- I fancy study in [Samoa](location)
+- In [Chad](location) if possible
+- I would like to study abroad in [Cyprus](location)
+- I wanna study in [Ireland {Republic}](location)
+- I fancy study abroad in [Bosnia Herzegovina](location)
+- I love to study abroad in [Maldives](location)
+- I love to study in [India](location)
+- I fancy study abroad in [England](location)
+- I wanna [San Marino](location)
+- I love to study abroad in [Micronesia](location)
+- I fancy [Mozambique](location)
+- I fancy study abroad in [Tanzania](location)
+- I love to study abroad in [The States](location:United States)
+- I would like to [Paraguay](location)
+- I want to study in [East Timor](location)
+- I prefer study in [Botswana](location)
+- I love to study abroad in [Romania](location)
+- I want to study abroad in [United Kingdom](location)
+- [Australia](location) please
+- I wanna study abroad in [United States](location)
+- I want to [Kyrgyzstan](location)
+- I fancy study in [Cuba](location)
+- I love to [Malta](location)
+- [San Marino](location) please
+- I love to [Bangladesh](location)
+- I wanna study abroad in [Trinidad & Tobago](location)
+- I fancy study in [Hungary](location)
+- I want to study in [Sierra Leone](location)
+- I prefer study abroad in [Italy](location)
+- I would like to study abroad in [Bangladesh](location)
+- I want to [Madagascar](location)
+- I fancy study abroad in [Netherlands](location)
+- I would like to study abroad in [Turkmenistan](location)
+- I prefer [Papua New Guinea](location)
+- I want to study in [Panama](location)
+- I love to study in [Nigeria](location)
+- I wanna study in [Mongolia](location)
+- I prefer study in [Myanmar, {Burma}](location)
+- I want to [Peru](location)
+- I would like to study abroad in [Sri Lanka](location)
+- I would like to study abroad in [Andorra](location)
+- I wanna study in [Sri Lanka](location)
+- I fancy [Uzbekistan](location)
+- I would like to study abroad in [Dominican Republic](location)
+- I fancy [Cameroon](location)
+- I wanna study abroad in [Britain](location:England)
+- [Italy](location) please
+- I fancy [Saint Vincent & the Grenadines](location)
+- In [Croatia](location) if possible
+- I wanna study in [Canada](location)
+- I wanna [Ukraine](location)
+- I wanna study abroad in [St Lucia](location)
+- I would like to study abroad in [Kiribati](location)
+- I fancy study in [Iraq](location)
+- I love to [Estonia](location)
+- I wanna study in [Singapore](location)
+- I fancy study in [Sri Lanka](location)
+- I would like to study abroad in [Saudi Arabia](location)
+- I want to [Andorra](location)
+- I would like to [Belarus](location)
+- I prefer study abroad in [Antigua & Deps](location)
+- I wanna study abroad in [Saint Vincent & the Grenadines](location)
+- [Israel](location)
+- I would like to study in [Luxembourg](location)
+- I wanna [Nicaragua](location)
+- I love to study in [The States](location:United States)
+- I prefer study in [Jordan](location)
+- I would like to study abroad in [Iraq](location)
+- I fancy [Guyana](location)
+- I prefer [Central African Rep](location)
+- I love to [Iraq](location)
+- I love to [Solomon Islands](location)
+- I would like to [Brazil](location)
+- I wanna study in [Rwanda](location)
+- I would like to study in [United Kingdom](location)
+- I would like to study in [Malaysia](location)
+- I love to study in [Paraguay](location)
+- I want to study in [Bulgaria](location)
+- I love to study in [Peru](location)
+- I fancy [Vanuatu](location)
+- I would like to [Uruguay](location)
+- I want to [Ethiopia](location)
+- I would like to [El Salvador](location)
+- I fancy study abroad in [Romania](location)
+- I love to [Zambia](location)
+- I would like to study in [Malta](location)
+- I fancy study in [Cape Verde](location)
+- [Mexico](location) please
+- I wanna [Djibouti](location)
+- I want to [Armenia](location)
+- I would like to study in [Australia](location)
+- I wanna [Samoa](location)
+- I love to study abroad in [Burkina](location)
+- I want to study abroad in [Ethiopia](location)
+- [Nigeria](location)
+- I love to study abroad in [Liechtenstein](location)
+- I fancy study in [Niger](location)
+- In [Nigeria](location) if possible
+- I prefer study in [Turkmenistan](location)
+- I want to [Myanmar, {Burma}](location)
+- I prefer study in [Mongolia](location)
+- I love to [Ethiopia](location)
+- I prefer study in [Bahrain](location)
+- In [Spain](location) if possible
+- [Israel](location) please
+- I love to study abroad in [Argentina](location)
+- [Slovenia](location)
+- I wanna [Comoros](location)
+- I wanna study abroad in [Iceland](location)
+- I want to [Tonga](location)
+- I want to study abroad in [Mexico](location)
+- I would like to [Gambia](location)
+- In [Burundi](location) if possible
+- I love to [Brazil](location)
+- In [Poland](location) if possible
+- I wanna study in [Peru](location)
+- I love to [Comoros](location)
+- I prefer [Estonia](location)
+- I love to [Iran](location)
+- I love to study in [Kyrgyzstan](location)
+- I fancy study abroad in [Cuba](location)
+- I love to study abroad in [Gambia](location)
+- I love to [Ireland {Republic}](location)
+- I wanna study abroad in [Bosnia Herzegovina](location)
+- I wanna [Bahrain](location)
+- I prefer [Liberia](location)
+- I would like to [Bangladesh](location)
+- I love to study abroad in [Marshall Islands](location)
+- I love to study abroad in [Albania](location)
+- I fancy [Monaco](location)
+- I want to [Namibia](location)
+- In [Qatar](location) if possible
+- [Ivory Coast](location)
+- I love to [Dominica](location)
+- I love to study abroad in [Saudi Arabia](location)
+- I prefer study abroad in [Azerbaijan](location)
+- I fancy study in [Benin](location)
+- I fancy study abroad in [Rwanda](location)
+- I prefer [Colombia](location)
+- I prefer study abroad in [Kiribati](location)
+- I prefer study abroad in [Lebanon](location)
+- I wanna study abroad in [Tonga](location)
+- I love to [Azerbaijan](location)
+- I wanna [Bulgaria](location)
+- I prefer study abroad in [Maldives](location)
+- I want to study abroad in [Ivory Coast](location)
+- I wanna study abroad in [Rwanda](location)
+- I love to [Cyprus](location)
+- I prefer [Tuvalu](location)
+- I love to study abroad in [Taiwan](location)
+- I love to study abroad in [Lesotho](location)
+- I prefer [Gabon](location)
+- I prefer [Bahrain](location)
+- I prefer study in [Cyprus](location)
+- I would like to study abroad in [Russian Federation](location)
+- I want to study abroad in [Samoa](location)
+- [Luxembourg](location)
+- I fancy [Costa Rica](location)
+- I prefer [Austria](location)
+- I fancy study abroad in [Madagascar](location)
+- I want to study in [Albania](location)
+- I prefer study in [Taiwan](location)
+- I love to [Qatar](location)
+- I prefer [Argentina](location)
+- I would like to study abroad in [Austria](location)
+- I would like to study abroad in [Swaziland](location)
+- I love to [Hungary](location)
+- I wanna study abroad in [Namibia](location)
+- I want to study abroad in [Sierra Leone](location)
+- I prefer [Cape Verde](location)
+- I love to study abroad in [Oman](location)
+- I fancy study in [Mali](location)
+- I prefer study in [Mali](location)
+- I prefer [Grenada](location)
+- I fancy study abroad in [United States](location)
+- I love to study in [South Sudan](location)
+- I would like to study abroad in [Brazil](location)
+- I want to study abroad in [Kuwait](location)
+- I prefer [Bhutan](location)
+- I fancy study abroad in [Iceland](location)
+- I would like to [Lebanon](location)
+- I prefer study abroad in [Argentina](location)
+- I want to study abroad in [Switzerland](location)
+- [Ivory Coast](location) please
+- [Uganda](location) please
+- I fancy [Kuwait](location)
+- [Paraguay](location) please
+- I want to study abroad in [Canada](location)
+- I would like to study abroad in [Czech Republic](location)
+- I wanna [East Timor](location)
+- I would like to [Bosnia Herzegovina](location)
+- I would like to study in [Turkey](location)
+- I love to study abroad in [Samoa](location)
+- I want to study in [Germany](location)
+- I fancy study in [Suriname](location)
+- I fancy study abroad in [Lesotho](location)
+- I fancy study in [France](location)
+- I wanna [Peru](location)
+- In [Sierra Leone](location) if possible
+- I wanna study in [Yemen](location)
+- I prefer study abroad in [Bahamas](location)
+- I love to study in [Jordan](location)
+- I prefer [UK](location:England)
+- [Papua New Guinea](location)
+- I would like to study in [Finland](location)
+- [Albania](location)
+- I want to [Barbados](location)
+- I love to [Tuvalu](location)
+- I want to [San Marino](location)
+- I fancy study in [Singapore](location)
+- I want to [Luxembourg](location)
+- [Liberia](location) please
+- [The States](location:United States) please
+- [Ireland {Republic}](location)
+- I prefer [Guyana](location)
+- I fancy study abroad in [Saint Vincent & the Grenadines](location)
+- I wanna [Albania](location)
+- I fancy study in [St Lucia](location)
+- [Gambia](location)
+- I want to study in [Iceland](location)
+- I love to study abroad in [Thailand](location)
+- I would like to study in [Brunei](location)
+- I want to study in [Georgia](location)
+- I wanna study abroad in [Haiti](location)
+- I want to study abroad in [Micronesia](location)
+- I wanna [Sierra Leone](location)
+- I want to [Somalia](location)
+- I fancy [Paraguay](location)
+- I fancy [Mauritius](location)
+- I would like to [Benin](location)
+- I fancy study in [Tonga](location)
+- I would like to study in [Dominican Republic](location)
+- I fancy study in [Bhutan](location)
+- I want to study in [Morocco](location)
+- I prefer study abroad in [Chad](location)
+- I fancy study abroad in [Kuwait](location)
+- I love to study in [Montenegro](location)
+- I want to [Bolivia](location)
+- I want to study in [Nauru](location)
+- I prefer study abroad in [Britain](location:England)
+- I want to study in [Liberia](location)
+- In [Papua New Guinea](location) if possible
+- I prefer [Georgia](location)
+- [United States](location) please
+- [Spain](location)
+- I fancy [Tunisia](location)
+- [Poland](location) please
+- [Turkey](location) please
+- [Lebanon](location)
+- I fancy [Trinidad & Tobago](location)
+- I wanna [Cape Verde](location)
+- I love to study abroad in [Togo](location)
+- I would like to [Ireland {Republic}](location)
+- [Benin](location) please
+- [Comoros](location) please
+- I love to study in [Uzbekistan](location)
+- I wanna [France](location)
+- I would like to study in [Libya](location)
+- I wanna [Canada](location)
+- I prefer [South Sudan](location)
+- I prefer [Malawi](location)
+- I would like to study in [Micronesia](location)
+- I would like to study in [Peru](location)
+- I would like to [Suriname](location)
+- I prefer study abroad in [Pakistan](location)
+- I would like to study abroad in [United Arab Emirates](location)
+- I wanna study in [Ethiopia](location)
+- I fancy study abroad in [Uzbekistan](location)
+- I wanna [Belgium](location)
+- I fancy study in [Panama](location)
+- I prefer study abroad in [Nicaragua](location)
+- I would like to study in [Slovenia](location)
+- I prefer [Iceland](location)
+- I would like to study in [Tunisia](location)
+- I want to [Sri Lanka](location)
+- I prefer study abroad in [Georgia](location)
+- I fancy study in [Cambodia](location)
+- I wanna [United States of America](location:United States)
+- I prefer study abroad in [Philippines](location)
+- I love to [Czech Republic](location)
+- I fancy study in [Ukraine](location)
+- I wanna study in [Macedonia](location)
+- I want to study in [Denmark](location)
+- I want to [Dominica](location)
+- [Barbados](location) please
+- I prefer study abroad in [Seychelles](location)
+- I want to study abroad in [Tonga](location)
+- [Sri Lanka](location)
+- I would like to [Myanmar, {Burma}](location)
+- I want to study abroad in [Fiji](location)
+- I love to study in [Korea North](location)
+- I would like to study abroad in [Congo](location)
+- I wanna study abroad in [New Zealand](location)
+- I prefer study in [Sudan](location)
+- I fancy [United Arab Emirates](location)
+- I wanna study abroad in [Samoa](location)
+- I want to study in [Fiji](location)
+- I wanna study in [Austria](location)
+- I prefer study abroad in [Palau](location)
+- I love to study abroad in [Palau](location)
+- I love to study abroad in [Eritrea](location)
+- I love to study in [Thailand](location)
+- I would like to study abroad in [Estonia](location)
+- I prefer study in [Romania](location)
+- I fancy study abroad in [Equatorial Guinea](location)
+- I want to study abroad in [Kenya](location)
+- I fancy study in [Bulgaria](location)
+- I love to study abroad in [Brazil](location)
+- I wanna study abroad in [Burundi](location)
+- I would like to study abroad in [Argentina](location)
+- I love to [East Timor](location)
+- I prefer [Romania](location)
+- I wanna study in [Zambia](location)
+- I want to [Vanuatu](location)
+- I would like to [St Lucia](location)
+- I love to study in [United States](location)
+- I wanna [Lebanon](location)
+- I fancy study in [United Arab Emirates](location)
+- I wanna study abroad in [Sao Tome & Principe](location)
+- I fancy study abroad in [Afghanistan](location)
+- I wanna study abroad in [Belarus](location)
+- I fancy [Korea South](location)
+- I wanna study in [England](location)
+- I wanna [Ecuador](location)
+- I prefer study abroad in [Burundi](location)
+- I love to [Kyrgyzstan](location)
+- I would like to study abroad in [Niger](location)
+- I wanna study abroad in [Korea North](location)
+- I wanna study in [Norway](location)
+- I want to study in [Estonia](location)
+- I fancy [Papua New Guinea](location)
+- [Kenya](location)
+- I love to [Syria](location)
+- In [Saudi Arabia](location) if possible
+- I fancy [Slovenia](location)
+- I want to [Paraguay](location)
+- I want to [Japan](location)
+- I want to study in [Madagascar](location)
+- I wanna [Mali](location)
+- I fancy study abroad in [Guinea](location)
+- I want to [Iraq](location)
+- [Andorra](location)
+- I would like to [Cameroon](location)
+- I wanna study in [Samoa](location)
+- I fancy study in [Micronesia](location)
+- [Togo](location) please
+- In [Germany](location) if possible
+- I fancy study in [Malaysia](location)
+- I prefer study abroad in [Dominican Republic](location)
+- I prefer study in [Jamaica](location)
+- I fancy study in [Tanzania](location)
+- I wanna study abroad in [Chile](location)
+- I prefer [Korea South](location)
+- [Bahrain](location) please
+- I fancy study in [Ethiopia](location)
+- [Latvia](location) please
+- I fancy study abroad in [Nicaragua](location)
+- I would like to study abroad in [Uzbekistan](location)
+- I prefer study abroad in [Uruguay](location)
+- I would like to study in [Sao Tome & Principe](location)
+- I wanna [China](location)
+- I fancy [Venezuela](location)
+- I would like to study in [Guinea](location)
+- I prefer [Vietnam](location)
+- I fancy study abroad in [Samoa](location)
+- I love to [Vatican City](location)
+- I would like to study in [England](location)
+- I love to study in [Vanuatu](location)
+- I fancy [Comoros](location)
+- In [Haiti](location) if possible
+- I wanna [Italy](location)
+- I fancy study abroad in [Slovakia](location)
+- I fancy study abroad in [India](location)
+- I fancy study in [Morocco](location)
+- I fancy study in [Marshall Islands](location)
+- I wanna [Sudan](location)
+- I love to study abroad in [Venezuela](location)
+- I wanna [Mauritania](location)
+- I love to study abroad in [Serbia](location)
+- I wanna study abroad in [Croatia](location)
+- I love to [Latvia](location)
+- I would like to study abroad in [Romania](location)
+- I prefer [Belarus](location)
+- I love to study abroad in [Norway](location)
+- I love to study in [Spain](location)
+- I wanna study in [Nigeria](location)
+- In [Zimbabwe](location) if possible
+- I prefer study in [Sweden](location)
+- In [Ethiopia](location) if possible
+- I would like to [Jamaica](location)
+- In [Cambodia](location) if possible
+- I prefer [Andorra](location)
+- I would like to study in [Comoros](location)
+- I wanna [Tonga](location)
+- I fancy study abroad in [Mongolia](location)
+- I would like to study abroad in [Zimbabwe](location)
+- I want to [Honduras](location)
+- I would like to study in [East Timor](location)
+- I prefer study in [Finland](location)
+- I would like to study abroad in [Eritrea](location)
+- I wanna study abroad in [Burkina](location)
+- I would like to study in [Lesotho](location)
+- [Algeria](location) please
+- I fancy [Singapore](location)
+- I fancy study abroad in [Lithuania](location)
+- I prefer study in [Madagascar](location)
+- I wanna study abroad in [Congo {Democratic Rep}](location)
+- I fancy study abroad in [Central African Rep](location)
+- I wanna study in [Nicaragua](location)
+- I prefer study in [Hungary](location)
+- I fancy [St Kitts & Nevis](location)
+- I wanna study in [Cuba](location)
+- I want to [Chad](location)
+- I would like to study abroad in [Philippines](location)
+- I prefer study in [Kenya](location)
+- I would like to [Belize](location)
+- I wanna study abroad in [Kuwait](location)
+- I wanna [Mozambique](location)
+- I wanna [Germany](location)
+- I love to study abroad in [South Africa](location)
+- I love to [Laos](location)
+- [Belize](location)
+- I prefer [America](location:United States)
+- I want to study in [Chad](location)
+- I fancy study in [Mongolia](location)
+- I would like to study in [Venezuela](location)
+- I prefer study abroad in [Nepal](location)
+- I would like to study abroad in [Liechtenstein](location)
+- [Syria](location) please
+- [Britain](location:England)
+- I love to study abroad in [Afghanistan](location)
+- I prefer study in [Japan](location)
+- I love to study abroad in [Lithuania](location)
+- In [Austria](location) if possible
+- I prefer study in [Greece](location)
+- I would like to study in [Palau](location)
+- I love to study in [Slovakia](location)
+- I would like to [Switzerland](location)
+- I want to study abroad in [Liechtenstein](location)
+- I fancy study abroad in [St Lucia](location)
+- I prefer study abroad in [Kenya](location)
+- I want to study in [Turkmenistan](location)
+- I wanna study abroad in [Mali](location)
+- I prefer study abroad in [Monaco](location)
+- I love to study abroad in [New Zealand](location)
+- I prefer study abroad in [Slovenia](location)
+- I wanna study abroad in [Bhutan](location)
+- I want to study in [Honduras](location)
+- [Maldives](location)
+- I would like to study in [Iraq](location)
+- I fancy study in [Gambia](location)
+- [Marshall Islands](location) please
+- [Georgia](location)
+- I want to study in [Djibouti](location)
+- In [Nicaragua](location) if possible
+- I fancy [Brazil](location)
+- In [Trinidad & Tobago](location) if possible
+- [Thailand](location) please
+- [Czech Republic](location) please
+- I would like to [The States](location:United States)
+- In [Tunisia](location) if possible
+- I wanna study in [Tajikistan](location)
+- In [Maldives](location) if possible
+- I want to study abroad in [Zambia](location)
+- [Equatorial Guinea](location)
+- I want to [Cambodia](location)
+- I love to study in [Equatorial Guinea](location)
+- I fancy study abroad in [Niger](location)
+- I would like to study in [Russian Federation](location)
+- I want to study in [Romania](location)
+- In [Suriname](location) if possible
+- I wanna [Taiwan](location)
+- I wanna study abroad in [Vietnam](location)
+- I want to [Burundi](location)
+- I prefer study abroad in [Libya](location)
+- I prefer [Djibouti](location)
+- I prefer study abroad in [Croatia](location)
+- I want to study in [Solomon Islands](location)
+- I wanna [Austria](location)
+- I want to study abroad in [Cuba](location)
+- I wanna study abroad in [Papua New Guinea](location)
+- I fancy study abroad in [Papua New Guinea](location)
+- I love to study in [Ethiopia](location)
+- [Greece](location) please
+- I wanna study in [Portugal](location)
+- I fancy study abroad in [Cameroon](location)
+- I love to study in [Yemen](location)
+- I prefer study abroad in [Kyrgyzstan](location)
+- I fancy study in [Netherlands](location)
+- I love to study in [Samoa](location)
+- [Cameroon](location) please
+- I would like to [Guatemala](location)
+- I love to [Botswana](location)
+- I wanna study in [Brazil](location)
+- [Switzerland](location) please
+- I love to study abroad in [Algeria](location)
+- I would like to study in [Japan](location)
+- I love to study in [Nauru](location)
+- I fancy [Chad](location)
+- In [Kosovo](location) if possible
+- I would like to [Lesotho](location)
+- I would like to [Panama](location)
+- I want to [Bhutan](location)
+- I want to [Jamaica](location)
+- I want to study in [Mali](location)
+- I want to study abroad in [Papua New Guinea](location)
+- I wanna study in [Czech Republic](location)
+- I want to study in [Korea North](location)
+- [El Salvador](location) please
+- [Slovenia](location) please
+- [Saint Vincent & the Grenadines](location) please
+- I prefer study in [Georgia](location)
+- I love to study abroad in [Tajikistan](location)
+- I prefer study in [Niger](location)
+- I love to study in [Finland](location)
+- I fancy study abroad in [Palau](location)
+- I fancy [St Lucia](location)
+- I want to study abroad in [Monaco](location)
+- I prefer study abroad in [Russian Federation](location)
+- I prefer study abroad in [Suriname](location)
+- I love to [Guinea](location)
+- I prefer study abroad in [Mexico](location)
+- [America](location:United States) please
+- I love to study abroad in [Panama](location)
+- I fancy study in [Norway](location)
+- I prefer study abroad in [Algeria](location)
+- I fancy [Netherlands](location)
+- I would like to study in [Czech Republic](location)
+- I prefer [Kiribati](location)
+- I would like to study in [Chad](location)
+- In [The States](location:United States) if possible
+- I would like to study abroad in [St Kitts & Nevis](location)
+- I fancy study in [Ireland {Republic}](location)
+- I fancy [Latvia](location)
+- I would like to study in [Romania](location)
+- I prefer [Mali](location)
+- I would like to [Portugal](location)
+- I wanna [Suriname](location)
+- I want to study abroad in [Congo](location)
+- In [Ecuador](location) if possible
+- I wanna study in [Bulgaria](location)
+- I would like to [Luxembourg](location)
+- I love to study in [Burkina](location)
+- I love to study in [Uganda](location)
+- I would like to study abroad in [Taiwan](location)
+- I prefer study abroad in [France](location)
+- I fancy [The States](location:United States)
+- I love to study in [Sudan](location)
+- I would like to study in [Bolivia](location)
+- In [Tonga](location) if possible
+- [Cape Verde](location) please
+- I would like to [Seychelles](location)
+- [Gabon](location) please
+- I wanna [Cuba](location)
+- I fancy study in [Bahrain](location)
+- I wanna study in [Italy](location)
+- I love to [Sri Lanka](location)
+- I prefer study in [Kyrgyzstan](location)
+- I wanna [Colombia](location)
+- I prefer [Ireland {Republic}](location)
+- I love to [UK](location:England)
+- I would like to study abroad in [Togo](location)
+- I fancy study abroad in [Angola](location)
+- I prefer study in [Singapore](location)
+- In [Liberia](location) if possible
+- I want to study abroad in [Bahrain](location)
+- I want to study abroad in [Oman](location)
+- I love to study abroad in [Switzerland](location)
+- I want to [Maldives](location)
+- I want to study abroad in [Iraq](location)
+- I would like to study in [El Salvador](location)
+- I wanna [Sweden](location)
+- I prefer study abroad in [Central African Rep](location)
+- I wanna study in [Denmark](location)
+- [Italy](location)
+- I want to study in [Barbados](location)
+- I want to study abroad in [India](location)
+- I want to [Bahamas](location)
+- I wanna [Rwanda](location)
+- [Germany](location)
+- I wanna study abroad in [East Timor](location)
+- I prefer study in [Burkina](location)
+- I would like to [Swaziland](location)
+- [Papua New Guinea](location) please
+- I wanna study in [Cameroon](location)
+- [Congo {Democratic Rep}](location)
+- I want to study in [India](location)
+- I prefer study abroad in [Iran](location)
+- I fancy [Nepal](location)
+- [Vanuatu](location) please
+- I want to study abroad in [Portugal](location)
+- I want to study in [Switzerland](location)
+- I want to [Comoros](location)
+- I fancy [Indonesia](location)
+- I wanna study abroad in [Mexico](location)
+- In [Taiwan](location) if possible
+- [Malaysia](location) please
+- I prefer study in [United States of America](location:United States)
+- [Mauritius](location) please
+- I would like to [Botswana](location)
+- I love to [Sudan](location)
+- I fancy [Central African Rep](location)
+- I would like to [Indonesia](location)
+- I love to [Barbados](location)
+- I prefer study in [Vatican City](location)
+- [Saudi Arabia](location) please
+- I love to [Kiribati](location)
+- I want to [Lesotho](location)
+- I love to study in [Korea South](location)
+- I wanna study in [Korea South](location)
+- I would like to study in [Nauru](location)
+- I wanna study in [Vietnam](location)
+- [Guyana](location)
+- I fancy study abroad in [Congo {Democratic Rep}](location)
+- In [Moldova](location) if possible
+- [Romania](location)
+- I love to [Colombia](location)
+- I wanna study in [East Timor](location)
+- I wanna [Angola](location)
+- I prefer [Finland](location)
+- I fancy study in [Nigeria](location)
+- I wanna study abroad in [Brunei](location)
+- I prefer [Albania](location)
+- I prefer study abroad in [Mauritius](location)
+- I fancy study abroad in [Ivory Coast](location)
+- I want to study abroad in [Swaziland](location)
+- I prefer [Ghana](location)
+- I want to study in [United Arab Emirates](location)
+- I prefer study in [Uruguay](location)
+- I fancy study in [UK](location:England)
+- I love to [Canada](location)
+- I want to study in [Netherlands](location)
+- I wanna [Czech Republic](location)
+- I fancy [Burundi](location)
+- I want to study in [Qatar](location)
+- I wanna study in [Eritrea](location)
+- I fancy study in [Kosovo](location)
+- I prefer study abroad in [Nigeria](location)
+- I fancy [Mexico](location)
+- I prefer study in [Samoa](location)
+- I love to study abroad in [Uganda](location)
+- I wanna study abroad in [Syria](location)
+- I love to study in [Poland](location)
+- I want to [Czech Republic](location)
+- I fancy study abroad in [Dominican Republic](location)
+- I love to study in [Tanzania](location)
+- I love to study in [Kazakhstan](location)
+- I wanna [Kenya](location)
+- I want to study in [United States](location)
+- I would like to study abroad in [Mexico](location)
+- In [Portugal](location) if possible
+- I want to [Tanzania](location)
+- I want to [Morocco](location)
+- I wanna study abroad in [Kyrgyzstan](location)
+- I wanna [Uganda](location)
+- [Nicaragua](location) please
+- I fancy study in [Nauru](location)
+- I want to [Papua New Guinea](location)
+- [Central African Rep](location)
+- I love to [Eritrea](location)
+- I would like to study in [China](location)
+- I love to [Georgia](location)
+- I wanna study abroad in [Turkey](location)
+- I would like to study in [Greece](location)
+- [St Kitts & Nevis](location) please
+- I would like to study in [Hungary](location)
+- I would like to study abroad in [Italy](location)
+- I fancy study in [Costa Rica](location)
+- I wanna study abroad in [Cape Verde](location)
+- I love to study in [Cameroon](location)
+- I want to study abroad in [Slovenia](location)
+- I wanna study in [Spain](location)
+- I want to study in [Kazakhstan](location)
+- I would like to study abroad in [Papua New Guinea](location)
+- I fancy study in [Comoros](location)
+- I fancy [Eritrea](location)
+- I prefer study in [Mozambique](location)
+- I love to study in [Eritrea](location)
+- I would like to study in [Ivory Coast](location)
+- I would like to study abroad in [Djibouti](location)
+- [Mozambique](location)
+- I would like to [Malaysia](location)
+- I wanna [El Salvador](location)
+- I wanna study abroad in [France](location)
+- I prefer study in [Serbia](location)
+- In [Slovenia](location) if possible
+- I wanna study abroad in [Comoros](location)
+- I love to study abroad in [Senegal](location)
+- I want to [Burkina](location)
+- I prefer [Vanuatu](location)
+- I prefer study abroad in [Bahrain](location)
+- I fancy study abroad in [Micronesia](location)
+- I prefer study abroad in [Vatican City](location)
+- In [Jamaica](location) if possible
+- I prefer study abroad in [Sudan](location)
+- I want to study in [Vatican City](location)
+- I prefer study abroad in [Sao Tome & Principe](location)
+- I would like to study in [Saudi Arabia](location)
+- I would like to [Mexico](location)
+- I prefer study in [Belgium](location)
+- I love to [Vietnam](location)
+- I love to [Honduras](location)
+- I want to [Gabon](location)
+- I would like to study in [America](location:United States)
+- I prefer study abroad in [Honduras](location)
+- I fancy [Albania](location)
+- In [Uganda](location) if possible
+- I prefer [Ivory Coast](location)
+- In [Samoa](location) if possible
+- I prefer [Iran](location)
+- I prefer study abroad in [El Salvador](location)
+- I wanna study abroad in [Serbia](location)
+- I love to study abroad in [Cyprus](location)
+- I wanna study abroad in [Senegal](location)
+- In [Swaziland](location) if possible
+- [Kazakhstan](location)
+- I wanna study in [Cyprus](location)
+- I prefer [St Lucia](location)
+- I fancy [Iran](location)
+- I fancy [France](location)
+- I would like to study abroad in [Croatia](location)
+- I love to study in [Cape Verde](location)
+- I love to [Taiwan](location)
+- In [Syria](location) if possible
+- I love to study in [Trinidad & Tobago](location)
+- I wanna study abroad in [Lithuania](location)
+- I would like to study in [South Sudan](location)
+- I love to study in [Jamaica](location)
+- I want to study in [Canada](location)
+- I would like to [Netherlands](location)
+- I fancy study abroad in [Iran](location)
+- I fancy study abroad in [Solomon Islands](location)
+- I wanna study abroad in [Barbados](location)
+- I prefer study in [England](location)
+- I love to [Afghanistan](location)
+- I wanna study in [Belize](location)
+- [Cameroon](location)
+- I want to study in [Argentina](location)
+- [USA](location:United States) please
+- I fancy study in [Turkmenistan](location)
+- I love to study in [America](location:United States)
+- I wanna study in [Paraguay](location)
+- I would like to [Central African Rep](location)
+- I love to [Sweden](location)
+- I fancy study in [China](location)
+- I would like to study abroad in [Uruguay](location)
+- I wanna study in [Kuwait](location)
+- I would like to study in [Italy](location)
+- I wanna study abroad in [Eritrea](location)
+- I prefer study in [Saint Vincent & the Grenadines](location)
+- I would like to [Italy](location)
+- I prefer study abroad in [Tunisia](location)
+- I want to [Tunisia](location)
+- [Laos](location) please
+- I want to study abroad in [Finland](location)
+- I love to study abroad in [Grenada](location)
+- I wanna study in [Azerbaijan](location)
+- I love to [Korea South](location)
+- I would like to [Bhutan](location)
+- I would like to [Tuvalu](location)
+- [Cuba](location) please
+- I love to study abroad in [Solomon Islands](location)
+- I want to [Equatorial Guinea](location)
+- [Brazil](location) please
+- I prefer study abroad in [Japan](location)
+- I prefer study abroad in [Madagascar](location)
+- I would like to [Tunisia](location)
+- I prefer study abroad in [Liberia](location)
+- I prefer [Jordan](location)
+- I would like to study abroad in [Mauritius](location)
+- [Brazil](location)
+- I fancy study abroad in [Egypt](location)
+- I prefer study in [Central African Rep](location)
+- [Cambodia](location) please
+- I wanna [Montenegro](location)
+- I love to study in [USA](location:United States)
+- I love to study in [Tuvalu](location)
+- I would like to [Barbados](location)
+- I fancy [Panama](location)
+- I wanna study abroad in [Equatorial Guinea](location)
+- I would like to [San Marino](location)
+- I prefer [Nauru](location)
+- I wanna [Nauru](location)
+- I want to study in [South Sudan](location)
+- I wanna study abroad in [Jamaica](location)
+- I love to [Tanzania](location)
+- I love to study in [Morocco](location)
+- [Eritrea](location)
+- I wanna study abroad in [Chad](location)
+- I fancy [Bahrain](location)
+- I love to study in [Seychelles](location)
+- I prefer study abroad in [Gambia](location)
+- I fancy [Moldova](location)
+- I love to study in [Botswana](location)
+- [Spain](location) please
+- [America](location:United States)
+- I wanna study in [Grenada](location)
+- I love to study in [St Lucia](location)
+- I prefer study abroad in [America](location:United States)
+- [Norway](location)
+- I fancy study abroad in [Chad](location)
+- I love to study abroad in [Vietnam](location)
+- I prefer study in [Iceland](location)
+- I prefer study in [France](location)
+- In [Australia](location) if possible
+- In [East Timor](location) if possible
+- I prefer study in [Fiji](location)
+- I fancy study abroad in [Georgia](location)
+- I wanna study abroad in [Nepal](location)
+- I wanna study in [United Arab Emirates](location)
+- I prefer study abroad in [Norway](location)
+- I fancy study in [Namibia](location)
+- I love to study in [United Kingdom](location:England)
+- I would like to [Estonia](location)
+- I love to [Tunisia](location)
+- I fancy study abroad in [Ghana](location)
+- [Guatemala](location) please
+- In [Palau](location) if possible
+- I want to study in [Hungary](location)
+- I would like to study abroad in [Equatorial Guinea](location)
+- I prefer [Turkmenistan](location)
+- I love to study in [Mexico](location)
+- I fancy study in [Iceland](location)
+- I want to study in [Costa Rica](location)
+- I fancy [Bosnia Herzegovina](location)
+- I fancy study in [Haiti](location)
+- [Mongolia](location)
+- I would like to [Korea North](location)
+- I want to study abroad in [Israel](location)
+- I fancy [Peru](location)
+- I fancy [Israel](location)
+- [Indonesia](location) please
+- I would like to study in [Thailand](location)
+- [Seychelles](location)
+- I prefer study abroad in [Comoros](location)
+- I love to [Armenia](location)
+- I prefer [Israel](location)
+- I would like to study abroad in [Monaco](location)
+- I prefer study abroad in [UK](location:England)
+- I want to study in [Saudi Arabia](location)
+- In [Iraq](location) if possible
+- I love to study in [Germany](location)
+- I want to study in [Algeria](location)
+- I want to study abroad in [Myanmar, {Burma}](location)
+- I wanna study in [Cape Verde](location)
+- [Vietnam](location) please
+- I wanna study in [Ivory Coast](location)
+- I want to study abroad in [Dominica](location)
+- [Cyprus](location)
+- I love to study in [Turkey](location)
+- I would like to study in [Ukraine](location)
+- I love to study in [Fiji](location)
+- I would like to study abroad in [Grenada](location)
+- I would like to study abroad in [East Timor](location)
+- I would like to study in [Montenegro](location)
+- I fancy [Libya](location)
+- I love to [Antigua & Deps](location)
+- I wanna study in [Kosovo](location)
+- I wanna [Thailand](location)
+- [Rwanda](location)
+- I fancy study in [Moldova](location)
+- I would like to study abroad in [Kuwait](location)
+- I would like to study abroad in [Korea South](location)
+- I would like to study abroad in [Gabon](location)
+- I want to [Trinidad & Tobago](location)
+- [Canada](location)
+- I would like to study abroad in [Georgia](location)
+- I love to [Libya](location)
+- I wanna study abroad in [Luxembourg](location)
+- I wanna study abroad in [Micronesia](location)
+- I would like to [Burundi](location)
+- In [India](location) if possible
+- I love to study in [Congo {Democratic Rep}](location)
+- I love to study abroad in [Gabon](location)
+- I wanna [Kazakhstan](location)
+- I prefer study in [Haiti](location)
+- I would like to [Haiti](location)
+- I want to study in [Myanmar, {Burma}](location)
+- [Bangladesh](location)
+- I want to study abroad in [Macedonia](location)
+- I want to study abroad in [Nepal](location)
+- I wanna study abroad in [Angola](location)
+- I want to study in [The States](location:United States)
+- I would like to [Mauritania](location)
+- I would like to study in [United States](location)
+- I fancy [Argentina](location)
+- I love to study in [Denmark](location)
+- I wanna study abroad in [Pakistan](location)
+- I prefer study in [Armenia](location)
+- I wanna study abroad in [Indonesia](location)
+- I want to study in [Malta](location)
+- I fancy study abroad in [Greece](location)
+- I want to study abroad in [Albania](location)
+- I want to study in [Australia](location)
+- I want to [Britain](location:England)
+- In [South Sudan](location) if possible
+- I prefer [Chile](location)
+- [Cuba](location)
+- I wanna study in [Lebanon](location)
+- I love to [Russian Federation](location)
+- [Ireland {Republic}](location) please
+- I would like to study in [Turkmenistan](location)
+- I love to [France](location)
+- [Central African Rep](location) please
+- I love to study abroad in [Macedonia](location)
+- [Palau](location)
+- I want to study abroad in [Lebanon](location)
+- I prefer study in [Malaysia](location)
+- I want to [Azerbaijan](location)
+- [Turkmenistan](location)
+- I prefer [Panama](location)
+- I prefer study in [China](location)
+- I fancy study in [Myanmar, {Burma}](location)
+- I love to study in [Brunei](location)
+- I love to study abroad in [Kuwait](location)
+- I love to [Bahamas](location)
+- I prefer [Tajikistan](location)
+- I want to study abroad in [Gambia](location)
+- I would like to study in [Kiribati](location)
+- I would like to [Tanzania](location)
+- I prefer study in [Mauritania](location)
+- I fancy study abroad in [Estonia](location)
+- I want to study in [Botswana](location)
+- I would like to study abroad in [Afghanistan](location)
+- I would like to study in [Nepal](location)
+- I fancy study abroad in [Gabon](location)
+- I would like to study abroad in [Bosnia Herzegovina](location)
+- I love to study abroad in [Malaysia](location)
+- I would like to [Gabon](location)
+- I prefer [Niger](location)
+- I love to [Micronesia](location)
+- I prefer study abroad in [St Kitts & Nevis](location)
+- I want to study in [Uganda](location)
+- I would like to study in [Dominica](location)
+- I prefer study in [Saudi Arabia](location)
+- I prefer study in [Venezuela](location)
+- I prefer [Serbia](location)
+- I want to [Ireland {Republic}](location)
+- I prefer study in [America](location:United States)
+- I love to study in [Latvia](location)
+- I would like to study in [Colombia](location)
+- I prefer study abroad in [Barbados](location)
+- I would like to [Zambia](location)
+- [Ukraine](location)
+- I prefer study abroad in [Guatemala](location)
+- I prefer [Micronesia](location)
+- In [Estonia](location) if possible
+- I prefer [Denmark](location)
+- I wanna [Saudi Arabia](location)
+- I would like to study abroad in [New Zealand](location)
+- I love to [United States](location)
+- I wanna study abroad in [Germany](location)
+- I fancy study abroad in [Morocco](location)
+- I would like to study in [Macedonia](location)
+- I wanna [Qatar](location)
+- I fancy study in [Kyrgyzstan](location)
+- [Grenada](location) please
+- I love to study in [Haiti](location)
+- I prefer study in [Costa Rica](location)
+- I fancy study in [Kuwait](location)
+- I fancy study abroad in [Guinea-Bissau](location)
+- I would like to [Kyrgyzstan](location)
+- I would like to study in [Fiji](location)
+- I fancy [Haiti](location)
+- I love to study in [Costa Rica](location)
+- I fancy study in [Eritrea](location)
+- In [Vanuatu](location) if possible
+- I fancy study in [Malta](location)
+- I want to study in [China](location)
+- I would like to [Ghana](location)
+- In [Egypt](location) if possible
+- I fancy [Turkmenistan](location)
+- I would like to study in [Bahrain](location)
+- I wanna study abroad in [Cambodia](location)
+- I would like to study abroad in [Cameroon](location)
+- I would like to study abroad in [Guinea-Bissau](location)
+- I wanna study abroad in [Ethiopia](location)
+- I wanna [Sri Lanka](location)
+- I would like to study abroad in [Kyrgyzstan](location)
+- I want to study abroad in [Armenia](location)
+- I wanna study in [Egypt](location)
+- I would like to [Denmark](location)
+- I love to [America](location:United States)
+- I wanna study abroad in [Belgium](location)
+- I prefer [Morocco](location)
+- I would like to [Latvia](location)
+- I wanna [Moldova](location)
+- I love to [Mozambique](location)
+- I would like to [Nigeria](location)
+- I wanna [Denmark](location)
+- I prefer study abroad in [Solomon Islands](location)
+- I wanna study abroad in [Iran](location)
+- I prefer study in [Papua New Guinea](location)
+- I fancy study in [Kenya](location)
+- I fancy study abroad in [Canada](location)
+- [Cape Verde](location)
+- I want to study in [Lithuania](location)
+- I would like to study abroad in [Burundi](location)
+- I prefer study in [Egypt](location)
+- I would like to study in [Vanuatu](location)
+- I prefer study abroad in [Singapore](location)
+- I would like to study abroad in [Macedonia](location)
+- I prefer study abroad in [Papua New Guinea](location)
+- I love to study in [Marshall Islands](location)
+- I love to [Netherlands](location)
+- I love to [Iceland](location)
+- I wanna [Paraguay](location)
+- I prefer [Philippines](location)
+- I would like to study in [Botswana](location)
+- In [Brunei](location) if possible
+- I fancy study in [Liechtenstein](location)
+- I love to study in [Cambodia](location)
+- I love to study abroad in [Tonga](location)
+- I wanna [Philippines](location)
+- I wanna [India](location)
+- I want to study abroad in [Thailand](location)
+- I fancy study abroad in [Paraguay](location)
+- I love to study in [Mali](location)
+- [UK](location:England) please
+- [Montenegro](location) please
+- I would like to study in [Israel](location)
+- I love to study in [Vietnam](location)
+- [Senegal](location)
+- [Botswana](location)
+- I wanna study abroad in [United Kingdom](location)
+- I prefer [Brunei](location)
+- I love to study abroad in [Sierra Leone](location)
+- I would like to study in [Guyana](location)
+- I prefer study abroad in [Samoa](location)
+- I would like to study abroad in [Poland](location)
+- I wanna study abroad in [Iraq](location)
+- I prefer study abroad in [Macedonia](location)
+- I love to [Somalia](location)
+- I prefer study in [Liberia](location)
+- In [UK](location:England) if possible
+- In [Botswana](location) if possible
+- I fancy study abroad in [Monaco](location)
+- I want to [Estonia](location)
+- [Uganda](location)
+- I wanna study abroad in [Grenada](location)
+- I fancy study in [United Kingdom](location:England)
+- I fancy study abroad in [Slovenia](location)
+- [Indonesia](location)
+- I want to study in [Bangladesh](location)
+- In [Canada](location) if possible
+- I would like to [Korea South](location)
+- I fancy study abroad in [Comoros](location)
+- I want to study in [Vietnam](location)
+- I fancy study abroad in [Burkina](location)
+- I would like to [Israel](location)
+- I love to [India](location)
+- I wanna study abroad in [Gambia](location)
+- I fancy [Germany](location)
+- I would like to [Sri Lanka](location)
+- I want to study in [Guinea-Bissau](location)
+- I fancy [Gabon](location)
+- I prefer [Oman](location)
+- I would like to [Palau](location)
+- [Barbados](location)
+- I want to [Angola](location)
+- I wanna [Grenada](location)
+- In [Pakistan](location) if possible
+- I fancy study abroad in [France](location)
+- I prefer study in [United States](location)
+- I fancy study abroad in [Eritrea](location)
+- I wanna study in [Moldova](location)
+- [Slovakia](location) please
+- I wanna [Kuwait](location)
+- I would like to [Monaco](location)
+- I fancy study in [Ivory Coast](location)
+- I love to study abroad in [Latvia](location)
+- I wanna study in [Trinidad & Tobago](location)
+- I fancy study abroad in [Nepal](location)
+- I love to study in [Portugal](location)
+- I want to study abroad in [Nicaragua](location)
+- I fancy study in [Ecuador](location)
+- I love to [Kazakhstan](location)
+- In [St Lucia](location) if possible
+- I want to [Montenegro](location)
+- I prefer [Barbados](location)
+- I would like to [Macedonia](location)
+- I love to study in [Britain](location:England)
+- [Singapore](location)
+- I love to [Maldives](location)
+- I love to [Mongolia](location)
+- I wanna study abroad in [Antigua & Deps](location)
+- I would like to study abroad in [St Lucia](location)
+- I would like to study abroad in [Luxembourg](location)
+- I fancy [Australia](location)
+- I would like to [Papua New Guinea](location)
+- I would like to [Dominican Republic](location)
+- I want to study in [Niger](location)
+- I prefer [Eritrea](location)
+- I prefer study abroad in [Congo](location)
+- I love to [Algeria](location)
+- [Nigeria](location) please
+- I fancy study abroad in [Mozambique](location)
+- [Haiti](location)
+- I prefer [Kosovo](location)
+- I wanna study in [Vatican City](location)
+- I would like to [Vanuatu](location)
+- I prefer study abroad in [Thailand](location)
+- I wanna [Tuvalu](location)
+- I would like to study abroad in [Bhutan](location)
+- I would like to [Russian Federation](location)
+- I prefer [Namibia](location)
+- I love to study abroad in [Dominican Republic](location)
+- I would like to study abroad in [El Salvador](location)
+- I wanna [Kosovo](location)
+- I want to study abroad in [Brunei](location)
+- I prefer [United Kingdom](location)
+- I wanna study in [Nauru](location)
+- I want to [Greece](location)
+- I would like to study abroad in [Congo {Democratic Rep}](location)
+- I would like to study in [Slovakia](location)
+- [Mauritania](location)
+- I want to [Saudi Arabia](location)
+- I prefer [Malta](location)
+- I fancy [Sierra Leone](location)
+- I wanna [Vatican City](location)
+- I would like to [Jordan](location)
+- I love to study in [Ireland {Republic}](location)
+- I would like to study abroad in [Samoa](location)
+- I love to study abroad in [Bahrain](location)
+- I want to study in [Venezuela](location)
+- In [Venezuela](location) if possible
+- I wanna study in [Slovenia](location)
+- I fancy study in [Jamaica](location)
+- I want to study abroad in [Madagascar](location)
+- I want to study in [Palau](location)
+- I love to study in [Croatia](location)
+- I wanna [Nepal](location)
+- I love to [Suriname](location)
+- I want to study abroad in [Bahamas](location)
+- I fancy [Canada](location)
+- I love to study abroad in [Sao Tome & Principe](location)
+- I fancy [Denmark](location)
+- I fancy study in [Algeria](location)
+- I fancy [Taiwan](location)
+- I love to [Cambodia](location)
+- In [Ukraine](location) if possible
+- I want to [Israel](location)
+- I love to [Moldova](location)
+- [Myanmar, {Burma}](location) please
+- I wanna [Malawi](location)
+- I want to study in [Singapore](location)
+- I would like to study in [Costa Rica](location)
+- I love to study abroad in [Netherlands](location)
+- I prefer [Qatar](location)
+- In [Britain](location:England) if possible
+- I love to study abroad in [Spain](location)
+- I want to [Vatican City](location)
+- I wanna [Swaziland](location)
+- I would like to [Albania](location)
+- I wanna [Portugal](location)
+- I wanna study abroad in [Peru](location)
+- [Zambia](location)
+- I want to study in [Croatia](location)
+- I would like to study abroad in [Nauru](location)
+- I would like to [Solomon Islands](location)
+- I want to study in [Malawi](location)
+- [Oman](location)
+- I wanna study in [Kenya](location)
+- I love to study abroad in [United Kingdom](location:England)
+- I wanna study in [Turkmenistan](location)
+- I wanna study abroad in [Uruguay](location)
+- I would like to [Ivory Coast](location)
+- I prefer study in [Malta](location)
+- I want to study abroad in [Libya](location)
+- I wanna study in [Libya](location)
+- I fancy study in [Dominican Republic](location)
+- I fancy study in [Monaco](location)
+- I want to [Colombia](location)
+- I fancy study abroad in [Austria](location)
+- I fancy [Malta](location)
+- I love to study in [Andorra](location)
+- I fancy study abroad in [Belize](location)
+- I fancy study in [Mexico](location)
+- [Iraq](location)
+- I fancy study in [Georgia](location)
+- I love to [Ukraine](location)
+- I wanna [Syria](location)
+- I prefer study abroad in [Cape Verde](location)
+- I fancy [Cambodia](location)
+- I prefer [Moldova](location)
+- I love to [Britain](location:England)
+- I would like to [Comoros](location)
+- [Guinea-Bissau](location) please
+- [East Timor](location) please
+- I love to study abroad in [Madagascar](location)
+- I fancy [Portugal](location)
+- I wanna study in [Solomon Islands](location)
+- I fancy [Romania](location)
+- I wanna [UK](location:England)
+- I love to [Serbia](location)
+- I love to study abroad in [Bulgaria](location)
+- I would like to [Mali](location)
+- I prefer study abroad in [Serbia](location)
+- I fancy study abroad in [United States of America](location:United States)
+- I prefer study abroad in [Switzerland](location)
+- [Finland](location) please
+- I prefer study abroad in [Guinea](location)
+- I prefer study in [Netherlands](location)
+- I fancy [Liechtenstein](location)
+- I wanna study in [Zimbabwe](location)
+- I fancy study in [Belize](location)
+- I want to [Lithuania](location)
+- I wanna study abroad in [Israel](location)
+- [Libya](location)
+- I prefer study in [Solomon Islands](location)
+- In [Niger](location) if possible
+- I prefer [Fiji](location)
+- I wanna [Norway](location)
+- I wanna study in [Pakistan](location)
+- I would like to [Samoa](location)
+- I fancy study in [Sweden](location)
+- In [Mozambique](location) if possible
+- I want to study abroad in [Philippines](location)
+- I prefer [United States](location)
+- [Dominican Republic](location) please
+- I want to [Ivory Coast](location)
+- [Laos](location)
+- I love to study in [Indonesia](location)
+- I fancy [Algeria](location)
+- I prefer study in [Sierra Leone](location)
+- I would like to [Thailand](location)
+- I fancy study in [Madagascar](location)
+- I fancy study abroad in [Bahamas](location)
+- I love to study in [Zambia](location)
+- I prefer study abroad in [Afghanistan](location)
+- In [Mauritius](location) if possible
+- I fancy study in [Chile](location)
+- I wanna study in [Indonesia](location)
+- [Ghana](location)
+- I love to study abroad in [Nauru](location)
+- I fancy study in [Chad](location)
+- I fancy [Sri Lanka](location)
+- I prefer [Switzerland](location)
+- I love to [Gambia](location)
+- [Netherlands](location)
+- I fancy study in [Antigua & Deps](location)
+- [Sao Tome & Principe](location) please
+- I fancy study in [Lithuania](location)
+- I prefer [China](location)
+- I wanna study in [Namibia](location)
+- [Dominica](location) please
+- I prefer study abroad in [Denmark](location)
+- I want to study in [Uruguay](location)
+- I love to study abroad in [El Salvador](location)
+- I would like to study abroad in [Malta](location)
+- [France](location) please
+- I want to study abroad in [Bolivia](location)
+- [Malawi](location)
+- I wanna [Poland](location)
+- I would like to study in [St Kitts & Nevis](location)
+- I want to study in [Canada](location:canada)
+- I want to study abroad in [Malaysia](location)
+- I wanna study in [Bosnia Herzegovina](location)
+- [Burkina](location)
+- I wanna [Spain](location)
+- I love to study in [Macedonia](location)
+- I love to study in [Chad](location)
+- I fancy study abroad in [Uruguay](location)
+- I want to [Denmark](location)
+- I fancy [Bulgaria](location)
+- I wanna [Antigua & Deps](location)
+- I prefer study in [Vietnam](location)
+- I fancy [Belize](location)
+- I would like to study abroad in [Syria](location)
+- I fancy [Honduras](location)
+- I fancy study in [Czech Republic](location)
+- I prefer study in [Moldova](location)
+- I love to study in [Djibouti](location)
+- I prefer [Haiti](location)
+- In [Liechtenstein](location) if possible
+- I fancy study abroad in [Belgium](location)
+- I love to [Belize](location)
+- I love to study in [Pakistan](location)
+- In [United Arab Emirates](location) if possible
+- I want to study abroad in [Bhutan](location)
+- I would like to study in [Seychelles](location)
+- I wanna study abroad in [El Salvador](location)
+- [Namibia](location) please
+- I wanna study abroad in [Palau](location)
+- I love to study abroad in [Denmark](location)
+- I wanna [Yemen](location)
+- [Hungary](location) please
+- I would like to [Ukraine](location)
+- I would like to study in [Georgia](location)
+- I fancy study abroad in [Suriname](location)
+- I fancy study abroad in [Ukraine](location)
+- I wanna study abroad in [Swaziland](location)
+- I love to study abroad in [Zimbabwe](location)
+- I want to [Sierra Leone](location)
+- I wanna [South Sudan](location)
+- I prefer study abroad in [Togo](location)
+- I prefer [Slovakia](location)
+- I love to [Kenya](location)
+- [Kenya](location) please
+- I wanna study abroad in [Panama](location)
+- I would like to study abroad in [South Sudan](location)
+- I fancy [Solomon Islands](location)
+- I prefer [Ecuador](location)
+- I want to study in [Thailand](location)
+- I prefer study abroad in [China](location)
+- In [Panama](location) if possible
+- I prefer [Germany](location)
+- I prefer study abroad in [Djibouti](location)
+- I fancy [Spain](location)
+- I would like to study in [Albania](location)
+- I love to study abroad in [Cambodia](location)
+- I prefer [Libya](location)
+- I love to study in [Namibia](location)
+- I would like to [Mozambique](location)
+- I prefer [Nepal](location)
+- [Montenegro](location)
+- I prefer study abroad in [Turkmenistan](location)
+- In [Belarus](location) if possible
+- I would like to study abroad in [Tanzania](location)
+- In [Tuvalu](location) if possible
+- I fancy [Ethiopia](location)
+- [Paraguay](location)
+- In [Georgia](location) if possible
+- I want to [Guinea-Bissau](location)
+- I wanna [Pakistan](location)
+- [Netherlands](location) please
+- I wanna study abroad in [China](location)
+- I prefer study in [Paraguay](location)
+- In [Brazil](location) if possible
+- I would like to study in [New Zealand](location)
+- I love to study abroad in [St Kitts & Nevis](location)
+- I fancy study abroad in [Czech Republic](location)
+- I prefer study abroad in [Qatar](location)
+- I would like to [Colombia](location)
+- I want to [Liechtenstein](location)
+- I want to study in [Brazil](location)
+- I would like to study abroad in [Sao Tome & Principe](location)
+- I love to study abroad in [England](location)
+- [Nepal](location) please
+- I would like to study in [Rwanda](location)
+- I prefer [England](location)
+- I want to study abroad in [Sweden](location)
+- In [Italy](location) if possible
+- I wanna study in [Liberia](location)
+- [Costa Rica](location)
+- I want to study in [Bahrain](location)
+- I love to study abroad in [Malta](location)
+- I want to study in [Finland](location)
+- I love to study abroad in [Israel](location)
+- I want to study in [Tonga](location)
+- I love to study abroad in [Iceland](location)
+- I prefer study abroad in [South Sudan](location)
+- In [Belgium](location) if possible
+- I would like to study abroad in [Gambia](location)
+- I fancy study in [Israel](location)
+- I love to study abroad in [Bolivia](location)
+- I fancy [Pakistan](location)
+- [Taiwan](location) please
+- I wanna [Cameroon](location)
+- I wanna study in [Barbados](location)
+- I prefer study in [Afghanistan](location)
+- I fancy study in [Zambia](location)
+- I want to study in [Jamaica](location)
+- I prefer [Burundi](location)
+- I prefer study in [Brazil](location)
+- I wanna study abroad in [Sri Lanka](location)
+- I want to study abroad in [Cyprus](location)
+- I fancy [England](location)
+- [Palau](location) please
+- I wanna [Ivory Coast](location)
+- I want to [Uganda](location)
+- I would like to study in [Ghana](location)
+- I would like to [Dominica](location)
+- I fancy study in [Burkina](location)
+- I prefer study in [Algeria](location)
+- I want to [Singapore](location)
+- I fancy study abroad in [Syria](location)
+- I love to [Cape Verde](location)
+- I want to study abroad in [Uzbekistan](location)
+- I would like to study abroad in [Ivory Coast](location)
+- [Chile](location) please
+- I love to study abroad in [Jordan](location)
+- I prefer [Latvia](location)
+- I fancy study abroad in [Liechtenstein](location)
+- I love to study abroad in [Laos](location)
+- I want to [Congo {Democratic Rep}](location)
+- I wanna [Oman](location)
+- I prefer study abroad in [Iceland](location)
+- I prefer study abroad in [Luxembourg](location)
+- I fancy [Tonga](location)
+- I prefer [Luxembourg](location)
+- I prefer [Somalia](location)
+- I would like to [Brunei](location)
+- I want to study abroad in [Sudan](location)
+- I wanna study abroad in [Venezuela](location)
+- I love to study abroad in [Korea South](location)
+- I want to study abroad in [Senegal](location)
+- I love to study abroad in [Finland](location)
+- I fancy study abroad in [Australia](location)
+- I prefer [New Zealand](location)
+- I wanna study in [Hungary](location)
+- I would like to study abroad in [UK](location:England)
+- [Bahamas](location)
+- I would like to [Kosovo](location)
+- [Macedonia](location) please
+- [Fiji](location) please
+- I fancy study in [Pakistan](location)
+- I wanna study abroad in [Dominican Republic](location)
+- I would like to study in [Sierra Leone](location)
+- I fancy study in [Korea North](location)
+- [Canada](location) please
+- [Kosovo](location)
+- I fancy study abroad in [Poland](location)
+- In [St Kitts & Nevis](location) if possible
+- I fancy study in [Albania](location)
+- I love to [Monaco](location)
+- [United States](location)
+- I want to study abroad in [Gabon](location)
+- In [Myanmar, {Burma}](location) if possible
+- I fancy [Tanzania](location)
+- I wanna study abroad in [Macedonia](location)
+- I would like to [United Kingdom](location)
+- I would like to [Bolivia](location)
+- I want to [Egypt](location)
+- I love to [Niger](location)
+
+## intent:inform_fee
+- between 12000 USD and 9000 USD
+- between $123041 and $12000
+- from 90.000 VietNam Dong to 123041 VND
+- between 100 to 200.000
+- from 90.000 USD to 123041 USD
+- from 12000 to 9,000 VietNam Dong
+- between 123041 VND and 10000 Dollar
+- between 9000 VietNam Dong and 9,000 Dollar
+- between 10000 Dollar and 12000 VietNam Dong
+- between 9000 VND and 9,000 VND
+- between 123041 and 12000 VietNam Dong
+- between 9,000 VND and 9000 VND
+- from 10.000 EURO to 9,000 VietNam Dong
+- from 10000 to 9,000 Dollar
+- between $9000 and €9,000
+- from 12000 EURO to 12000 EURO
+- from 10.000 EURO to 90.000 VietNam Dong
+- between 12000 EURO and 12000 EURO
+- from €12000 to €9,000
+- between 10000 USD and 12000 VietNam Dong
+- between 9,000 USD and 10000 VietNam Dong
+- from 10.000 Dollar to 10.000 EURO
+- from €90.000 to $10.000
+- between €12000 and €123041
+- between $10.000 and $9,000
+- between 9,000 EURO and 9,000 USD
+- from 10000 VietNam Dong to 12000 Dollar
+- between 10.000 EURO and 12000 USD
+- between 90.000 Dollar and 9000 USD
+- from 9000 Dollar to 10.000 USD
+- between 90.000 VietNam Dong and 90.000 VND
+- from 9,000 USD to 90.000 VND
+- from €10.000 to €90.000
+- from 9,000 VietNam Dong to 10000 VND
+- from 10.000 Dollar to 9,000 EURO
+- between 90.000 USD and 123041 Dollar
+- from 9000 VietNam Dong to 12000 USD
+- It's about 9000 VietNam Dong
+- from 123041 USD to 10.000 VietNam Dong
+- between €9,000 and €12000
+- no more than 10000 USD
+- between 9000 VND and 10000 EURO
+- from 9,000 Dollar to 10000 VND
+- from 90.000 to 12000 Dollar
+- from 123041 VietNam Dong to 10000 EURO
+- between 9,000 EURO and 9,000 EURO
+- between 9,000 and 12000 EURO
+- we plan with 250.000 euro for one year
+- from 12000 EURO to 12000 Dollar
+- between 10000 and 9,000 VietNam Dong
+- from 90.000 Dollar to 123041 VietNam Dong
+- we think 4 million INR/ year
+- between €123041 and $9,000
+- bout 4,000,000 INR
+- from 9,000 Dollar to 9,000 VietNam Dong
+- between 10.000 EURO and 123041 Dollar
+- between 9,000 Dollar and 123041 USD
+- between 9,000 VietNam Dong and 9,000 VietNam Dong
+- from 123041 VietNam Dong to 12000 Dollar
+- between 123041 USD and 9,000 Dollar
+- from 123041 USD to 12000 Dollar
+- between 9,000 EURO and 90.000 VietNam Dong
+- from 90.000 EURO to 10.000 VietNam Dong
+- from 9,000 VietNam Dong to 123041 VND
+- from 90.000 Dollar to 12000 Dollar
+- between 12000 Dollar and 90.000 VietNam Dong
+- from 9,000 Dollar to 123041 Dollar
+- I can only pay €90.000
+- between 9,000 VietNam Dong and 123041 VND
+- from 123041 VND to 123041 EURO
+- from €9,000 to €9,000
+- from 90.000 EURO to 123041 EURO
+- between 10.000 and 9,000 EURO
+- It's about 10000 VietNam Dong
+- between 123041 and 9,000 VND
+- between 10000 Dollar and 9,000 EURO
+- from 123041 to 9,000 VietNam Dong
+- from 9,000 EURO to 10.000 Dollar
+- between 10.000 EURO and 10.000 Dollar
+- from 9,000 VietNam Dong to 10000 USD
+- 150,000$/ year
+- about $10.000
+- between 10.000 VietNam Dong and 9000 Dollar
+- from 10000 VietNam Dong to 12000 VietNam Dong
+- from 12000 to 90.000 VND
+- from 9,000 USD to 10000 VietNam Dong
+- between 9,000 and 9,000 Dollar
+- 150,000 USD
+- from 10000 VietNam Dong to 10000 VND
+- from 123041 VND to 9,000 Dollar
+- lower than 90.000 EURO
+- 50,000,000 INR
+- between 9000 VND and 90.000 USD
+- no more than 123041 VND
+- from 10000 USD to 123041 VietNam Dong
+- from 9000 EURO to 9000 USD
+- between 9000 VietNam Dong and 10.000 VietNam Dong
+- between 9000 VietNam Dong and 10.000 EURO
+- from 9000 EURO to 90.000 VietNam Dong
+- from 9000 VietNam Dong to 9000 VND
+- from 10.000 Dollar to 90.000 USD
+- between 123041 and 9000 USD
+- from 90.000 VietNam Dong to 10.000 USD
+- lower than 10.000 USD
+- between 12000 VND and 9,000 VietNam Dong
+- between 123041 EURO and 123041 EURO
+- between 123041 and 90.000 VietNam Dong
+- between 10.000 and 123041 USD
+- around $500,000 per year
+- from 9,000 Dollar to 10000 EURO
+- from 90.000 Dollar to 10.000 EURO
+- between 10.000 Dollar and 10000 EURO
+- between 10000 VietNam Dong and 123041 USD
+- from 90.000 to 10000 VietNam Dong
+- from 9,000 to 9,000 USD
+- no more than €10.000
+- from 9000 Dollar to 10000 VietNam Dong
+- from 10000 Dollar to 9000 Dollar
+- from 10.000 to 9000 Dollar
+- from 10000 EURO to 10.000 USD
+- between 10.000 EURO and 9,000 VND
+- between 9,000 USD and 123041 USD
+- our estimation is 10k
+- from 9000 EURO to 9,000 Dollar
+- between 123041 VietNam Dong and 12000 USD
+- from 10000 VND to 123041 VND
+- from 10000 to 10.000 Dollar
+- between 123041 VND and 90.000 Dollar
+- between 9,000 EURO and 9000 Dollar
+- between 123041 VND and 9,000 VietNam Dong
+- from 90.000 Dollar to 90.000 VND
+- between 10.000 and 10.000 EURO
+- from 12000 to 90.000 Dollar
+- from 10000 Dollar to 12000 VietNam Dong
+- between €12000 and $10000
+- between 9000 EURO and 9000 Dollar
+- between 10.000 USD and 9000 USD
+- from 9000 to 90.000 Dollar
+- from 9000 USD to 123041 EURO
+- lower than $12000
+- between 9,000 USD and 123041 EURO
+- between €9,000 and $12000
+- from 9000 VND to 10000 VND
+- between 10000 VietNam Dong and 10000 VND
+- from 9000 VND to 123041 VietNam Dong
+- between 10.000 and 9000 VietNam Dong
+- between 90.000 VietNam Dong and 12000 Dollar
+- between 90.000 VND and 9,000 VND
+- between 9,000 Dollar and 9,000 USD
+- 60 million INR
+- more than 9000 VietNam Dong
+- between 9000 Dollar and 10000 Dollar
+- between 10.000 USD and 9000 VND
+- from 10.000 VND to 10000 EURO
+- 100k
+- between 9,000 USD and 12000 VietNam Dong
+- between 90.000 EURO and 123041 Dollar
+- between 9,000 VietNam Dong and 12000 VND
+- between 90.000 VietNam Dong and 123041 Dollar
+- between 90.000 and 90.000 EURO
+- between 12000 VietNam Dong and 9000 Dollar
+- between 9,000 VietNam Dong and 10000 VND
+- from 9,000 USD to 9000 USD
+- from 90.000 USD to 9,000 EURO
+- between 123041 VND and 90.000 EURO
+- from 12000 VND to 9000 EURO
+- from 123041 to 9,000 USD
+- 75000-150000 euro
+- from $12000 to €123041
+- between €9,000 and $9,000
+- about one hundred dolar
+- from 9,000 VND to 9,000 VietNam Dong
+- from 9,000 VND to 9,000 EURO
+- between 9000 VietNam Dong and 12000 USD
+
+## intent:inform_language
+- I have [TOEFL](language_qualification) of 6.5
+- I have 900 [HSK](language_qualification)
+- I have [IELTS](language_qualification) at 870
+- [TOEIC](language_qualification) scored at 7.0
+- [TOEIC](language_qualification) at 900
+- it's [Huy](name:huy)
+- I have [TOEFL](language_qualification) scored at 7.0
+- [TOEFL](language_qualification) of 6.0
+- [HSK](language_qualification) at band 5.5
+- [IELTS](language_qualification) with score 5.5
+- I have [HSK](language_qualification) with score 870
+- I have [TOEIC](language_qualification) at band 550
+- I have [TOEFL](language_qualification) with a score of 5.5
+- I have [IELTS](language_qualification) of 900
+- [TOEIC](language_qualification) with score 6.0
+- I have [IELTS](language_qualification) at band 8.0
+- I have 900 [TOEIC](language_qualification)
+- [TOEIC](language_qualification) at band 550
+- I have 6.5 [TOEIC](language_qualification)
+- I have [HSK](language_qualification) at 8.0
+- I have [IELTS](language_qualification) at 8.0
+- [HSK](language_qualification) of 7.0
+- I have 900 [TOEFL](language_qualification)
+- [HSK](language_qualification) at 900
+- less than 40000 dollars
+- I have 900 of [TOEFL](language_qualification)
+- [HSK](language_qualification) with a score of 900
+- I have [IELTS](language_qualification) at band 6.0
+- I have [IELTS](language_qualification) at band 870
+- I have [ielts](language_qualification) at band 6.5
+- [IELTS](language_qualification) at band 4.5
+- [TOEIC](language_qualification) with score 660
+- I have [HSK](language_qualification) at band 660
+- [IELTS](language_qualification) at band 8.0
+- I have 5.5 of [TOEFL](language_qualification)
+- [TOEFL](language_qualification) scored at 900
+- [TOEIC](language_qualification) at 550
+- I have [HSK](language_qualification) at 900
+- I have [TOEIC](language_qualification) scored at 900
+- I have [IELTS](language_qualification) with a score of 6.0
+- I have [TOEIC](language_qualification) at 6.0
+- [IELTS](language_qualification) with a score of 5.5
+- I have [TOEFL](language_qualification) at band 6.5
+- I have [TOEIC](language_qualification) at band 6.0
+- [IELTS](language_qualification) at 4.5
+- I have [HSK](language_qualification) at band 5.5
+- I have [TOEFL](language_qualification) at band 5.5
+- I have [TOEIC](language_qualification) scored at 5.5
+- I have [IELTS](language_qualification) of 550
+- I have [IELTS](language_qualification) of 4.5
+- I have [TOEIC](language_qualification) at band 900
+- I have [TOEFL](language_qualification) scored at 6.5
+- I have [TOEIC](language_qualification) at band 660
+
+## intent:next_step
+- Next step
+- Take me to the next step
+- Please take me to the next step
+- I want to go to the next step
+
+## intent:out_of_scope
+- shitmuncher
+- you are annoying
+- I like you
+- can we keep chatting?
+- restaurants
+- i dont like bots
+- I don't wanna tell the name of my company
+- i am hungry
+- hang on let me find it
+- lol
+- you suck
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- is that any of your business
+- you're a loser lmao
+- better than you
+- you will know it from the single red rose it carries between its teeth
+- Why don’t you answer?
+- and make chicken noises into the phone
+- are you vegan
+- personal or work?
+- common, just try
+- I already told you! I'm a shitmuncher
+- kannst du auch deutsch?
+- do you have a phone number?
+- this is a really frustrating experience
+- what else?
+- i don't care!!!!
+- bots are bad
+- did i break you
+- what?
+- someone call the police i think the bot died
+- i want more of you in my life!
+- that link doesn't work!
+- really? you're so touchy?
+- udo, I want to marry you
+- can you help me to build a bot
+- oh wait i gave you my work email address can i change it?
+- i want pizza
+- who is your favourite robot?
+- oh my god, not again!
+- is barbara still married to you
+- tell me a joke
+- you're rather dull
+- go back
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- i do not care how are you
+- talk to me
+- Is Rasa really smart?
+- please help with my ice cream it's dripping
+- it's a pity
+- i want a french restaurant
+- I changed my mind
+- no stop
+- But you're an english site :(
+- i immediately need help with implementing the coolest bot you can imagine
+- neither
+- where do you live?
+- i want a non dripping ice cream
+- Do I have to accept?
+- do you sell vacuum robots?
+- is it a wasteland full of broken robot parts?
+- can you learn from our conversation?
+- who will anser my email?
+- restaurant
+- i want to eat
+- i want pizza!!
+- i want to buy a roomba for my grandson
+- i hate you
+- Can I ask you questions first?
+- are you using Rasa Core and NLU ?
+- you are a stupid bot
+- show me a picture of a chicken
+- I want pizza
+- who are they?
+- the one that is better than you
+- how are the kids
+- I'm a shitmuncher
+- what's your wife doing this weekend
+- silly bot
+- how are akela's cats doing?
+- i can't deal with _your_ request
+- can you help me with the docs?
+- you are a badass bot!
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- i wanna party
+- hey little mama let em whisper in your ear
+- can you tell me how to build a bot?
+
+## intent:thank
+- great thanks
+- Thanks
+- thanks for forum link, I'll check it out
+- thanks!
+- cheers
+- Cool. Thanks
+- Thank you
+- Thanks!
+- cool, thanks
+- cheers bro
+- thank you
+- thanks
+- thanks a lot
+- perfect thank you
+- ok thanks!
+- cool thanks
+- amazing, thanks
+- Thanks bot
+- thanks this is great news
+
+## intent:inform
+- I am [Have one children](role:parent)
+- This is for [Have one children](role:parent)
+- I'm a [Parent](role:parent)
+- I am [Have a daughter](role:parent)
+- I'm a [My children](role:parent)
+- I am a [My children](role:parent)
+- I'm a [Have one children](role:parent)
+- for [My daughter](role:parent)
+- This is for [Have daughter](role:parent)
+- for [Have son](role:parent)
+- for [Have one children](role:parent)
+- I am a [Have daughter](role:parent)
+- I [Parent](role:parent)
+- This is for [Have son](role:parent)
+- I [My children](role:parent)
+- I'm a [Have a daughter](role:parent)
+- I'm [Have one children](role:parent)
+- This is for [My son](role:parent)
+- I [My son](role:parent)
+- I [My daughter](role:parent)
+- I am a [Have one children](role:parent)
+- I [Have son](role:parent)
+- for [Have a son](role:parent)
+- I am a [Have a son](role:parent)
+- I am a [studen](role)
+- for [Have a daughter](role:parent)
+- I am [My son](role:parent)
+- I'm [Have a son](role:parent)
+- I am a [Have a daughter](role:parent)
+- This is for [My daughter](role:parent)
+- I'm a [Have a son](role:parent)
+- I [Have a son](role:parent)
+- for [My son](role:parent)
+- for [Have daughter](role:parent)
+- for [Parent](role:parent)
+- I am [Have a son](role:parent)
+- I am [Have daughter](role:parent)
+- I [studen](role)
+- I [Have a daughter](role:parent)
+- I am [My children](role:parent)
+- I'm [My children](role:parent)
+- I'm [My daughter](role:parent)
+- I am a [My daughter](role:parent)
+- This is for [My children](role:parent)
+- I'm a [studen](role)
+- I am a [Parent](role:parent)
+- I'm a [Have daughter](role:parent)
+- I am [My daughter](role:parent)
+- I'm [My son](role:parent)
+- I am [studen](role)
+- for [My children](role:parent)
+- This is for [Have a daughter](role:parent)
+- This is for [studen](role)
+- I am a [My son](role:parent)
+- This is for [Have a son](role:parent)
+- I am a [Have son](role:parent)
+
+## intent:inform_GPA
+- My GPA is 2.5
+- 9.8
+- 7.9
+- 4
+- the GPA is 10.0
+- My GPA is 9.0
+- the GPA is 2.5
+- My GPA is 8
+- the GPA is 9
+- My GPA is 4
+- My GPA is 10.0
+- the GPA is 3
+- the GPA is 1.2
+- 10.0
+- the GPA is 1
+- 8
+- the GPA is 3.4
+- 9
+- My GPA is 3.4
+- 3
+- 1
+- the GPA is 5.6
+- 5.6
+- My GPA is 6
+- My GPA is 5.6
+- 2.5
+- the GPA is 9.2
+- the GPA is 9.0
+- My GPA is 9
+- My GPA is 3
+- the GPA is 1.0
+- My GPA is 1
+- the GPA is 8
+- 1.2
+- 1.0
+- the GPA is 10
+- the GPA is 6
+- 10
+- My GPA is 1.2
+- 9.0
+- the GPA is 7.9
+- the GPA is 4
+- My GPA is 5
+- My GPA is 1.0
+
+## intent:inform_education
+- [elementary](education_level)
+- I'm study in [doctor](education_level)
+- in [junior high school](education_level)
+- in [university](education_level)
+- in [elementary](education_level)
+- at [junior high school](education_level)
+- at [doctor](education_level)
+- I'm study in [university](education_level)
+- [doctor](education_level)
+- [high school](education_level)
+- I'm study in [high school](education_level)
+- at [proffessor](education_level)
+- [proffessor](education_level)
+- [junior high school](education_level)
+- [university](education_level)
+- at [university](education_level)
+- in [doctor](education_level)
+- [master](education_level)
+- I'm study in [proffessor](education_level)
+- in [proffessor](education_level)
+- in [master](education_level)
+- in [high school](education_level)
+
+## intent:inform_field
+- [civil engineering](field)
+- [automotive engineering](field)
+- [chemical engineering](field)
+- [computer science](field)
+
+## intent:which_language_certificate:
+- Can I use TOEFL
+- Which certificate I can use
+- Which can be use
+- Which certificate can I use
+
+## intent:what_ielts:
+- What is ielts?
+- IELTS?
+- What is IELTS
+- IELTS what?
+- What is IELTS?
+
+## intent:what_toefl:
+- What is toefl
+- What is TOEFL?
+- TOEFL what
+- toefl?
+- TOEFL what?
+
+## intent:any_nation_else:
+- I want other nation
+- Any nation else?
+
+## intent:minimum_fee_in_nation:
+- How much it cost for study in [Canada](location)
+- How much I need to pay for study in [Canada](location)
+- minimum cost in one year for study in [England](location)
+- What is the minimum fee to study in [USA](location:United States)
+
+## synonym:England
+- United Kingdom
+- Britain
+- UK
+
+## synonym:United States
+- The States
+- United States of America
+- America
+- USA
+
+## synonym:canada
+- Canada
+
+## synonym:huy
+- Huy
+
+## synonym:parent
+- Parent
+- Have a son
+- Have a daughter
+- Have son
+- Have daughter
+- Have one children
+- My son
+- My daughter
+- My children
+
+## synonym:unknown
+- don't know
+- do not know

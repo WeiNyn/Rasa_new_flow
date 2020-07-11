@@ -1,0 +1,122 @@
+[
+  {
+    "text": "I love to study in Myanmar, {Burma}",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "Myanmar, {Burma}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I love to study abroad in Congo {Democratic Rep}",
+    "entities": [
+      {
+        "start": 26,
+        "end": 48,
+        "value": "Congo {Democratic Rep}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to study abroad in Congo {Democratic Rep}",
+    "entities": [
+      {
+        "start": 26,
+        "end": 48,
+        "value": "Congo {Democratic Rep}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I wanna Congo {Democratic Rep}",
+    "entities": [
+      {
+        "start": 8,
+        "end": 30,
+        "value": "Congo {Democratic Rep}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like to study in Myanmar, {Burma}",
+    "entities": [
+      {
+        "start": 25,
+        "end": 41,
+        "value": "Myanmar, {Burma}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Congo {Democratic Rep} please",
+    "entities": [
+      {
+        "start": 0,
+        "end": 22,
+        "value": "Congo {Democratic Rep}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I fancy Congo {Democratic Rep}",
+    "entities": [
+      {
+        "start": 8,
+        "end": 30,
+        "value": "Congo {Democratic Rep}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I prefer study abroad in Myanmar, {Burma}",
+    "entities": [
+      {
+        "start": 25,
+        "end": 41,
+        "value": "Myanmar, {Burma}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "In Ireland {Republic} if possible",
+    "entities": [
+      {
+        "start": 3,
+        "end": 21,
+        "value": "Ireland {Republic}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like to study abroad in Myanmar, {Burma}",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "Myanmar, {Burma}",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

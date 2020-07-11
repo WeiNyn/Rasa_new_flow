@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 DEBUG = "DEBUG"
 RUN = "RUN"
-MODE = DEBUG
+MODE = RUN
 
 import json
 

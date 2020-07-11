@@ -1,0 +1,10 @@
+[
+  {
+    "text": "It's Huy",
+    "intent": "inform_name",
+    "intent_prediction": {
+      "name": "inform_language",
+      "confidence": 0.5716907978057861
+    }
+  }
+]

@@ -1,62 +1,180 @@
 actions:
-  - action_find_universities
-  - action_handle_form
-  - utter_greet
-  - utter_show_results
-  - utter_show_summary
-  - utter_ask_location
-  - utter_not_supported_location
-  - utter_quit
-  - utter_ask_education_level
-  - utter_ask_language
-  - utter_ask_fee
-  - utter_goodbye
-  - action_contact_provider
-  - utter_ask_field
-  - utter_ask_GPA
-  - action_find_minimum_fee_nation
-  - action_find_school_nation
+- action_contact_provider
+- action_find_minimum_fee_nation
+- action_find_school_nation
+- action_find_universities
+- action_handle_form
+- utter_ask_GPA
+- utter_ask_education_level
+- utter_ask_fee
+- utter_ask_field
+- utter_ask_language
+- utter_ask_location
+- utter_ask_location_repick
+- utter_certificate_explain
+- utter_default
+- utter_goodbye
+- utter_greet
+- utter_ielts_explain
+- utter_nation_explain
+- utter_not_supported_location
+- utter_quit
+- utter_show_results
+- utter_show_summary
+- utter_toefl_explain
 entities:
-  - education_level
-  - language_qualification
-  - location
-  - fee
-  - GPA
-  - number
-  - field
-  - name
+- GPA
+- education_level
+- fee
+- field
+- language_qualification
+- location
+- name
+- number
 forms:
-  - study_form
+- study_form
 intents:
-  - inform
-  - inform_education
-  - inform_fee
-  - inform_field
-  - inform_GPA
-  - inform_language
-  - inform_location
-  - inform_name
-  - greet
-  - thank
-  - bye
-  - ask_university
-  - contact_provider
-  - affirm
-  - deny
-  - out_of_scope
-  - cant_help
-  - ask_whoisit
-  - ask_what_possible
-  - next_step
-  - explain
-  - handoff
-  - dont_have
-  - what_ielts
-  - what_toefl
-  - which_language_certificate
-  - any_nation_else
-  - minimum_fee_in_nation
+- inform_education
+- inform_GPA
+- inform_language
+- inform_field
+- inform_location
+- greet
+- inform_fee
+- inform
+- inform_name
+- thank
+- bye
+- ask_university
+- contact_provider
+- affirm
+- deny
+- out_of_scope
+- cant_help
+- ask_whoisit
+- ask_what_possible
+- next_step
+- explain
+- handoff
+- dont_have
+- what_ielts
+- what_toefl
+- which_language_certificate
+- any_nation_else
+- minimum_fee_in_nation
+responses:
+  utter_ask_GPA:
+  - custom:
+      msg:
+        body: What is your current GPA?
+        component:
+          id: 4
+      senderId: 1
+      threadId: 1
+  utter_ask_education_level:
+  - custom:
+      msg:
+        body: Which education level you want to study?
+        component:
+          data:
+          - elementary
+          - junior high school
+          - high school
+          - university
+          - master
+          - professor
+          id: 5
+      senderId: 1
+      threadId: 1
+  utter_ask_fee:
+  - custom:
+      msg:
+        body: What is your estimated fee?
+        component:
+          id: 2
+          meta:
+            max: 1000000000
+            min: 0
+            unit: USD
+      senderId: 1
+      threadId: 1
+  utter_ask_field:
+  - custom:
+      msg:
+        body: The field you want to study is?
+        component:
+          field:
+          - computer science
+          - computer engineer
+          - automotive engineering
+          - business administration
+          - chemical engineering
+          - civil engineering
+          id: 3
+      senderId: 1
+      threadId: 1
+  utter_ask_language:
+  - custom:
+      msg:
+        body: Do you have language qualification?
+        component:
+          id: 1
+      senderId: 1
+      threadId: 1
+  utter_ask_location:
+  - custom:
+      msg:
+        body: Which location you want to study in?
+        component:
+          data:
+          - USA
+          - Australia
+          - England
+          - Canada
+          - Not in here
+          - Not know
+          id: 6
+      senderId: 1
+      threadId: 1
+  utter_ask_location_repick:
+  - text: location_repick
+  utter_certificate_explain:
+  - text: Some nations and schools will require different language certificate and
+      level, you can use IELTS of TOEFL.
+  utter_default:
+  - text: Sorry, I didn't get that, can you repeat?
+  utter_goodbye:
+  - text: Goodbye, hope that can help you
+  utter_greet:
+  - text: Hi, I can help you to find the best study abroad services, please anwser
+      some question
+  utter_ielts_explain:
+  - text: The International English Language Testing System, or IELTS, is an international
+      standardised test of English language proficiency for non-native English language
+      speakers. It is jointly managed by the British Council, IDP.
+  utter_nation_explain:
+  - text: Now we only support 4 nations, other nation will be added with new  providers.
+  utter_not_supported_location:
+  - text: location not supported, would you like to try the supported location?
+  utter_quit:
+  - text: Conversation canceled
+  utter_show_results:
+  - text: result
+  utter_show_summary:
+  - text: summary
+  utter_toefl_explain:
+  - text: Test of English as a Foreign Language is a standardized test to measure
+      the English language ability of non-native speakers wishing to enroll in English-speaking
+      universities. The test is accepted by many English-speaking academic and professional
+      institutions.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
 slots:
+  GPA:
+    max_value: 100.0
+    min_value: 0.0
+    type: float
   education_level:
     type: text
   fee:
@@ -69,109 +187,3 @@ slots:
     type: text
   requested_slot:
     type: unfeaturized
-  GPA:
-    max_value: 100.0
-    min_value: 0.0
-    type: float
-responses:
-  utter_greet:
-    - text: Hi, I can help you to find the best study abroad services, please anwser some question
-  utter_ask_education_level:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: Which education level you want to study?
-        component:
-          id: 5
-          data:
-            - elementary
-            - junior high school
-            - high school
-            - university
-            - master
-            - professor
-  utter_ask_fee:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: What is your estimated fee?
-        component:
-          id: 2
-          meta:
-            min: 0
-            max: 1000000000
-            unit: USD
-  utter_ask_field:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: The field you want to study is?
-        component:
-          id: 3
-          field:
-          - computer science
-          - computer engineer
-          - automotive engineering
-          - business administration
-          - chemical engineering
-          - civil engineering
-  utter_ask_GPA:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: What is your current GPA?
-        component:
-          id: 4
-  utter_ask_language:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: Do you have language qualification?
-        component:
-          id: 1
-  utter_ask_location:
-  - custom:
-      senderId: 1
-      threadId: 1
-      msg:
-        body: Which location you want to study in?
-        component:
-          id: 6
-          data:
-            - USA 
-            - Australia 
-            - England 
-            - Canada 
-            - Not in here 
-            - Not know
-  utter_ask_location_repick:
-    - text: location_repick
-  utter_goodbye:
-    - text: Goodbye, hope that can help you
-  utter_quit:
-    - text: Conversation canceled
-  utter_show_results:
-    - text: result
-  utter_show_summary:
-    - text: summary 
-  utter_not_supported_location:
-    - text: location not supported, would you like to try the supported location?
-  utter_default:
-    - text: Sorry, I didn't get that, can you repeat?
-  utter_ielts_explain:
-    - text: The International English Language Testing System, or IELTS, is an international standardised test of English language proficiency for non-native English language speakers. It is jointly managed by the British Council, IDP.
-  utter_toefl_explain:
-    - text: Test of English as a Foreign Language is a standardized test to measure the English language ability of non-native speakers wishing to enroll in English-speaking universities. The test is accepted by many English-speaking academic and professional institutions.
-  utter_certificate_explain:
-    - text: Some nations and schools will require different language certificate and level, you can use IELTS of TOEFL.
-  utter_nation_explain:
-    - text: Now we only support 4 nations, other nation will be added with new  providers.
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-  
