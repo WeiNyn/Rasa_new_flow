@@ -34,13 +34,14 @@ entities:
 forms:
 - study_form
 intents:
-- inform_education
-- inform_GPA
-- inform_language
-- inform_field
-- inform_location
 - greet
+- inform_GPA
+- any_nation_else
 - inform_fee
+- inform_location
+- inform_language
+- inform_education
+- inform_field
 - inform
 - inform_name
 - thank
@@ -60,7 +61,6 @@ intents:
 - what_ielts
 - what_toefl
 - which_language_certificate
-- any_nation_else
 - minimum_fee_in_nation
 responses:
   utter_ask_GPA:
